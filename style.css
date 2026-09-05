@@ -31,6 +31,9 @@ li{max-width:66ch}
 .btn.ghost{background:transparent;color:var(--green)}
 .btn.ghost:hover{background:rgba(14,59,46,.08);color:var(--green)}
 .btn-row{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 8px}
+.chatbubble{position:fixed;right:16px;bottom:calc(78px + env(safe-area-inset-bottom));z-index:35;width:56px;height:56px;border-radius:50%;background:var(--green);color:var(--parchment);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.28);text-decoration:none;border:1.5px solid var(--gold)}
+.chatbubble:hover{background:var(--green-2);color:var(--parchment)}
+.chatbubble svg{width:26px;height:26px}
 
 /* header */
 .top{background:var(--parchment);border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:20}
@@ -145,6 +148,7 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
   .desknav a:hover{color:var(--oxblood)}
   .top-cta{display:inline-flex;min-height:44px;padding:8px 16px;font-size:12px;white-space:nowrap;margin-left:12px}
   .bar{display:none}
+  .chatbubble{bottom:24px}
   footer{padding-bottom:44px}
   section{padding:64px 0}
 }
