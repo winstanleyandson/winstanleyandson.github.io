@@ -230,6 +230,14 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 /* idle glance for the roundel eye on touch devices (no pointer to follow) */
 @media (hover:none) and (prefers-reduced-motion: no-preference){.hero .iris{animation:glance 7s ease-in-out infinite}}
 @keyframes glance{0%,18%{transform:translate(0,0)}26%,40%{transform:translate(14px,-4px)}48%,62%{transform:translate(-13px,3px)}70%,82%{transform:translate(4px,9px)}90%,100%{transform:translate(0,0)}}
+
+/* cookie consent */
+.ck{position:fixed;left:12px;right:12px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:40;background:var(--parchment-2);border:1px solid var(--rule);border-radius:4px;padding:12px 14px;box-shadow:0 10px 30px rgba(0,0,0,.18);display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;font-size:15px}
+.ck p{margin:0}
+.ck div{display:flex;gap:8px}
+.ck button{font-family:var(--display);font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:9px 12px;border-radius:3px;border:1.5px solid var(--green);background:var(--green);color:var(--parchment);cursor:pointer}
+.ck button.ghost{background:transparent;color:var(--green)}
+@media(min-width:720px){.ck{left:auto;right:20px;max-width:440px;bottom:20px}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Optician", "@id": "https://winstanleyandson.co.uk/#business", "name": "Winstanley & Son Opticians", "alternateName": "Winstanley & Son Lunetiers", "description": "Independent eyecare and bespoke handmade eyewear on Park Road, Liverpool, since 1998. Varifocal experts, eye examinations, same day single vision glasses, and the only bespoke frame makers in Merseyside.", "url": "https://winstanleyandson.co.uk/", "telephone": "+44 151 726 0622", "email": "help@winstanleyandson.co.uk", "address": {"@type": "PostalAddress", "streetAddress": "252 Park Road", "addressLocality": "Liverpool", "addressRegion": "Merseyside", "postalCode": "L8 4UE", "addressCountry": "GB"}, "geo": {"@type": "GeoCoordinates", "latitude": 53.3846825, "longitude": -2.9648556}, "areaServed": ["Liverpool", "Dingle", "Toxteth", "Aigburth", "Merseyside", "Wirral"], "foundingDate": "1998", "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "17:00"}], "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "210", "bestRating": "5"}, "sameAs": ["https://www.instagram.com/winstanleyandson/", "https://www.facebook.com/p/Winstanley-Son-100092286385362/"], "makesOffer": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Varifocal lens fitting", "url": "https://winstanleyandson.co.uk/varifocals-liverpool/"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Eye examination", "url": "https://winstanleyandson.co.uk/eye-tests-liverpool/"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Same day single vision glasses", "url": "https://winstanleyandson.co.uk/same-day-glasses-liverpool/"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Bespoke handmade eyewear", "url": "https://winstanleyandson.co.uk/bespoke-eyewear-liverpool/"}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does the Glasses Club cover?", "acceptedAnswer": {"@type": "Answer", "text": "Repair or replacement of your glasses when they are scratched, damaged, lost or stolen, depending on your plan. The original prescription, frame model and colour are replaced, or the closest alternative if that frame is no longer made."}}, {"@type": "Question", "name": "Is there an excess?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. 25% of the original price for repairs and replacements, and 50% when the item is lost or stolen and cannot be returned to us. If both frame and lenses are replaced at once, the excess applies to each."}}, {"@type": "Question", "name": "How do the savings plans work?", "acceptedAnswer": {"@type": "Answer", "text": "Bronze, Silver and Gold add £10, £20 or £30 a month on top of your plan. After 12 months we add a bonus, 10% on Basic, 12.5% on Pro and 17.5% on VIP, and the whole amount is yours to spend on your next glasses or sunglasses. Credits must be used within 30 days of your 12th month."}}, {"@type": "Question", "name": "Do I need to be an existing patient?", "acceptedAnswer": {"@type": "Answer", "text": "No. Anyone can join. Bring your current glasses in so we can record the prescription, frame and lenses being covered."}}, {"@type": "Question", "name": "Can I cancel?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. There is no contract. Cancel at any time with 30 days' notice and your benefits run to the end of that billing period. Membership fees are not refunded."}}, {"@type": "Question", "name": "Who is covered?", "acceptedAnswer": {"@type": "Answer", "text": "The named person on the membership only. Benefits and credits cannot be transferred, and we may ask for ID when you claim or redeem credit."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://winstanleyandson.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Glasses Club", "item": "https://winstanleyandson.co.uk/glasses-club/"}]}</script>
 </head>
@@ -243,6 +251,7 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 <main>
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><span aria-current="page">Glasses Club</span></nav>
 
+<style>.benefits{grid-template-columns:1fr}@media(min-width:720px){.benefits{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(min-width:1000px){.benefits{grid-template-columns:repeat(4,minmax(0,1fr))}}.savecard{background:var(--parchment-2);border:1px solid var(--rule);border-radius:4px;padding:6px 18px 14px;margin:18px 0}.save{width:100%;border-collapse:collapse;min-width:520px;font-size:17px}.save th{font-family:var(--display);font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--oxblood);text-align:left;padding:14px 12px 10px;border-bottom:2px solid var(--green)}.save td{padding:12px;border-bottom:1px dashed var(--rule)}.save td:first-child{font-family:var(--display);font-size:14px;letter-spacing:.06em;color:var(--green)}.save td+td{font-size:20px;font-weight:600;color:var(--ink)}.save td:last-child,.save th:last-child{background:rgba(200,162,74,.14)}.save tr:last-child td{border-bottom:0}</style>
 <section class="hero"><div class="plane-tiles" aria-hidden="true"></div><div class="wrap"><div class="roundel plane-mark"><svg viewBox="0 0 330 330" role="img" aria-label="Winstanley &amp; Son"><defs><path id="rt" d="M45 165A120 120 0 0 1 285 165"/><path id="rb" d="M27 165A138 138 0 0 0 303 165"/></defs><circle cx="165" cy="165" r="160" fill="#0e3b2e"/><circle cx="165" cy="165" r="152" fill="none" stroke="#c8a24a" stroke-width="2"/><circle cx="165" cy="165" r="98" fill="#f4ecd9"/><circle cx="165" cy="165" r="92" fill="none" stroke="#c8a24a" stroke-width="1.5"/><text font-family="Cinzel,Georgia,serif" font-weight="600" font-size="27" letter-spacing="4" fill="#f4ecd9"><textPath href="#rt" startOffset="50%" text-anchor="middle">WINSTANLEY &amp; SON</textPath></text><text font-family="Cinzel,Georgia,serif" font-weight="500" font-size="17" letter-spacing="5" fill="#c8a24a"><textPath href="#rb" startOffset="50%" text-anchor="middle">LUNETIERS · LIVERPOOL</textPath></text><path d="M95 165Q165 100 235 165Q165 230 95 165Z" fill="#fff" stroke="#1b1a17" stroke-width="3"/><g class="iris"><circle cx="165" cy="165" r="33" fill="#2f6f8f"/><circle cx="165" cy="165" r="29" fill="none" stroke="#1d4d66" stroke-width="3"/><circle cx="165" cy="165" r="14" fill="#1b1a17"/><circle cx="155" cy="155" r="6" fill="#fff"/></g><path d="M95 165Q165 100 235 165" fill="none" stroke="#1b1a17" stroke-width="6" stroke-linecap="round"/><path d="M112 132L103 121M137 115L132 102M165 108L165 94M193 115L198 102M218 132L227 121" stroke="#1b1a17" stroke-width="3" stroke-linecap="round"/><text x="165" y="243" font-family="Cinzel,Georgia,serif" font-size="11" letter-spacing="4" fill="#7b2d26" text-anchor="middle">EST · 1998</text></svg></div><div>
   <p class="eyebrow">Glasses Club · Liverpool</p>
   <h1>Never worry about breaking or losing your glasses again</h1>
@@ -289,7 +298,7 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 <section><div class="wrap">
   <p class="eyebrow">What you get</p>
   <h2>Four things every member gets</h2>
-  <div class="grid four">
+  <div class="grid benefits">
     <div class="card"><h3>Repaired or replaced</h3><p>Scratched lenses replaced. Frames repaired or replaced when damaged, and on Pro and VIP when lost or stolen too. You pay an excess, never the full price.</p></div>
     <div class="card"><h3>Money off every pair</h3><p>10%, 12.5% or 15% off any glasses or sunglasses, lenses included, for as long as you are a member.</p></div>
     <div class="card"><h3>Your eye test, cheaper or free</h3><p>Half price on Basic, 75% off on Pro, free on VIP. The eye test is the part that keeps your prescription right.</p></div>
@@ -301,14 +310,14 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
   <p class="eyebrow">Savings plans</p>
   <h2>Save for your next pair and we add up to 17.5%</h2>
   <p>Add £10, £20 or £30 a month to any plan. After 12 months, we add the bonus for your plan and the whole amount becomes credit towards your next glasses or sunglasses.</p>
-  <div class="tablewrap"><table class="save">
-    <thead><tr><th>You save monthly</th><th>Basic adds 10%</th><th>Pro adds 12.5%</th><th>VIP adds 17.5%</th></tr></thead>
+  <div class="savecard"><div class="tablewrap"><table class="save">
+    <thead><tr><th>You put aside</th><th>Basic adds 10%</th><th>Pro adds 12.5%</th><th>VIP adds 17.5%</th></tr></thead>
     <tbody>
-      <tr><td>£10 · Bronze</td><td>£132 credit</td><td>£135 credit</td><td>£141 credit</td></tr>
-      <tr><td>£20 · Silver</td><td>£264 credit</td><td>£270 credit</td><td>£282 credit</td></tr>
-      <tr><td>£30 · Gold</td><td>£396 credit</td><td>£405 credit</td><td>£423 credit</td></tr>
+      <tr><td>Bronze · £10 a month<br><small style="font-family:var(--body);font-size:14px;letter-spacing:0;color:var(--slate)">£120 saved</small></td><td>£132</td><td>£135</td><td>£141</td></tr>
+      <tr><td>Silver · £20 a month<br><small style="font-family:var(--body);font-size:14px;letter-spacing:0;color:var(--slate)">£240 saved</small></td><td>£264</td><td>£270</td><td>£282</td></tr>
+      <tr><td>Gold · £30 a month<br><small style="font-family:var(--body);font-size:14px;letter-spacing:0;color:var(--slate)">£360 saved</small></td><td>£396</td><td>£405</td><td>£423</td></tr>
     </tbody>
-  </table></div>
+  </table></div></div>
   <p class="small">Credit is paid after 12 months and must be used within the following 30 days. It cannot be carried over.</p>
 </div></section>
 
@@ -344,6 +353,25 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 </div></footer>
 <div class="bar"><a class="btn ghost" href="tel:+441517260622">Call</a><a class="btn" href="https://api.leadconnectorhq.com/widget/booking/4sJKbS06FGilvKy4Kjwy">Book an eye test</a></div>
 <a class="chatbubble" href="sms:+447405935793" aria-label="Text us"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
+<div id="ck" class="ck" hidden><p>We use cookies to measure visits and our adverts. <a href="/privacy/">Privacy</a></p><div><button type="button" data-ck="1">Accept</button><button type="button" class="ghost" data-ck="0">Essential only</button></div></div>
+<script>
+(function(){
+var ID='G-JHDZW4KQNL',PX='1268683378305428',c=null;try{c=localStorage.getItem('ck')}catch(e){}
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;
+gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});
+gtag('js',new Date());gtag('config',ID,{send_page_view:true});
+function grant(){gtag('consent','update',{ad_storage:'granted',analytics_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});if(!window.fbq){!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init',PX);fbq('track','PageView');if(location.pathname.indexOf('varifocal-offer')>-1)fbq('track','ViewContent',{content_name:'varifocal offer'});}}
+function loadGA(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}
+function later(fn){if(document.readyState==='complete')(window.requestIdleCallback||setTimeout)(fn,1);else addEventListener('load',function(){(window.requestIdleCallback||setTimeout)(fn,1)})}
+later(loadGA);
+var bar=document.getElementById('ck');
+if(c==='1'){later(grant)}else if(c===null){bar.hidden=false}
+bar.addEventListener('click',function(e){var b=e.target.closest('[data-ck]');if(!b)return;try{localStorage.setItem('ck',b.dataset.ck)}catch(x){}bar.hidden=true;if(b.dataset.ck==='1')grant()});
+document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'',ev=null;
+if(h.indexOf('widget/booking')>-1)ev='book_click';else if(h.indexOf('tel:')===0)ev='call_click';else if(h.indexOf('sms:')===0)ev='text_click';else if(h.indexOf('wa.me')>-1)ev='whatsapp_click';else if(h.indexOf('payment-link')>-1)ev='join_click';
+if(!ev)return;gtag('event',ev,{page_path:location.pathname,link_text:(a.textContent||'').trim().slice(0,40)});if(window.fbq){fbq('track',ev==='book_click'?'Schedule':(ev==='join_click'?'InitiateCheckout':'Contact'))}},{passive:true});
+})();
+</script>
 <script>(function(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;var g=document.querySelector('.hero .iris');if(!g)return;var tx=0,ty=0,cx=0,cy=0,raf=0;function step(){cx+=(tx-cx)*.18;cy+=(ty-cy)*.18;g.setAttribute('transform','translate('+cx.toFixed(2)+' '+cy.toFixed(2)+')');if(Math.abs(tx-cx)>.05||Math.abs(ty-cy)>.05)raf=requestAnimationFrame(step);else raf=0}function move(x,y){var r=g.getBoundingClientRect(),dx=x-(r.left+r.width/2),dy=y-(r.top+r.height/2),d=Math.hypot(dx,dy)||1,m=Math.min(1,d/420)*20;tx=dx/d*m;ty=dy/d*m;if(!raf)raf=requestAnimationFrame(step)}if(matchMedia('(hover:hover) and (pointer:fine)').matches){addEventListener('pointermove',function(e){move(e.clientX,e.clientY)},{passive:true})}else{addEventListener('touchmove',function(e){var t=e.touches[0];if(t)move(t.clientX,t.clientY)},{passive:true});addEventListener('touchend',function(){tx=0;ty=0;if(!raf)raf=requestAnimationFrame(step)},{passive:true})}})();</script>
 </body>
 </html>
