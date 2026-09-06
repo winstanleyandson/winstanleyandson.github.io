@@ -219,3 +219,5 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 @media(min-width:720px){.ck{left:auto;right:20px;max-width:440px;bottom:20px}}
 
 .lid{transform-box:fill-box;transform-origin:50% 0;transform:scaleY(0)}.brand .lid{animation-delay:-4s}@media(prefers-reduced-motion:no-preference){.lid{animation:blink 10s ease-in-out infinite}}@keyframes blink{0%,60%,64%,100%{transform:scaleY(0)}62%{transform:scaleY(1)}}
+
+.list{padding-left:1.2em;display:grid;gap:10px}.list li{line-height:1.5}.quote{margin:22px 0 0;padding:18px 22px;border-left:3px solid var(--gold,#c8a24a);background:rgba(255,255,255,.35);font-style:italic;font-size:1.05em}.quote footer{font-style:normal;font-size:.85em;margin-top:8px;opacity:.8}
