@@ -218,4 +218,4 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 .ck button.ghost{background:transparent;color:var(--green)}
 @media(min-width:720px){.ck{left:auto;right:20px;max-width:440px;bottom:20px}}
 
-.lid{transform-box:fill-box;transform-origin:50% 0;transform:scaleY(0)}@media(prefers-reduced-motion:no-preference){.lid{animation:blink 10s ease-in-out infinite}}@keyframes blink{0%,60%,64%,100%{transform:scaleY(0)}62%{transform:scaleY(1)}}
+.lid{transform-box:fill-box;transform-origin:50% 0;transform:scaleY(0)}.brand .lid{animation-delay:-4s}@media(prefers-reduced-motion:no-preference){.lid{animation:blink 10s ease-in-out infinite}}@keyframes blink{0%,60%,64%,100%{transform:scaleY(0)}62%{transform:scaleY(1)}}
