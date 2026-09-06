@@ -204,3 +204,7 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 .offer-hero .trust{color:#e7dcc0;font-size:15px}
 .offer-hero .trust b{color:var(--gold)}
 @media(min-width:720px){.offer-hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}.offer-hero .vsl{grid-column:2;grid-row:1/span 5;max-width:360px}.offer-hero .btn{width:auto}}
+
+/* idle glance for the roundel eye on touch devices (no pointer to follow) */
+@media (hover:none) and (prefers-reduced-motion: no-preference){.hero .iris{animation:glance 7s ease-in-out infinite}}
+@keyframes glance{0%,18%{transform:translate(0,0)}26%,40%{transform:translate(14px,-4px)}48%,62%{transform:translate(-13px,3px)}70%,82%{transform:translate(4px,9px)}90%,100%{transform:translate(0,0)}}
