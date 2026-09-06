@@ -233,6 +233,7 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 
 /* cookie consent */
 .ck{position:fixed;left:12px;right:12px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:40;background:var(--parchment-2);border:1px solid var(--rule);border-radius:4px;padding:12px 14px;box-shadow:0 10px 30px rgba(0,0,0,.18);display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;font-size:15px}
+.ck[hidden]{display:none}
 .ck p{margin:0}
 .ck div{display:flex;gap:8px}
 .ck button{font-family:var(--display);font-size:12px;letter-spacing:.12em;text-transform:uppercase;padding:9px 12px;border-radius:3px;border:1.5px solid var(--green);background:var(--green);color:var(--parchment);cursor:pointer}
@@ -266,7 +267,7 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 <div id="ck" class="ck" hidden><p>We use cookies to measure visits and our adverts. <a href="/privacy/">Privacy</a></p><div><button type="button" data-ck="1">Accept</button><button type="button" class="ghost" data-ck="0">Essential only</button></div></div>
 <script>
 (function(){
-var ID='G-JHDZW4KQNL',PX='1268683378305428',c=null;try{c=localStorage.getItem('ck')}catch(e){}
+var ID='G-JHDZW4KQNL',PX='1684805635896482',c=null;try{c=localStorage.getItem('ck')}catch(e){}
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;
 gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});
 gtag('js',new Date());gtag('config',ID,{send_page_view:true});
