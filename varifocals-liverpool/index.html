@@ -329,7 +329,7 @@ gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user
 gtag('js',new Date());gtag('config',ID,{send_page_view:true});
 function grant(){gtag('consent','update',{ad_storage:'granted',analytics_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});if(!window.fbq){!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init',PX);fbq('track','PageView');if(location.pathname.indexOf('varifocal-offer')>-1)fbq('track','ViewContent',{content_name:'varifocal offer'});}}
 function loadGA(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}
-function later(fn){var done=false;function go(){if(done)return;done=true;fn()};['pointerdown','keydown','touchstart','scroll'].forEach(function(e){addEventListener(e,go,{once:true,passive:true})});if(document.readyState==='complete')setTimeout(go,2500);else addEventListener('load',function(){setTimeout(go,2500)})}
+function later(fn){var done=false;function go(){if(done)return;done=true;fn()};['pointerdown','keydown','touchstart','scroll'].forEach(function(e){addEventListener(e,go,{once:true,passive:true})});if(document.readyState==='complete')setTimeout(go,4000);else addEventListener('load',function(){setTimeout(go,4000)})}
 later(loadGA);
 var bar=document.getElementById('ck');
 if(c==='1'){later(grant)}else if(c===null){bar.hidden=false}
