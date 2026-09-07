@@ -8,8 +8,29 @@ template editor; the fonts load from Google Fonts and fall back to Georgia. The 
 block sits at 20mm left / ~46mm top to suit a standard C5 window envelope.
 
 Merge fields used: contact.first_name, last_name, address1, city, postal_code, phone,
-last_exam_date, months_since_exam; right_now.date; practice.signatory_name,
-practice.signatory_role.
+last_exam_date, months_since_exam, letter_expiry_date; right_now.date;
+practice.signatory_name, practice.signatory_role.
+
+## Style: direct response, not a reminder note
+
+Both letters lead with the offer, not the appointment. Headline, a short reason it matters,
+the offer as a bulleted stack with a deadline, three ways to book, then a P.S. that repeats
+the deadline. This is deliberate: a plain recall notice gets filed, an offer with a real
+expiry date gets acted on.
+
+**The offer must be real.** `letter_expiry_date` is set by the sending workflow, not typed
+by hand, so it's always send date + 14 days and never stale. Don't shorten the window for
+effect, and don't send the same offer twice to someone who let the first one lapse without
+checking with reception first, repeated "deadlines" that aren't real is what turns a good
+letter into junk mail.
+
+- Recall letter offer: free anti-glare/anti-scratch upgrade (normally £89) on any pair
+  ordered before the deadline.
+- Reactivation letter offer: £40 off the next pair, any frame, any lens.
+
+Both are placeholder amounts. Confirm the real margin on these before the first live send,
+lens upgrades and frame discounts need sign-off from whoever prices jobs, not a copywriter.
+
 
 | File | Bands | Trigger |
 |------|-------|---------|

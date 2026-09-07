@@ -5,7 +5,7 @@
 @page{size:A4;margin:0}
 *{box-sizing:border-box}
 html,body{margin:0;background:#fff;color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:12pt;line-height:1.42;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-.page{width:210mm;height:297mm;padding:14mm 20mm 26mm;position:relative;overflow:hidden}
+.page{width:210mm;min-height:297mm;padding:14mm 20mm 26mm;position:relative;display:flex;flex-direction:column}
 .band{position:absolute;left:0;top:0;right:0;height:6mm;background:var(--green);border-bottom:1.2mm solid var(--gold)}
 .head{display:flex;align-items:center;gap:5mm;margin-top:6mm;padding-bottom:5mm;border-bottom:1px solid var(--rule)}
 .head svg{width:17mm;height:17mm;flex-shrink:0}
@@ -25,7 +25,7 @@ ul{margin:0 0 3.2mm;padding-left:5mm} li{margin-bottom:1.2mm}
 .sig{margin-top:4mm}
 .sig .name{font-family:Cinzel,Georgia,serif;font-size:11pt;letter-spacing:.08em;color:var(--green)}
 .sig .role{font-size:10.5pt;color:var(--slate);font-style:italic}
-.foot{position:absolute;left:20mm;right:20mm;bottom:9mm;z-index:2;border-top:1px solid var(--rule);padding-top:2.5mm;font-size:8.5pt;color:var(--slate);line-height:1.4}
+.foot{margin-top:auto;padding-top:6mm}.foot .inner{border-top:1px solid var(--rule);padding-top:2.5mm;font-size:8.5pt;color:var(--slate);line-height:1.4}
 .foot .tag{font-family:Cinzel,Georgia,serif;letter-spacing:.2em;font-size:7.5pt;color:var(--gold-text);margin-bottom:1mm}
 </style></head><body><div class="page"><div class="band"></div>
 <div class="head"><svg viewBox="0 0 330 330" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><circle cx="165" cy="165" r="160" fill="#0e3b2e"/><circle cx="165" cy="165" r="150" fill="none" stroke="#c8a24a" stroke-width="6"/><circle cx="165" cy="165" r="112" fill="#f4ecd9"/><path d="M75 165Q165 85 255 165Q165 245 75 165Z" fill="#fff" stroke="#1b1a17" stroke-width="9"/><circle cx="165" cy="165" r="42" fill="#2f6f8f"/><circle cx="165" cy="165" r="19" fill="#1b1a17"/><circle cx="152" cy="152" r="7" fill="#fff"/></svg><div class="wordmark">WINSTANLEY &amp; SON<small>LUNETIERS · LIVERPOOL</small></div>
@@ -34,22 +34,24 @@ ul{margin:0 0 3.2mm;padding-left:5mm} li{margin-bottom:1.2mm}
 {{contact.address1}}
 {{contact.city}}
 {{contact.postal_code}}</div><div class="date">{{right_now.date}}</div></div>
-<h1>It's been a while</h1>
+<h1>We kept your file. Here's £40 to come back and see us</h1>
 <p>Dear {{contact.first_name}},</p>
-<p>We haven't seen you for a bit. Your last eye test with us was on {{contact.last_exam_date}}, and we'd normally want to see you at least every two years. We tried ringing but the number we've got doesn't seem to work any more, so we're writing instead.</p>
-<p>If you've been somewhere else for your eyes since, that's no problem at all. Just let us know and we'll stop writing. If you haven't, we'd be glad to see you back. A few things have changed since you were last in:</p>
-<ul>
-<li><b>Varifocals ready in 48 hours,</b> measured properly on the Essilor Visioffice, not with a felt tip.</li>
-<li><b>Same-day glasses</b> for most single vision prescriptions.</li>
-<li><b>Frames made by hand in the shop,</b> the only place in Merseyside that does it, with a three-year guarantee.</li>
-<li><b>0% finance</b> over six months if that helps.</li>
-</ul>
-<p>Eyes change slowly and you don't always notice. Glasses that feel "about right" can still be making reading or driving harder than they need to be, and the health checks pick things up long before you'd feel anything.</p>
-<div class="ways"><b>WHEN YOU'RE READY</b>
-Ring us on <b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">0151 726 0622</b>, Monday to Friday, 9 till 5<br>
+<p>It's been {{contact.months_since_exam}} months since your last eye test with us, {{contact.last_exam_date}}. We tried ringing but the number on file doesn't work any more, so we're writing instead, because you're worth the stamp.</p>
+<p>If you've found another optician, fair enough, just let us know and we'll stop writing. But if you haven't been anywhere, here's the truth: eyes don't announce it when something's wrong. No pain, no warning. The only way to know is to get checked, and it's been a while.</p>
+<div class="ways"><b>COME BACK BEFORE {{contact.letter_expiry_date}} AND GET</b>
+<b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">£40 off</b> your next pair of glasses, any frame, any lens<br>
+A full eye test with the health check most people skip<br>
+Varifocals measured on the Essilor Visioffice and ready in 48 hours<br>
+Frames made by hand in the shop, the only place in Merseyside that does it, three-year guarantee<br>
+0% finance over 6 months</div>
+<p>This isn't a gimmick to get you through the door and upsell you. It's simple, we'd rather have you back as a patient than not. The £40 is real and it comes off whatever you choose.</p>
+<div class="ways"><b>CLAIM IT, THREE WAYS</b>
+Ring <b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">0151 726 0622</b>, Monday to Friday, 9 till 5, and say you got this letter<br>
 Book online at <b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">winstanleyandson.co.uk/book</b><br>
-Or pop in to 252 Park Road, across from Tesco. Free parking outside.</div>
-<p>It'd be good to see you again.</p>
-<div class="sig"><p>All the best,</p><div class="name">{{practice.signatory_name}}</div><div class="role">{{practice.signatory_role}}, Winstanley &amp; Son</div></div>
-<div class="foot"><div class="tag">INDEPENDENT EYECARE · BESPOKE EYEWEAR · SINCE 1998</div>We're writing because you've been a patient here and we like to remind people when they're due. If you'd rather not hear from us again, ring, email, or send this letter back marked "no more letters" and we'll take you off straight away.</div>
+Or pop in to 252 Park Road, across from Tesco, free parking outside</div>
+<p>The offer runs to {{contact.letter_expiry_date}}. After that, this letter's no good, so don't leave it in a drawer.</p>
+<p>Hope to see you soon,</p>
+<div class="sig"><p></p><div class="name">{{practice.signatory_name}}</div><div class="role">{{practice.signatory_role}}, Winstanley &amp; Son</div></div>
+<p style="margin-top:5mm;border-top:1px dashed var(--rule);padding-top:3mm"><b>P.S.</b> £40 off, free health check, and a 48-hour turnaround on varifocals. All it costs you is a phone call. Ring 0151 726 0622 before {{contact.letter_expiry_date}}.</p>
+<div class="foot"><div class="inner"><div class="tag">INDEPENDENT EYECARE · BESPOKE EYEWEAR · SINCE 1998</div>We're writing because you've been a patient here and we like to remind people when they're due. If you'd rather not hear from us again, ring, email, or send this letter back marked "no more letters" and we'll take you off straight away.</div></div>
 </div></body></html>

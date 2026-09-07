@@ -15,5 +15,6 @@
   "recipient[signatory_name]": "{{custom_values.letter_signatory_name}}",
   "recipient[signatory_role]": "{{custom_values.letter_signatory_role}}",
   "tags": "ghl,{{contact.recall_band}}",
-  "post_unverified": "0"
+  "post_unverified": "0",
+  "recipient[letter_expiry_date]": "{{contact.letter_expiry_date}}"
 }

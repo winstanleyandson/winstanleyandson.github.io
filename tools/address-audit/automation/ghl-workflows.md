@@ -6,7 +6,7 @@ Three workflows plus the custom fields and tags they rely on. Build in this orde
 
 Custom fields (Contact): `visionpms_id` (text), `last_exam_date` (date), `months_since_exam` (number),
 `recall_band` (text), `address_synced` (date), `last_dialer_outcome` (text), `last_dialer_date` (date),
-`address_validated` (date).
+`address_validated` (date), `letter_expiry_date` (date, set by the send step to today + 14 days).
 
 Tags: `address_bad`, `address_corrected`, `address_incomplete`, `deceased_suspected`, `dnc_post`,
 `dnc_phone`, `phone_bad`, `phone_unreached`, `letter_requested`, `letter_sent`.
@@ -48,8 +48,9 @@ Trigger: manual / bulk action from a smart list.
 Smart list: `recall_band` in (12-24m, 24-36m) AND `address_validated` within last 180 days AND
 no tags `address_bad`, `deceased_suspected`, `dnc_post`, `address_incomplete`, and `letter_sent`
 older than 90 days or absent.
-Steps: Webhook with `stannp_template_cold`, then tag `letter_sent` and set `letter_sent_date`.
-Add a 5-minute wait between batches of 50 so Stannp rate limits are not hit.
+Steps: set `letter_expiry_date` = today + 14 days, Webhook with `stannp_template_cold`, then tag
+`letter_sent` and set `letter_sent_date`. Add a 5-minute wait between batches of 50 so Stannp
+rate limits are not hit.
 
 ## Stannp webhook (for step 1.5 and workflow 3)
 

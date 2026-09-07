@@ -1,20 +1,28 @@
 # Recall letter (bands: due30, 0-6m)
 
-Plain copy of recall-letter.html.
+Direct-response version: leads with the offer and a deadline. Needs `contact.letter_expiry_date` set (date sent + 14 days) by the workflow that sends it.
 
-# Your eye test is due
+# Your eyes have been waiting long enough
 
 Dear {{contact.first_name}},
-It's time for your eye test. Your last one with us was on {{contact.last_exam_date}}, and we said we'd see you again about now. We tried ringing you on {{contact.phone}} but couldn't get through, so we thought we'd write instead.
-An eye test isn't just about whether your glasses need changing. We check the health of your eyes too, and we can spot things like glaucoma and cataracts early, when they're much easier to deal with. Even if your glasses feel fine, it's worth coming in.
-**TO BOOK**  
+Straight to it: your eye test is overdue. Last one was {{contact.last_exam_date}}, and we tried ringing on {{contact.phone}} but couldn't get through.
+Here's why that matters. Most people only book an eye test when something feels wrong, headaches, blurry print, squinting at the telly. But the things that really cost you, glaucoma, cataracts, the early signs of diabetes, don't hurt and don't show up until real damage is done. A test now is the cheapest insurance you'll buy this year.
+**BOOK BEFORE {{contact.letter_expiry_date}} AND YOU GET**  
 
-Ring us on 0151 726 0622, Monday to Friday, 9 till 5
+A full eye test, health check included, no rushing
+Free anti-glare, anti-scratch upgrade on any pair you order, worth £89, on us
+Varifocals fitted properly on the Essilor Visioffice and ready in 48 hours, not weeks
+0% finance over 6 months if you'd rather spread it
+No catch. It's simple, we'd rather see you than send you a second letter. This offer runs out on {{contact.letter_expiry_date}}, after that it's back to the normal price.
+**BOOK NOW, THREE WAYS**  
+
+Ring 0151 726 0622, Monday to Friday, 9 till 5
 Book online at winstanleyandson.co.uk/book
-Or just pop in. We're at 252 Park Road, across from Tesco, with free parking outside.
-If you've been somewhere else for your eyes since we last saw you, or your number's changed, give us a quick ring and we'll update your records so we're not chasing you for nothing.
-Hope to see you soon.
-Kind regards,{{practice.signatory_name}}{{practice.signatory_role}}, Winstanley & Son
+Or just pop in. 252 Park Road, across from Tesco, free parking outside
+If you've had your eyes done elsewhere since we last saw you, no bother, give us a quick ring so we can update your file and stop writing.
+See you soon,
+{{practice.signatory_name}}{{practice.signatory_role}}, Winstanley & Son
+P.S. The free upgrade only applies if you book before {{contact.letter_expiry_date}}. Ring 0151 726 0622 today and we'll get you booked in this week.
 
 ---
 
