@@ -1,0 +1,19 @@
+{
+  "_comment": "GHL Workflow > Webhook action. POST to https://api-us1.stannp.com/v1/letters/create (or api-eu1 for UK account) with Basic auth 'api_key:'. Body below as x-www-form-urlencoded. template = Stannp template ID after uploading recall-letter.html / cold-reactivation-letter.html.",
+  "test": "0",
+  "template": "{{custom_values.stannp_template_recall}}",
+  "recipient[title]": "",
+  "recipient[firstname]": "{{contact.first_name}}",
+  "recipient[lastname]": "{{contact.last_name}}",
+  "recipient[address1]": "{{contact.address1}}",
+  "recipient[city]": "{{contact.city}}",
+  "recipient[postcode]": "{{contact.postal_code}}",
+  "recipient[country]": "GB",
+  "recipient[last_exam_date]": "{{contact.last_exam_date}}",
+  "recipient[months_since_exam]": "{{contact.months_since_exam}}",
+  "recipient[phone]": "{{contact.phone}}",
+  "recipient[signatory_name]": "{{custom_values.letter_signatory_name}}",
+  "recipient[signatory_role]": "{{custom_values.letter_signatory_role}}",
+  "tags": "ghl,{{contact.recall_band}}",
+  "post_unverified": "0"
+}

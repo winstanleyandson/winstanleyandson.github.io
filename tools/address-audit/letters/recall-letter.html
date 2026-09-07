@@ -1,0 +1,49 @@
+<!doctype html><html lang="en-GB"><head><meta charset="utf-8"><title>Recall letter</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--green:#0e3b2e;--gold:#c8a24a;--gold-text:#6f5420;--ink:#1b1a17;--parchment:#f4ecd9;--rule:#d9cdb0;--slate:#5a5245;--iris:#2f6f8f}
+@page{size:A4;margin:0}
+*{box-sizing:border-box}
+html,body{margin:0;background:#fff;color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:12pt;line-height:1.42;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;height:297mm;padding:14mm 20mm 26mm;position:relative;overflow:hidden}
+.band{position:absolute;left:0;top:0;right:0;height:6mm;background:var(--green);border-bottom:1.2mm solid var(--gold)}
+.head{display:flex;align-items:center;gap:5mm;margin-top:6mm;padding-bottom:5mm;border-bottom:1px solid var(--rule)}
+.head svg{width:17mm;height:17mm;flex-shrink:0}
+.wordmark{font-family:Cinzel,Georgia,serif;font-weight:600;font-size:15pt;letter-spacing:.14em;color:var(--green);line-height:1.05}
+.wordmark small{display:block;font-size:7pt;letter-spacing:.32em;color:var(--gold-text);font-weight:500;margin-top:1.2mm}
+.head .contact{margin-left:auto;text-align:right;font-size:9.5pt;line-height:1.45;color:var(--slate)}
+.head .contact b{color:var(--green);font-weight:600}
+.meta{display:flex;justify-content:space-between;margin-top:6mm;font-size:11pt}
+.addr{white-space:pre-line;min-height:22mm}  /* Stannp window: 20mm from left, ~45mm from top */
+.date{color:var(--slate)}
+h1{font-family:Cinzel,Georgia,serif;font-weight:500;font-size:16pt;letter-spacing:.06em;color:var(--green);margin:6mm 0 2.5mm}
+h1:after{content:"";display:block;width:14mm;height:.6mm;background:var(--gold);margin-top:2mm}
+p{margin:0 0 2.6mm}
+ul{margin:0 0 3.2mm;padding-left:5mm} li{margin-bottom:1.2mm}
+.ways{background:var(--parchment);border-left:1mm solid var(--gold);padding:3mm 5mm;margin:3.5mm 0}
+.ways b{font-family:Cinzel,Georgia,serif;font-size:9pt;letter-spacing:.14em;color:var(--green);display:block;margin-bottom:1.5mm}
+.sig{margin-top:4mm}
+.sig .name{font-family:Cinzel,Georgia,serif;font-size:11pt;letter-spacing:.08em;color:var(--green)}
+.sig .role{font-size:10.5pt;color:var(--slate);font-style:italic}
+.foot{position:absolute;left:20mm;right:20mm;bottom:9mm;z-index:2;border-top:1px solid var(--rule);padding-top:2.5mm;font-size:8.5pt;color:var(--slate);line-height:1.4}
+.foot .tag{font-family:Cinzel,Georgia,serif;letter-spacing:.2em;font-size:7.5pt;color:var(--gold-text);margin-bottom:1mm}
+</style></head><body><div class="page"><div class="band"></div>
+<div class="head"><svg viewBox="0 0 330 330" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><circle cx="165" cy="165" r="160" fill="#0e3b2e"/><circle cx="165" cy="165" r="150" fill="none" stroke="#c8a24a" stroke-width="6"/><circle cx="165" cy="165" r="112" fill="#f4ecd9"/><path d="M75 165Q165 85 255 165Q165 245 75 165Z" fill="#fff" stroke="#1b1a17" stroke-width="9"/><circle cx="165" cy="165" r="42" fill="#2f6f8f"/><circle cx="165" cy="165" r="19" fill="#1b1a17"/><circle cx="152" cy="152" r="7" fill="#fff"/></svg><div class="wordmark">WINSTANLEY &amp; SON<small>LUNETIERS · LIVERPOOL</small></div>
+<div class="contact"><b>252 Park Road, Dingle</b><br>Liverpool L8 4UE<br>0151 726 0622<br>help@winstanleyandson.co.uk</div></div>
+<div class="meta"><div class="addr">{{contact.first_name}} {{contact.last_name}}
+{{contact.address1}}
+{{contact.city}}
+{{contact.postal_code}}</div><div class="date">{{right_now.date}}</div></div>
+<h1>Your eye test is due</h1>
+<p>Dear {{contact.first_name}},</p>
+<p>It's time for your eye test. Your last one with us was on {{contact.last_exam_date}}, and we said we'd see you again about now. We tried ringing you on {{contact.phone}} but couldn't get through, so we thought we'd write instead.</p>
+<p>An eye test isn't just about whether your glasses need changing. We check the health of your eyes too, and we can spot things like glaucoma and cataracts early, when they're much easier to deal with. Even if your glasses feel fine, it's worth coming in.</p>
+<div class="ways"><b>TO BOOK</b>
+Ring us on <b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">0151 726 0622</b>, Monday to Friday, 9 till 5<br>
+Book online at <b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">winstanleyandson.co.uk/book</b><br>
+Or just pop in. We're at 252 Park Road, across from Tesco, with free parking outside.</div>
+<p>If you've been somewhere else for your eyes since we last saw you, or your number's changed, give us a quick ring and we'll update your records so we're not chasing you for nothing.</p>
+<p>Hope to see you soon.</p>
+<div class="sig"><p>Kind regards,</p><div class="name">{{practice.signatory_name}}</div><div class="role">{{practice.signatory_role}}, Winstanley &amp; Son</div></div>
+<div class="foot"><div class="tag">INDEPENDENT EYECARE · BESPOKE EYEWEAR · SINCE 1998</div>If you get a free NHS eye test, please bring proof with you. If you'd rather we didn't write to you, just ring or email and we'll take you off the list.</div>
+</div></body></html>
