@@ -94,3 +94,8 @@ The dialer fallback uses the address on warm bands too, not just cold recall, so
 completeness table in section 1 is worth reading for due30 and 0-6m as well. A record
 with a dead number and no valid postcode is unreachable on every channel and should be
 counted as such in the recall report, not left silently in the dial queue.
+
+## House style note
+
+Gavin Winstanley is the frame maker. Never describe him as an optician or optometrist in
+letters, sign-offs, custom values or copy. Sign-off role for him is "Frame maker".
