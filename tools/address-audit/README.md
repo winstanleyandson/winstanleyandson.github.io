@@ -53,3 +53,44 @@ Do **not** map to custom fields. Stannp, Scribeless and GHL smart-list filters r
 - [ ] Deceased screening against Mortascreen or The Bereavement Register. Tag matches `DECEASED_SUSPECTED`, exclude from all channels, route to reception to confirm.
 - [ ] Re-screen the 12-36m bands before each postal campaign, not only once.
 - [ ] Thank-you cards (address confirmed at collection) can bypass the cleanse but not the `ADDRESS_BAD` exclusion.
+
+## 5. Power dialer fallback: letter when the phone fails
+
+The team works the recall list in the GHL Power Dialer. Any call outcome that means the
+phone is not a usable channel should let the agent send a letter in one click, without
+leaving the dialer or looking up the address.
+
+### Dispositions that trigger the letter path
+
+| Dialer disposition        | Tag added        | Then                                      |
+|---------------------------|------------------|-------------------------------------------|
+| Number not in service     | `PHONE_BAD`      | letter workflow, task to fix number       |
+| Wrong number              | `PHONE_BAD`      | letter workflow, task to fix number       |
+| No answer x3 / voicemail full | `PHONE_UNREACHED` | letter workflow                       |
+| Do not call               | `DNC_PHONE`      | letter workflow only if not `DNC_POST`    |
+| Send letter (manual)      | `LETTER_REQUESTED` | letter workflow                         |
+
+Every disposition above also stamps `last_dialer_outcome` and `last_dialer_date` on the
+contact so a second agent does not redial a dead number.
+
+### Letter workflow (GHL workflow, triggered by any tag above)
+
+1. **Gate on postal quality.** Continue only if `postal_code` passes the UK format check
+   and the contact has none of `ADDRESS_BAD`, `DECEASED_SUSPECTED`, `DNC_POST`.
+   Otherwise create a task for reception: "Phone failed and no usable address - check with
+   patient record" and stop.
+2. **Pick the template by band.** due30 and 0-6m get the standard recall letter;
+   12-36m get the cold reactivation letter. Band comes from the weekly sync field.
+3. **Send** via the Stannp / Scribeless action using the native address fields.
+   Tag `LETTER_SENT_<YYYYMM>` and add a note with the template name so the dialer
+   shows it in the contact timeline.
+4. **Suppress repeats.** Do not send if a `LETTER_SENT_*` tag is younger than 90 days.
+5. **Returned mail** follows section 3: staff add `ADDRESS_BAD`, which blocks further
+   letters and pulls the record out of the weekly address overwrite.
+
+### What this means for the audit
+
+The dialer fallback uses the address on warm bands too, not just cold recall, so the
+completeness table in section 1 is worth reading for due30 and 0-6m as well. A record
+with a dead number and no valid postcode is unreachable on every channel and should be
+counted as such in the recall report, not left silently in the dial queue.
