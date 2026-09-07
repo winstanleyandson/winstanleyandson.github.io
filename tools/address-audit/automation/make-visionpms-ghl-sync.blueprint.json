@@ -1,0 +1,347 @@
+{
+ "name": "VisionPMS -> GHL weekly recall + address sync",
+ "flow": [
+  {
+   "id": 1,
+   "module": "gateway:CustomWebHook",
+   "version": 1,
+   "parameters": {
+    "hook": 0,
+    "maxResults": 1
+   },
+   "mapper": {},
+   "metadata": {
+    "designer": {
+     "x": 300,
+     "y": 0,
+     "name": "Weekly export arrives (POST CSV as body)"
+    }
+   }
+  },
+  {
+   "id": 2,
+   "module": "csv:ParseCSV",
+   "version": 1,
+   "parameters": {},
+   "mapper": {
+    "csv": "{{1.data}}",
+    "delimiter": ",",
+    "includeHeaderRow": true
+   },
+   "metadata": {
+    "designer": {
+     "x": 600,
+     "y": 0,
+     "name": "Parse VisionPMS export"
+    }
+   }
+  },
+  {
+   "id": 3,
+   "module": "util:SetVariables",
+   "version": 1,
+   "parameters": {},
+   "mapper": {
+    "variables": [
+     {
+      "name": "pc_raw",
+      "value": "{{upper(trim(2.Postcode))}}"
+     },
+     {
+      "name": "pc_compact",
+      "value": "{{replace(upper(trim(2.Postcode)); \" \"; emptystring)}}"
+     },
+     {
+      "name": "pc_norm",
+      "value": "{{substring(replace(upper(trim(2.Postcode)); \" \"; emptystring); 0; length(replace(upper(trim(2.Postcode)); \" \"; emptystring)) - 3)}} {{substring(replace(upper(trim(2.Postcode)); \" \"; emptystring); length(replace(upper(trim(2.Postcode)); \" \"; emptystring)) - 3)}}"
+     },
+     {
+      "name": "pc_valid",
+      "value": "{{if(length(replace(upper(trim(2.Postcode)); \" \"; emptystring)) >= 5 & length(replace(upper(trim(2.Postcode)); \" \"; emptystring)) <= 7 & contains(\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"; substring(replace(upper(trim(2.Postcode)); \" \"; emptystring); 0; 1)); true; false)}}"
+     },
+     {
+      "name": "address1",
+      "value": "{{trim(2.Address1)}}{{if(length(trim(2.Address2)) > 0; \", \" + trim(2.Address2); emptystring)}}"
+     },
+     {
+      "name": "city",
+      "value": "{{trim(2.Town)}}"
+     },
+     {
+      "name": "state",
+      "value": "{{trim(2.County)}}"
+     },
+     {
+      "name": "months_since_exam",
+      "value": "{{round((now - parseDate(2.LastExamDate; \"DD/MM/YYYY\")) / 2629800000)}}"
+     },
+     {
+      "name": "band",
+      "value": "{{if(2.RecallDue = emptystring; \"unknown\"; if((parseDate(2.RecallDue; \"DD/MM/YYYY\") - now) / 86400000 > 30; \"future\"; if((parseDate(2.RecallDue; \"DD/MM/YYYY\") - now) / 86400000 >= -1; \"due30\"; if((parseDate(2.RecallDue; \"DD/MM/YYYY\") - now) / 86400000 >= -183; \"0-6m\"; if((parseDate(2.RecallDue; \"DD/MM/YYYY\") - now) / 86400000 >= -365; \"6-12m\"; if((parseDate(2.RecallDue; \"DD/MM/YYYY\") - now) / 86400000 >= -730; \"12-24m\"; if((parseDate(2.RecallDue; \"DD/MM/YYYY\") - now) / 86400000 >= -1095; \"24-36m\"; \"36m+\")))))))}}"
+     }
+    ],
+    "scope": "roundtrip"
+   },
+   "metadata": {
+    "designer": {
+     "x": 900,
+     "y": 0,
+     "name": "Normalise + band"
+    }
+   }
+  },
+  {
+   "id": 4,
+   "module": "http:ActionSendData",
+   "version": 1,
+   "parameters": {},
+   "mapper": {
+    "url": "https://services.leadconnectorhq.com/contacts/search",
+    "method": "post",
+    "headers": [
+     {
+      "name": "Authorization",
+      "value": "Bearer {{var.GHL_API_KEY}}"
+     },
+     {
+      "name": "Version",
+      "value": "2021-07-28"
+     },
+     {
+      "name": "Content-Type",
+      "value": "application/json"
+     }
+    ],
+    "bodyType": "raw",
+    "contentType": "application/json",
+    "parseResponse": true,
+    "data": "{\"locationId\":\"{{var.GHL_LOCATION_ID}}\",\"filters\":[{\"field\":\"customFields.visionpms_id\",\"operator\":\"eq\",\"value\":\"{{2.PatientID}}\"}],\"pageLimit\":1}"
+   },
+   "metadata": {
+    "designer": {
+     "x": 1200,
+     "y": 0,
+     "name": "Find GHL contact by VisionPMS ID"
+    }
+   }
+  },
+  {
+   "id": 5,
+   "module": "builtin:BasicRouter",
+   "version": 1,
+   "parameters": {},
+   "mapper": {},
+   "metadata": {
+    "designer": {
+     "x": 1500,
+     "y": 0,
+     "name": "Protect corrections"
+    }
+   },
+   "routes": [
+    {
+     "flow": [
+      {
+       "id": 6,
+       "module": "http:ActionSendData",
+       "version": 1,
+       "parameters": {},
+       "mapper": {
+        "url": "https://services.leadconnectorhq.com/contacts/{{4.data.contacts[1].id}}/tasks",
+        "method": "post",
+        "headers": [
+         {
+          "name": "Authorization",
+          "value": "Bearer {{var.GHL_API_KEY}}"
+         },
+         {
+          "name": "Version",
+          "value": "2021-07-28"
+         },
+         {
+          "name": "Content-Type",
+          "value": "application/json"
+         }
+        ],
+        "bodyType": "raw",
+        "contentType": "application/json",
+        "parseResponse": true,
+        "data": "{\"title\":\"Address differs from VisionPMS - check and update VisionPMS\",\"body\":\"VisionPMS has: {{3.address1}}, {{3.city}} {{3.pc_norm}}. GHL has a returned-mail correction. Update VisionPMS then remove the ADDRESS_BAD / ADDRESS_CORRECTED tag.\",\"dueDate\":\"{{formatDate(addDays(now; 3); \"YYYY-MM-DDTHH:mm:ssZ\")}}\",\"completed\":false}"
+       },
+       "metadata": {
+        "designer": {
+         "x": 1800,
+         "y": 0,
+         "name": "Raise reception task, do not overwrite"
+        }
+       },
+       "filter": {
+        "name": "Has ADDRESS_BAD or ADDRESS_CORRECTED tag",
+        "conditions": [
+         [
+          {
+           "a": "{{join(4.data.contacts[1].tags; \",\")}}",
+           "o": "text:contain",
+           "b": "address_bad"
+          }
+         ],
+         [
+          {
+           "a": "{{join(4.data.contacts[1].tags; \",\")}}",
+           "o": "text:contain",
+           "b": "address_corrected"
+          }
+         ]
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "flow": [
+      {
+       "id": 7,
+       "module": "http:ActionSendData",
+       "version": 1,
+       "parameters": {},
+       "mapper": {
+        "url": "https://services.leadconnectorhq.com/contacts/upsert",
+        "method": "post",
+        "headers": [
+         {
+          "name": "Authorization",
+          "value": "Bearer {{var.GHL_API_KEY}}"
+         },
+         {
+          "name": "Version",
+          "value": "2021-07-28"
+         },
+         {
+          "name": "Content-Type",
+          "value": "application/json"
+         }
+        ],
+        "bodyType": "raw",
+        "contentType": "application/json",
+        "parseResponse": true,
+        "data": "{\"locationId\":\"{{var.GHL_LOCATION_ID}}\",\"firstName\":\"{{2.FirstName}}\",\"lastName\":\"{{2.LastName}}\",\"phone\":\"{{2.Mobile}}\",\"email\":\"{{2.Email}}\",\"address1\":\"{{3.address1}}\",\"city\":\"{{3.city}}\",\"state\":\"{{3.state}}\",\"postalCode\":\"{{3.pc_norm}}\",\"country\":\"GB\",\"customFields\":[{\"key\":\"visionpms_id\",\"field_value\":\"{{2.PatientID}}\"},{\"key\":\"last_exam_date\",\"field_value\":\"{{2.LastExamDate}}\"},{\"key\":\"months_since_exam\",\"field_value\":\"{{3.months_since_exam}}\"},{\"key\":\"recall_band\",\"field_value\":\"{{3.band}}\"},{\"key\":\"address_synced\",\"field_value\":\"{{formatDate(now; \"YYYY-MM-DD\")}}\"}]}"
+       },
+       "metadata": {
+        "designer": {
+         "x": 2100,
+         "y": 0,
+         "name": "Upsert contact with native address fields"
+        }
+       },
+       "filter": {
+        "name": "No correction tag AND postcode valid",
+        "conditions": [
+         [
+          {
+           "a": "{{join(4.data.contacts[1].tags; \",\")}}",
+           "o": "text:notcontain",
+           "b": "address_bad"
+          },
+          {
+           "a": "{{join(4.data.contacts[1].tags; \",\")}}",
+           "o": "text:notcontain",
+           "b": "address_corrected"
+          },
+          {
+           "a": "{{3.pc_valid}}",
+           "o": "boolean:equal",
+           "b": true
+          }
+         ]
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "flow": [
+      {
+       "id": 8,
+       "module": "http:ActionSendData",
+       "version": 1,
+       "parameters": {},
+       "mapper": {
+        "url": "https://services.leadconnectorhq.com/contacts/upsert",
+        "method": "post",
+        "headers": [
+         {
+          "name": "Authorization",
+          "value": "Bearer {{var.GHL_API_KEY}}"
+         },
+         {
+          "name": "Version",
+          "value": "2021-07-28"
+         },
+         {
+          "name": "Content-Type",
+          "value": "application/json"
+         }
+        ],
+        "bodyType": "raw",
+        "contentType": "application/json",
+        "parseResponse": true,
+        "data": "{\"locationId\":\"{{var.GHL_LOCATION_ID}}\",\"firstName\":\"{{2.FirstName}}\",\"lastName\":\"{{2.LastName}}\",\"phone\":\"{{2.Mobile}}\",\"email\":\"{{2.Email}}\",\"tags\":[\"address_incomplete\"],\"customFields\":[{\"key\":\"visionpms_id\",\"field_value\":\"{{2.PatientID}}\"},{\"key\":\"last_exam_date\",\"field_value\":\"{{2.LastExamDate}}\"},{\"key\":\"months_since_exam\",\"field_value\":\"{{3.months_since_exam}}\"},{\"key\":\"recall_band\",\"field_value\":\"{{3.band}}\"}]}"
+       },
+       "metadata": {
+        "designer": {
+         "x": 2400,
+         "y": 0,
+         "name": "Upsert without address, tag address_incomplete"
+        }
+       },
+       "filter": {
+        "name": "No correction tag AND postcode invalid/missing",
+        "conditions": [
+         [
+          {
+           "a": "{{join(4.data.contacts[1].tags; \",\")}}",
+           "o": "text:notcontain",
+           "b": "address_bad"
+          },
+          {
+           "a": "{{join(4.data.contacts[1].tags; \",\")}}",
+           "o": "text:notcontain",
+           "b": "address_corrected"
+          },
+          {
+           "a": "{{3.pc_valid}}",
+           "o": "boolean:equal",
+           "b": false
+          }
+         ]
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "metadata": {
+  "instant": true,
+  "version": 1,
+  "scenario": {
+   "roundtrips": 1,
+   "maxErrors": 3,
+   "autoCommit": true,
+   "sequential": true,
+   "confidential": false,
+   "dataloss": false,
+   "dlq": true
+  },
+  "designer": {
+   "orphans": []
+  },
+  "zone": "eu1.make.com",
+  "notes": [
+   {
+    "text": "Set scenario variables GHL_API_KEY and GHL_LOCATION_ID. Adjust column names in modules 2/3/7/8 to match the real VisionPMS export headers."
+   }
+  ]
+ }
+}
