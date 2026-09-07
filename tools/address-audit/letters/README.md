@@ -1,5 +1,16 @@
 # Letter templates
 
+Print-ready A4 templates in the current brand (green/gold crest, Cinzel wordmark,
+Cormorant Garamond body, parchment call-out): `recall-letter.html` and
+`cold-reactivation-letter.html`. The `.md` files hold the plain copy; the `.png` files
+are rendered previews with sample data. Paste the HTML into the Stannp or Scribeless
+template editor; the fonts load from Google Fonts and fall back to Georgia. The address
+block sits at 20mm left / ~46mm top to suit a standard C5 window envelope.
+
+Merge fields used: contact.first_name, last_name, address1, city, postal_code, phone,
+last_exam_date, months_since_exam; right_now.date; practice.signatory_name,
+practice.signatory_role.
+
 | File | Bands | Trigger |
 |------|-------|---------|
 | recall-letter.md | due30, 0-6m | weekly recall postal, or dialer fallback |
