@@ -1,7 +1,8 @@
 # Handoff: postal address in the recall feed
 
-Branch: `claude/address-field-mapping-postal-y7ni9j` on winstanleyandson/winstanleyandson.github.io
-Status: built and pushed, not yet wired to live systems. Nothing here has touched GHL, Make or Stannp.
+Merged to `main` on winstanleyandson/winstanleyandson.github.io on 7 September 2026.
+Status: built and published in the repo, not yet wired to live systems. Nothing here has touched GHL, Make or Stannp.
+The `/book/` redirect is live on the website via GitHub Pages; verify it resolves before any letter is printed.
 
 ## What exists
 
@@ -34,7 +35,7 @@ Status: built and pushed, not yet wired to live systems. Nothing here has touche
 4. Where the weekly export lands (email / Drive / manual). Decides the trigger module in the blueprint; currently a webhook.
 5. Power Dialer disposition names, to map to `phone_bad`, `phone_unreached`, `dnc_phone`, `letter_requested`.
 6. Signatory name and role for each letter (custom values `letter_signatory_name`, `letter_signatory_role`).
-7. Approval to merge this branch to main, which publishes `/book/`.
+7. Check winstanleyandson.co.uk/book redirects to the GHL calendar (already deployed).
 
 ## Order of work once inputs arrive
 
