@@ -4,7 +4,7 @@
 :root{--green:#0e3b2e;--gold:#c8a24a;--gold-text:#6f5420;--ink:#1b1a17;--parchment:#f4ecd9;--rule:#d9cdb0;--slate:#5a5245;--iris:#2f6f8f}
 @page{size:A4;margin:0}
 *{box-sizing:border-box}
-html,body{margin:0;background:#fff;color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:11.3pt;line-height:1.34;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+html,body{margin:0;background:#fff;color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:10.8pt;line-height:1.28;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 .page{width:210mm;min-height:297mm;padding:12mm 18mm 18mm;position:relative;display:flex;flex-direction:column}
 .band{position:absolute;left:0;top:0;right:0;height:6mm;background:var(--green);border-bottom:1.2mm solid var(--gold)}
 .head{display:flex;align-items:center;gap:5mm;margin-top:3mm;padding-bottom:3mm;border-bottom:1px solid var(--rule)}
@@ -18,9 +18,9 @@ html,body{margin:0;background:#fff;color:var(--ink);font-family:'Cormorant Garam
 .date{color:var(--slate)}
 h1{font-family:Cinzel,Georgia,serif;font-weight:500;font-size:16pt;letter-spacing:.06em;color:var(--green);margin:4mm 0 2mm}
 h1:after{content:"";display:block;width:14mm;height:.6mm;background:var(--gold);margin-top:2mm}
-p{margin:0 0 2.1mm}
+p{margin:0 0 1.7mm}
 ul{margin:0 0 3.2mm;padding-left:5mm} li{margin-bottom:1.2mm}
-.ways{background:var(--parchment);border-left:1mm solid var(--gold);padding:2.4mm 4.5mm;margin:2.6mm 0}
+.ways{background:var(--parchment);border-left:1mm solid var(--gold);padding:2mm 4mm;margin:2mm 0;line-height:1.22}
 .ways b{font-family:Cinzel,Georgia,serif;font-size:8.5pt;letter-spacing:.12em;color:var(--green);display:block;margin-bottom:1mm}
 .sig{margin-top:2.5mm}
 .sig .name{font-family:Cinzel,Georgia,serif;font-size:11pt;letter-spacing:.08em;color:var(--green)}
@@ -34,17 +34,18 @@ ul{margin:0 0 3.2mm;padding-left:5mm} li{margin-bottom:1.2mm}
 {{contact.address1}}
 {{contact.city}}
 {{contact.postal_code}}</div><div class="date">{{right_now.date}}</div></div>
-<h1>We kept your file. Here's £40 to come back and see us</h1>
+<h1>We kept your file. Here's everything we'll give you for coming back</h1>
 <p>Dear {{contact.first_name}},</p>
-<p>It's been {{contact.months_since_exam}} months since your last eye test with us, {{contact.last_exam_date}}. We tried ringing but the number on file doesn't work any more, so we're writing instead, because you're worth the stamp.</p>
-<p>If you've found another optician, fair enough, just let us know and we'll stop writing. But if you haven't been anywhere, here's the truth: eyes don't announce it when something's wrong. No pain, no warning. The only way to know is to get checked, and it's been a while.</p>
-<div class="ways"><b>COME BACK BEFORE {{contact.letter_expiry_date}} AND GET</b>
-<b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">£40 off</b> your next pair of glasses, any frame, any lens<br>
-A full eye test with the health check most people skip<br>
-Varifocals measured on the Essilor Visioffice and ready in 48 hours<br>
-Frames made by hand in the shop, the only place in Merseyside that does it, three-year guarantee<br>
-0% finance over 6 months</div>
-<p>This isn't a gimmick to get you through the door and upsell you. It's simple, we'd rather have you back as a patient than not. The £40 is real and it comes off whatever you choose.</p>
+<p>It's been {{contact.months_since_exam}} months since your last eye test with us, {{contact.last_exam_date}}. We tried ringing but the number on file doesn't work any more, so we're writing instead.</p>
+<p>If you've found another optician, fair enough, let us know and we'll stop writing. If you haven't, here's the truth: eyes don't announce it when something's wrong. No pain, no warning, the only way to know is to get checked.</p>
+<div class="ways"><b>BOOK BEFORE {{contact.letter_expiry_date}} AND WE'LL GIVE YOU</b>
+<b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">A full eye test with the health check most people skip</b>, worth £25<br>
+<b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">1.6 high-index lenses, 25% thinner,</b> normally £65<br>
+<b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">Premium anti-glare coating</b> on top, normally £45<br>
+<b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">A year of free adjustments and fittings,</b> worth £40<br>
+<b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">A designer case and cleaning kit</b>, worth £12<br>
+<span style="display:block;margin-top:1.5mm;padding-top:1.5mm;border-top:1px solid var(--gold)"><b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">That's over £187 of value, yours free,</b> just for coming back and getting checked</span></div>
+<p>No catch, none of it depends on you spending more. We'd rather have you back as a patient than not. If you do need new glasses: varifocals ready in 48 hours on the Essilor Visioffice, frames made by hand in the shop, the only place in Merseyside that does it, three-year guarantee, and 0% finance over 6 months.</p>
 <div class="ways"><b>CLAIM IT, THREE WAYS</b>
 Ring <b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">0151 726 0622</b>, Monday to Friday, 9 till 5, and say you got this letter<br>
 Book online at <b style="display:inline;font-family:inherit;letter-spacing:0;font-size:inherit">winstanleyandson.co.uk/book</b><br>
@@ -52,6 +53,6 @@ Or pop in to 252 Park Road, across from Tesco, free parking outside</div>
 <p>The offer runs to {{contact.letter_expiry_date}}. After that, this letter's no good, so don't leave it in a drawer.</p>
 <p>Hope to see you soon,</p>
 <div class="sig"><p></p><div class="name">{{practice.signatory_name}}</div><div class="role">{{practice.signatory_role}}, Winstanley &amp; Son</div></div>
-<p style="margin-top:2.5mm;border-top:1px dashed var(--rule);padding-top:2mm"><b>P.S.</b> £40 off, free health check, and a 48-hour turnaround on varifocals. All it costs you is a phone call. Ring 0151 726 0622 before {{contact.letter_expiry_date}}.</p>
+<p style="margin-top:2.5mm;border-top:1px dashed var(--rule);padding-top:2mm"><b>P.S.</b> Over £187 of free extras, thinner lenses, anti-glare coating, a year of free adjustments, and more, just for booking before {{contact.letter_expiry_date}}. All it costs you is a phone call. Ring 0151 726 0622.</p>
 <div class="foot"><div class="inner"><div class="tag">INDEPENDENT EYECARE · BESPOKE EYEWEAR · SINCE 1998</div>We're writing because you've been a patient here and we like to remind people when they're due. If you'd rather not hear from us again, ring, email, or send this letter back marked "no more letters" and we'll take you off straight away.</div></div>
 </div></body></html>

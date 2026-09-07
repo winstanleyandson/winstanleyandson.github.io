@@ -26,11 +26,15 @@ letter into junk mail.
 
 - Recall letter offer: free 1.6 high-index lenses (25% thinner) with premium anti-glare
   coating on any pair ordered before the deadline, worth over £110.
-- Reactivation letter offer: £40 off the next pair, any frame, any lens.
+- Reactivation letter offer: a value stack, not cash off. Free eye test with health check
+  (£25), 1.6 high-index lenses (£65), premium anti-glare coating (£45), a year of free
+  adjustments (£40), designer case and cleaning kit (£12): over £187 of value, free, for
+  booking before the deadline. No cash discount, which trains people to wait for one and
+  costs pure margin; a stack of real extras costs far less to deliver than its face value
+  and reads as far more generous.
 
-The £40 reactivation figure is still a placeholder. Confirm the real margin on both offers
-before the first live send, lens upgrades and discounts need sign-off from whoever prices
-jobs, not a copywriter.
+All individual values are placeholders. Confirm the real cost/price of each item before
+the first live send, this needs sign-off from whoever prices jobs, not a copywriter.
 
 
 | File | Bands | Trigger |
