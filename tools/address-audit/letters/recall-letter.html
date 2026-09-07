@@ -4,28 +4,28 @@
 :root{--green:#0e3b2e;--gold:#c8a24a;--gold-text:#6f5420;--ink:#1b1a17;--parchment:#f4ecd9;--rule:#d9cdb0;--slate:#5a5245;--iris:#2f6f8f}
 @page{size:A4;margin:0}
 *{box-sizing:border-box}
-html,body{margin:0;background:#fff;color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:12pt;line-height:1.42;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-.page{width:210mm;min-height:297mm;padding:14mm 20mm 26mm;position:relative;display:flex;flex-direction:column}
+html,body{margin:0;background:#fff;color:var(--ink);font-family:'Cormorant Garamond',Georgia,serif;font-size:11.3pt;line-height:1.34;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:210mm;min-height:297mm;padding:12mm 18mm 18mm;position:relative;display:flex;flex-direction:column}
 .band{position:absolute;left:0;top:0;right:0;height:6mm;background:var(--green);border-bottom:1.2mm solid var(--gold)}
-.head{display:flex;align-items:center;gap:5mm;margin-top:6mm;padding-bottom:5mm;border-bottom:1px solid var(--rule)}
+.head{display:flex;align-items:center;gap:5mm;margin-top:3mm;padding-bottom:3mm;border-bottom:1px solid var(--rule)}
 .head svg{width:17mm;height:17mm;flex-shrink:0}
 .wordmark{font-family:Cinzel,Georgia,serif;font-weight:600;font-size:15pt;letter-spacing:.14em;color:var(--green);line-height:1.05}
 .wordmark small{display:block;font-size:7pt;letter-spacing:.32em;color:var(--gold-text);font-weight:500;margin-top:1.2mm}
 .head .contact{margin-left:auto;text-align:right;font-size:9.5pt;line-height:1.45;color:var(--slate)}
 .head .contact b{color:var(--green);font-weight:600}
-.meta{display:flex;justify-content:space-between;margin-top:6mm;font-size:11pt}
-.addr{white-space:pre-line;min-height:22mm}  /* Stannp window: 20mm from left, ~45mm from top */
+.meta{display:flex;justify-content:space-between;margin-top:4mm;font-size:10.5pt}
+.addr{white-space:pre-line;min-height:18mm}  /* Stannp window: 20mm from left, ~45mm from top */
 .date{color:var(--slate)}
-h1{font-family:Cinzel,Georgia,serif;font-weight:500;font-size:16pt;letter-spacing:.06em;color:var(--green);margin:6mm 0 2.5mm}
+h1{font-family:Cinzel,Georgia,serif;font-weight:500;font-size:16pt;letter-spacing:.06em;color:var(--green);margin:4mm 0 2mm}
 h1:after{content:"";display:block;width:14mm;height:.6mm;background:var(--gold);margin-top:2mm}
-p{margin:0 0 2.6mm}
+p{margin:0 0 2.1mm}
 ul{margin:0 0 3.2mm;padding-left:5mm} li{margin-bottom:1.2mm}
-.ways{background:var(--parchment);border-left:1mm solid var(--gold);padding:3mm 5mm;margin:3.5mm 0}
-.ways b{font-family:Cinzel,Georgia,serif;font-size:9pt;letter-spacing:.14em;color:var(--green);display:block;margin-bottom:1.5mm}
-.sig{margin-top:4mm}
+.ways{background:var(--parchment);border-left:1mm solid var(--gold);padding:2.4mm 4.5mm;margin:2.6mm 0}
+.ways b{font-family:Cinzel,Georgia,serif;font-size:8.5pt;letter-spacing:.12em;color:var(--green);display:block;margin-bottom:1mm}
+.sig{margin-top:2.5mm}
 .sig .name{font-family:Cinzel,Georgia,serif;font-size:11pt;letter-spacing:.08em;color:var(--green)}
 .sig .role{font-size:10.5pt;color:var(--slate);font-style:italic}
-.foot{margin-top:auto;padding-top:6mm}.foot .inner{border-top:1px solid var(--rule);padding-top:2.5mm;font-size:8.5pt;color:var(--slate);line-height:1.4}
+.foot{margin-top:auto;padding-top:3mm}.foot .inner{border-top:1px solid var(--rule);padding-top:2.5mm;font-size:8.5pt;color:var(--slate);line-height:1.4}
 .foot .tag{font-family:Cinzel,Georgia,serif;letter-spacing:.2em;font-size:7.5pt;color:var(--gold-text);margin-bottom:1mm}
 </style></head><body><div class="page"><div class="band"></div>
 <div class="head"><svg viewBox="0 0 330 330" xmlns="http://www.w3.org/2000/svg" width="64" height="64"><circle cx="165" cy="165" r="160" fill="#0e3b2e"/><circle cx="165" cy="165" r="150" fill="none" stroke="#c8a24a" stroke-width="6"/><circle cx="165" cy="165" r="112" fill="#f4ecd9"/><path d="M75 165Q165 85 255 165Q165 245 75 165Z" fill="#fff" stroke="#1b1a17" stroke-width="9"/><circle cx="165" cy="165" r="42" fill="#2f6f8f"/><circle cx="165" cy="165" r="19" fill="#1b1a17"/><circle cx="152" cy="152" r="7" fill="#fff"/></svg><div class="wordmark">WINSTANLEY &amp; SON<small>LUNETIERS · LIVERPOOL</small></div>
@@ -51,6 +51,6 @@ Or just pop in. 252 Park Road, across from Tesco, free parking outside</div>
 <p>If you've had your eyes done elsewhere since we last saw you, no bother, give us a quick ring so we can update your file and stop writing.</p>
 <p>See you soon,</p>
 <div class="sig"><p></p><div class="name">{{practice.signatory_name}}</div><div class="role">{{practice.signatory_role}}, Winstanley &amp; Son</div></div>
-<p style="margin-top:5mm;border-top:1px dashed var(--rule);padding-top:3mm"><b>P.S.</b> The free upgrade only applies if you book before {{contact.letter_expiry_date}}. Ring 0151 726 0622 today and we'll get you booked in this week.</p>
+<p style="margin-top:2.5mm;border-top:1px dashed var(--rule);padding-top:2mm"><b>P.S.</b> The free upgrade only applies if you book before {{contact.letter_expiry_date}}. Ring 0151 726 0622 today and we'll get you booked in this week.</p>
 <div class="foot"><div class="inner"><div class="tag">INDEPENDENT EYECARE · BESPOKE EYEWEAR · SINCE 1998</div>If you get a free NHS eye test, please bring proof with you. If you'd rather we didn't write to you, just ring or email and we'll take you off the list.</div></div>
 </div></body></html>
