@@ -10,7 +10,7 @@ Here's why that matters. Most people only book an eye test when something feels 
 **BOOK BEFORE {{contact.letter_expiry_date}} AND YOU GET**  
 
 A full eye test, health check included, no rushing
-Free anti-glare, anti-scratch upgrade on any pair you order, worth £89, on us
+Free 1.6 high-index lenses, 25% thinner, and premium anti-glare coating on any pair you order, worth over £110, on us
 Varifocals fitted properly on the Essilor Visioffice and ready in 48 hours, not weeks
 0% finance over 6 months if you'd rather spread it
 No catch. It's simple, we'd rather see you than send you a second letter. This offer runs out on {{contact.letter_expiry_date}}, after that it's back to the normal price.
@@ -22,7 +22,7 @@ Or just pop in. 252 Park Road, across from Tesco, free parking outside
 If you've had your eyes done elsewhere since we last saw you, no bother, give us a quick ring so we can update your file and stop writing.
 See you soon,
 {{practice.signatory_name}}{{practice.signatory_role}}, Winstanley & Son
-P.S. The free upgrade only applies if you book before {{contact.letter_expiry_date}}. Ring 0151 726 0622 today and we'll get you booked in this week.
+P.S. The free thinner lenses and anti-glare coating, over £110, only apply if you book before {{contact.letter_expiry_date}}. Ring 0151 726 0622 today and we'll get you booked in this week.
 
 ---
 

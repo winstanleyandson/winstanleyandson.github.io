@@ -24,12 +24,13 @@ effect, and don't send the same offer twice to someone who let the first one lap
 checking with reception first, repeated "deadlines" that aren't real is what turns a good
 letter into junk mail.
 
-- Recall letter offer: free anti-glare/anti-scratch upgrade (normally £89) on any pair
-  ordered before the deadline.
+- Recall letter offer: free 1.6 high-index lenses (25% thinner) with premium anti-glare
+  coating on any pair ordered before the deadline, worth over £110.
 - Reactivation letter offer: £40 off the next pair, any frame, any lens.
 
-Both are placeholder amounts. Confirm the real margin on these before the first live send,
-lens upgrades and frame discounts need sign-off from whoever prices jobs, not a copywriter.
+The £40 reactivation figure is still a placeholder. Confirm the real margin on both offers
+before the first live send, lens upgrades and discounts need sign-off from whoever prices
+jobs, not a copywriter.
 
 
 | File | Bands | Trigger |
