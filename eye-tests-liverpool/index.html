@@ -35,7 +35,7 @@ h3{font-size:clamp(19px,4vw,24px)}
 p{margin:0 0 1em;max-width:66ch}
 li{max-width:66ch}
 .crumbs{font-family:var(--display);font-size:11px;letter-spacing:.18em;text-transform:uppercase;display:flex;gap:10px;align-items:center;width:min(100% - 40px,1100px);margin:14px auto 0}
-.crumbs a{text-decoration:none;color:var(--slate)}
+.crumbs a{text-decoration:none;color:var(--slate);display:inline-flex;align-items:center;min-height:24px;min-width:24px}
 .crumbs span{color:var(--gold-text)}
 .crumbs [aria-current]{color:var(--green)}
 :focus-visible{outline:2px solid var(--oxblood);outline-offset:3px}
@@ -94,7 +94,7 @@ section{padding:44px 0}
 .green a{color:var(--gold)}
 .quotes{margin:0;padding:0;list-style:none;display:grid;gap:14px}
 .quotes li{font-size:21px;font-style:italic;padding:14px 18px 14px 40px;position:relative;color:var(--ink);max-width:34ch}
-.quotes li::before{content:"“";position:absolute;left:8px;top:2px;font-family:var(--display);font-size:44px;line-height:1;color:var(--gold)}
+.quotes li::before{content:"‚Äú";position:absolute;left:8px;top:2px;font-family:var(--display);font-size:44px;line-height:1;color:var(--gold)}
 .grid{display:grid;gap:18px}
 .card{background:var(--parchment-2);border:1px solid var(--rule);border-radius:4px;padding:22px}
 .card h3{margin-top:8px}
@@ -119,7 +119,7 @@ section{padding:44px 0}
 .faq summary{cursor:pointer;font-family:var(--display);font-size:16px;line-height:1.3;color:var(--green);padding:12px 32px 12px 0;position:relative;list-style:none;min-height:44px}
 .faq summary::-webkit-details-marker{display:none}
 .faq summary::after{content:"+";position:absolute;right:4px;top:10px;color:var(--gold-2);font-size:24px}
-.faq details[open] summary::after{content:"–"}
+.faq details[open] summary::after{content:"‚Äì"}
 .faq p{padding:0 0 12px}
 .contact dl{margin:0;display:grid;gap:12px}
 .contact dt{font-family:var(--display);font-size:12px;letter-spacing:.24em;color:var(--oxblood)}
@@ -190,7 +190,7 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 .plan .price small{font-family:var(--body);font-size:16px;color:var(--slate);margin-left:6px}
 .plan .cover{margin:0;padding:0;list-style:none;display:grid;gap:8px;font-size:17px}
 .plan .cover li{padding-left:24px;position:relative}
-.plan .cover li::before{content:"✔";position:absolute;left:0;color:var(--green)}
+.plan .cover li::before{content:"‚úî";position:absolute;left:0;color:var(--green)}
 .plan .btn{width:100%}
 .opts{border-top:1px solid var(--rule);padding-top:12px}
 .opts summary{cursor:pointer;font-family:var(--display);font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--green);padding:10px 0}
@@ -277,30 +277,84 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 @media (min-width:1100px){.grid.cost{grid-template-columns:repeat(4,minmax(0,1fr))}}
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Optician", "@id": "https://winstanleyandson.co.uk/#business", "name": "Winstanley & Son Opticians", "alternateName": "Winstanley & Son Lunetiers", "description": "Independent eyecare and bespoke handmade eyewear on Park Road, Liverpool, since 1998. Varifocal experts, eye examinations, same day single vision glasses, and the only bespoke frame makers in Merseyside.", "url": "https://winstanleyandson.co.uk/", "telephone": "+44 151 726 0622", "email": "help@winstanleyandson.co.uk", "address": {"@type": "PostalAddress", "streetAddress": "252 Park Road", "addressLocality": "Liverpool", "addressRegion": "Merseyside", "postalCode": "L8 4UE", "addressCountry": "GB"}, "geo": {"@type": "GeoCoordinates", "latitude": 53.3846825, "longitude": -2.9648556}, "areaServed": ["Liverpool", "Dingle", "Toxteth", "Aigburth", "Merseyside", "Wirral"], "foundingDate": "1998", "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "17:00"}], "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "210", "bestRating": "5"}, "review": [{"@type": "Review", "author": {"@type": "Person", "name": "RB B"}, "reviewBody": "I've never been a fan of the big high street opticians where you often feel like just another number being pushed through the system. Winstanley was the complete opposite. The turnaround on my glasses was far faster than I expected, without compromising on quality.", "reviewRating": {"@type": "Rating", "ratingValue": 5, "bestRating": 5}}, {"@type": "Review", "author": {"@type": "Person", "name": "Heather Downing"}, "reviewBody": "For the first time in many years I have a pair of glasses that fit my face, look nice and do the job of helping me see properly. I was seen as a person, not just a customer.", "reviewRating": {"@type": "Rating", "ratingValue": 5, "bestRating": 5}}, {"@type": "Review", "author": {"@type": "Person", "name": "Lucy Koh"}, "reviewBody": "After struggling with my varifocals for three years I thought I'd give it a go. My lenses are 100%, it's like seeing in a whole new world. There was no hard sell. 100% worth travelling for.", "reviewRating": {"@type": "Rating", "ratingValue": 5, "bestRating": 5}}, {"@type": "Review", "author": {"@type": "Person", "name": "Olivia Cox"}, "reviewBody": "My first pair of varifocals, and I knew they specialised in them. I chose the bespoke frames and I absolutely love them. They were worth every penny.", "reviewRating": {"@type": "Rating", "ratingValue": 5, "bestRating": 5}}, {"@type": "Review", "author": {"@type": "Person", "name": "Miles Thorsen"}, "reviewBody": "Their technology to get your prescription spot on is like something from the future. No pushy suggestions to upgrade. Frames to suit every budget, and 0% payment plans without credit checks.", "reviewRating": {"@type": "Rating", "ratingValue": 5, "bestRating": 5}}, {"@type": "Review", "author": {"@type": "Person", "name": "Kris Magill"}, "reviewBody": "I had no idea that a greater field of vision than my existing lenses was even an option, or that technology to measure my frame and lenses to fit so accurately existed.", "reviewRating": {"@type": "Rating", "ratingValue": 5, "bestRating": 5}}, {"@type": "Review", "author": {"@type": "Person", "name": "Yvette Caddick"}, "reviewBody": "Gavin repaired my severely damaged glasses after I sat on them. He saved the day, I was able to drive the following day for an important assessment.", "reviewRating": {"@type": "Rating", "ratingValue": 5, "bestRating": 5}}, {"@type": "Review", "author": {"@type": "Person", "name": "Kin Kam"}, "reviewBody": "I decided to go for the Nikon lens and the difference is like night and day compared to my five-month-old lenses from a well known high street chain.", "reviewRating": {"@type": "Rating", "ratingValue": 5, "bestRating": 5}}], "potentialAction": {"@type": "ReserveAction", "name": "Book an eye test", "target": {"@type": "EntryPoint", "urlTemplate": "https://winstanleyandson.co.uk/book-an-eye-test/", "actionPlatform": ["http://schema.org/DesktopWebPlatform", "http://schema.org/MobileWebPlatform"]}, "result": {"@type": "Reservation", "name": "Eye examination appointment"}}, "sameAs": ["https://www.instagram.com/winstanleyandson/", "https://www.facebook.com/p/Winstanley-Son-100092286385362/", "https://maps.google.com/?cid=8221653390631894372"], "makesOffer": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Varifocal lens fitting", "url": "https://winstanleyandson.co.uk/varifocals-liverpool/"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Eye examination", "url": "https://winstanleyandson.co.uk/eye-tests-liverpool/"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Same day single vision glasses", "url": "https://winstanleyandson.co.uk/same-day-glasses-liverpool/"}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Bespoke handmade eyewear", "url": "https://winstanleyandson.co.uk/bespoke-eyewear-liverpool/"}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How much is an eye test?", "acceptedAnswer": {"@type": "Answer", "text": "Private eye examinations are charged; NHS sight tests are free if you qualify. Ask when you book and we will tell you which applies to you."}}, {"@type": "Question", "name": "Am I entitled to a free NHS eye test?", "acceptedAnswer": {"@type": "Answer", "text": "You are if you are over 60, under 16 (or under 19 in full-time education), diabetic, have glaucoma or a close relative with it, are registered blind or partially sighted, or receive certain benefits. We will check for you."}}, {"@type": "Question", "name": "How long does the examination take?", "acceptedAnswer": {"@type": "Answer", "text": "Allow around 30 minutes. We do not rush it."}}, {"@type": "Question", "name": "What does the eye test check?", "acceptedAnswer": {"@type": "Answer", "text": "Your vision and prescription, the health of the front and back of your eyes, eye pressure where appropriate, and how your eyes work together. You get a clear explanation, not a sales pitch."}}, {"@type": "Question", "name": "Do I have to buy glasses from you?", "acceptedAnswer": {"@type": "Answer", "text": "No. You are given your prescription and are free to take it anywhere. Most people stay because of the fitting and the frames."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://winstanleyandson.co.uk/"}, {"@type": "ListItem", "position": 2, "name": "Eye tests", "item": "https://winstanleyandson.co.uk/eye-tests-liverpool/"}]}</script>
+<script>/* Advertising attribution for this tab only, after the existing cookie opt-in.
+ * Do not store page URLs, names, email addresses or clinical form content.
+ */
+(function (root) {
+  'use strict';
+  var key = 'ws_booking_attribution_v1';
+  var fields = ['gclid', 'gbraid', 'wbraid', 'utm_source', 'utm_medium',
+    'utm_campaign', 'utm_content', 'utm_term'];
+  var memory = {};
+  function permitted() {
+    try { return root.localStorage.getItem('ck') === '1'; }
+    catch (_) { return false; }
+  }
+  function clean(input) {
+    var output = {};
+    fields.forEach(function (name) {
+      var value = input[name];
+      if (typeof value === 'string' && value.length > 0 && value.length <= 512 &&
+          !/[\u0000-\u001f\u007f]/.test(value)) output[name] = value;
+    });
+    return output;
+  }
+  function capture() {
+    if (!permitted()) {
+      memory = {};
+      try { root.sessionStorage.removeItem(key); } catch (_) {}
+      return;
+    }
+    try { memory = clean(JSON.parse(root.sessionStorage.getItem(key) || '{}') || {}); }
+    catch (_) {}
+    var incoming = {}, params = new URLSearchParams(root.location.search);
+    fields.forEach(function (name) { incoming[name] = params.get(name); });
+    incoming = clean(incoming);
+    // Replace the complete touch: never attach a previous Google click ID to a new campaign.
+    if (Object.keys(incoming).length) memory = incoming;
+    try { root.sessionStorage.setItem(key, JSON.stringify(memory)); } catch (_) {}
+  }
+  root.winstanleyBookingUrl = function (raw) {
+    if (!permitted()) { capture(); return raw; }
+    capture();
+    try {
+      var url = new URL(raw, root.location.href);
+      if (url.origin !== 'https://api.leadconnectorhq.com' ||
+          url.pathname !== '/widget/booking/4sJKbS06FGilvKy4Kjwy') return raw;
+      fields.forEach(function (name) {
+        if (memory[name]) url.searchParams.set(name, memory[name]);
+      });
+      return url.href;
+    } catch (_) { return raw; }
+  };
+  root.winstanleyCaptureAttribution = capture;
+  capture();
+})(window);
+</script>
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="/"><svg viewBox="0 0 330 330" aria-hidden="true"><defs><clipPath id="lidclip2"><path d="M75 165Q165 85 255 165Q165 245 75 165Z"/></clipPath></defs><circle cx="165" cy="165" r="160" fill="#0e3b2e"/><circle cx="165" cy="165" r="150" fill="none" stroke="#c8a24a" stroke-width="6"/><circle cx="165" cy="165" r="112" fill="#f4ecd9"/><path d="M75 165Q165 85 255 165Q165 245 75 165Z" fill="#fff" stroke="#1b1a17" stroke-width="9"/><g class="iris"><circle cx="165" cy="165" r="42" fill="#2f6f8f"/><circle cx="165" cy="165" r="19" fill="#1b1a17"/><circle cx="152" cy="152" r="7" fill="#fff"/></g><g clip-path="url(#lidclip2)"><rect class="lid" x="70" y="80" width="190" height="170" fill="#f4ecd9"/></g><path d="M75 165Q165 85 255 165" fill="none" stroke="#1b1a17" stroke-width="9" stroke-linecap="round"/></svg><span class="name">WINSTANLEY &amp; SON<small>LUNETIERS · LIVERPOOL</small></span></a>
+  <a class="brand" href="/"><svg viewBox="0 0 330 330" aria-hidden="true"><defs><clipPath id="lidclip2"><path d="M75 165Q165 85 255 165Q165 245 75 165Z"/></clipPath></defs><circle cx="165" cy="165" r="160" fill="#0e3b2e"/><circle cx="165" cy="165" r="150" fill="none" stroke="#c8a24a" stroke-width="6"/><circle cx="165" cy="165" r="112" fill="#f4ecd9"/><path d="M75 165Q165 85 255 165Q165 245 75 165Z" fill="#fff" stroke="#1b1a17" stroke-width="9"/><g class="iris"><circle cx="165" cy="165" r="42" fill="#2f6f8f"/><circle cx="165" cy="165" r="19" fill="#1b1a17"/><circle cx="152" cy="152" r="7" fill="#fff"/></g><g clip-path="url(#lidclip2)"><rect class="lid" x="70" y="80" width="190" height="170" fill="#f4ecd9"/></g><path d="M75 165Q165 85 255 165" fill="none" stroke="#1b1a17" stroke-width="9" stroke-linecap="round"/></svg><span class="name">WINSTANLEY &amp; SON<small>LUNETIERS ¬∑ LIVERPOOL</small></span></a>
   <nav class="desknav" aria-label="Main"><a href="/varifocals-liverpool/">Varifocals</a><a href="/eye-tests-liverpool/">Eye tests</a><a href="/same-day-glasses-liverpool/">Same day glasses</a><a href="/bespoke-eyewear-liverpool/">Bespoke eyewear</a><a href="/glasses-club/">Glasses Club</a><a href="/reviews/">Reviews</a><a href="/contact/">Find us</a></nav>
   <details class="menu"><summary>MENU</summary><nav aria-label="Menu"><a href="/varifocals-liverpool/">Varifocals</a><a href="/eye-tests-liverpool/">Eye tests</a><a href="/same-day-glasses-liverpool/">Same day glasses</a><a href="/bespoke-eyewear-liverpool/">Bespoke eyewear</a><a href="/glasses-club/">Glasses Club</a><a href="/reviews/">Reviews</a><a href="/contact/">Find us</a></nav></details>
   <a class="btn top-cta" href="https://api.leadconnectorhq.com/widget/booking/4sJKbS06FGilvKy4Kjwy">Book an eye test</a>
 </div></header>
 <main>
-<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>›</span><span aria-current="page">Eye tests</span></nav>
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>‚Ä∫</span><span aria-current="page">Eye tests</span></nav>
 
-<section class="hero"><div class="plane-tiles" aria-hidden="true"></div><div class="wrap"><div class="roundel plane-mark"><svg viewBox="0 0 330 330" role="img" aria-label="Winstanley &amp; Son"><defs><path id="rt" d="M45 165A120 120 0 0 1 285 165"/><path id="rb" d="M27 165A138 138 0 0 0 303 165"/><clipPath id="lidclip"><path d="M95 165Q165 100 235 165Q165 230 95 165Z"/></clipPath></defs><circle cx="165" cy="165" r="160" fill="#0e3b2e"/><circle cx="165" cy="165" r="152" fill="none" stroke="#c8a24a" stroke-width="2"/><circle cx="165" cy="165" r="98" fill="#f4ecd9"/><circle cx="165" cy="165" r="92" fill="none" stroke="#c8a24a" stroke-width="1.5"/><text font-family="Cinzel,Georgia,serif" font-weight="600" font-size="27" letter-spacing="4" fill="#f4ecd9"><textPath href="#rt" startOffset="50%" text-anchor="middle">WINSTANLEY &amp; SON</textPath></text><text font-family="Cinzel,Georgia,serif" font-weight="500" font-size="17" letter-spacing="5" fill="#c8a24a"><textPath href="#rb" startOffset="50%" text-anchor="middle">LUNETIERS · LIVERPOOL</textPath></text><path d="M95 165Q165 100 235 165Q165 230 95 165Z" fill="#fff" stroke="#1b1a17" stroke-width="3"/><g class="iris"><circle cx="165" cy="165" r="33" fill="#2f6f8f"/><circle cx="165" cy="165" r="29" fill="none" stroke="#1d4d66" stroke-width="3"/><circle cx="165" cy="165" r="14" fill="#1b1a17"/><circle cx="155" cy="155" r="6" fill="#fff"/></g><g clip-path="url(#lidclip)"><rect class="lid" x="93" y="98" width="144" height="134" fill="#f4ecd9"/></g><path d="M95 165Q165 100 235 165" fill="none" stroke="#1b1a17" stroke-width="6" stroke-linecap="round"/><path d="M112 132L103 121M137 115L132 102M165 108L165 94M193 115L198 102M218 132L227 121" stroke="#1b1a17" stroke-width="3" stroke-linecap="round"/><text x="165" y="243" font-family="Cinzel,Georgia,serif" font-size="11" letter-spacing="4" fill="#7b2d26" text-anchor="middle">EST · 1998</text></svg></div><div>
-  <p class="eyebrow">Eye tests · Liverpool</p>
-  <h1>Eye tests in Liverpool you won’t be rushed through</h1>
+<section class="hero"><div class="plane-tiles" aria-hidden="true"></div><div class="wrap"><div class="roundel plane-mark"><svg viewBox="0 0 330 330" role="img" aria-label="Winstanley &amp; Son"><defs><path id="rt" d="M45 165A120 120 0 0 1 285 165"/><path id="rb" d="M27 165A138 138 0 0 0 303 165"/><clipPath id="lidclip"><path d="M95 165Q165 100 235 165Q165 230 95 165Z"/></clipPath></defs><circle cx="165" cy="165" r="160" fill="#0e3b2e"/><circle cx="165" cy="165" r="152" fill="none" stroke="#c8a24a" stroke-width="2"/><circle cx="165" cy="165" r="98" fill="#f4ecd9"/><circle cx="165" cy="165" r="92" fill="none" stroke="#c8a24a" stroke-width="1.5"/><text font-family="Cinzel,Georgia,serif" font-weight="600" font-size="27" letter-spacing="4" fill="#f4ecd9"><textPath href="#rt" startOffset="50%" text-anchor="middle">WINSTANLEY &amp; SON</textPath></text><text font-family="Cinzel,Georgia,serif" font-weight="500" font-size="17" letter-spacing="5" fill="#c8a24a"><textPath href="#rb" startOffset="50%" text-anchor="middle">LUNETIERS ¬∑ LIVERPOOL</textPath></text><path d="M95 165Q165 100 235 165Q165 230 95 165Z" fill="#fff" stroke="#1b1a17" stroke-width="3"/><g class="iris"><circle cx="165" cy="165" r="33" fill="#2f6f8f"/><circle cx="165" cy="165" r="29" fill="none" stroke="#1d4d66" stroke-width="3"/><circle cx="165" cy="165" r="14" fill="#1b1a17"/><circle cx="155" cy="155" r="6" fill="#fff"/></g><g clip-path="url(#lidclip)"><rect class="lid" x="93" y="98" width="144" height="134" fill="#f4ecd9"/></g><path d="M95 165Q165 100 235 165" fill="none" stroke="#1b1a17" stroke-width="6" stroke-linecap="round"/><path d="M112 132L103 121M137 115L132 102M165 108L165 94M193 115L198 102M218 132L227 121" stroke="#1b1a17" stroke-width="3" stroke-linecap="round"/><text x="165" y="243" font-family="Cinzel,Georgia,serif" font-size="11" letter-spacing="4" fill="#7b2d26" text-anchor="middle">EST ¬∑ 1998</text></svg></div><div>
+  <p class="eyebrow">Eye tests ¬∑ Liverpool</p>
+  <h1>Eye tests in Liverpool you won‚Äôt be rushed through</h1>
   <p class="lead">Private and NHS eye examinations at our independent opticians on Park Road, Dingle, Liverpool L8. Everything explained, in plain English.</p>
   <div class="btn-row"><a class="btn" href="https://api.leadconnectorhq.com/widget/booking/4sJKbS06FGilvKy4Kjwy">Book an eye test</a><a class="btn ghost" href="sms:+447405935793">Text us</a><a class="btn ghost" href="https://wa.me/441514539045">WhatsApp</a></div>
-  <ul class="trust"><li><span class="stars">★★★★★</span><b>30 reviews</b> mention the eye test</li><li>Private and NHS</li><li>Free parking opposite</li></ul>
+  <ul class="trust"><li><span class="stars">‚òÖ‚òÖ‚òÖ‚òÖ‚òÖ</span><b>30 reviews</b> mention the eye test</li><li>Private and NHS</li><li>Free parking opposite</li></ul>
 </div></div></section>
 
 <section class="band"><div class="wrap">
     <h2>Thorough, then honest</h2>
   <ol class="steps">
     <li><div><h3>Book online or by text</h3><p>Pick a time that suits. If you qualify for an NHS sight test, it is free. Tell us if you have a particular problem so we allow time for it.</p></div></li>
-    <li><div><h3>The examination</h3><p>Our optometrist checks your vision, your prescription and the health of your eyes, inside and out. Patients call it “very comprehensive and thorough”, with a “cracking sense of humour”.</p></div></li>
+    <li><div><h3>The examination</h3><p>Our optometrist checks your vision, your prescription and the health of your eyes, inside and out. Patients call it ‚Äúvery comprehensive and thorough‚Äù, with a ‚Äúcracking sense of humour‚Äù.</p></div></li>
     <li><div><h3>Your results, explained</h3><p>You leave understanding what was found and what, if anything, you need. No lens upgrades you did not ask for.</p></div></li>
   </ol>
 </div></section>
@@ -310,12 +364,12 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
   <div class="grid three">
     <div class="card"><h3>Free NHS sight tests</h3><p>Over 60s, under 16s, diabetics, glaucoma risk and people on certain benefits. We check your entitlement for you.</p></div>
     <div class="card"><h3>Free parking</h3><p>Right outside on Park Road, and at Tesco Extra opposite with no time limit.</p></div>
-    <div class="card"><h3>Repairs and emergencies</h3><p>Sat on your glasses? We repair on the spot where we can. One patient was “able to drive the following day”.</p></div>
+    <div class="card"><h3>Repairs and emergencies</h3><p>Sat on your glasses? We repair on the spot where we can. One patient was ‚Äúable to drive the following day‚Äù.</p></div>
   </div>
   <p style="margin-top:18px">Prefer to know the cost is covered before anything goes wrong? <a href="/glasses-club/">Join the Glasses Club</a> and your annual eye test is discounted or free, depending on your plan.</p>
 </div></section>
 
-<section class="band"><div class="wrap"><h2>Seen as a person, not a number</h2><div class="grid three"><div class="review"><div class="stars" aria-label="Five stars">★★★★★</div><p>“I had no idea that a greater field of vision than my existing lenses was even an option, or that technology to measure my frame and lenses to fit so accurately existed.”</p><div class="who">Kris M. · Google review</div></div><div class="review"><div class="stars" aria-label="Five stars">★★★★★</div><p>“For the first time in many years I have a pair of glasses that fit my face, look nice and do the job of helping me see properly. I was seen as a person, not just a customer.”</p><div class="who">Heather D. · Google review</div></div><div class="review"><div class="stars" aria-label="Five stars">★★★★★</div><p>“Gavin repaired my severely damaged glasses after I sat on them. He saved the day, I was able to drive the following day for an important assessment.”</p><div class="who">Yvette C. · Google review</div></div></div></div></section>
+<section class="band"><div class="wrap"><h2>Seen as a person, not a number</h2><div class="grid three"><div class="review"><div class="stars" aria-label="Five stars">‚òÖ‚òÖ‚òÖ‚òÖ‚òÖ</div><p>‚ÄúI had no idea that a greater field of vision than my existing lenses was even an option, or that technology to measure my frame and lenses to fit so accurately existed.‚Äù</p><div class="who">Kris M. ¬∑ Google review</div></div><div class="review"><div class="stars" aria-label="Five stars">‚òÖ‚òÖ‚òÖ‚òÖ‚òÖ</div><p>‚ÄúFor the first time in many years I have a pair of glasses that fit my face, look nice and do the job of helping me see properly. I was seen as a person, not just a customer.‚Äù</p><div class="who">Heather D. ¬∑ Google review</div></div><div class="review"><div class="stars" aria-label="Five stars">‚òÖ‚òÖ‚òÖ‚òÖ‚òÖ</div><p>‚ÄúGavin repaired my severely damaged glasses after I sat on them. He saved the day, I was able to drive the following day for an important assessment.‚Äù</p><div class="who">Yvette C. ¬∑ Google review</div></div></div></div></section>
 
 <section><div class="wrap"><p class="eyebrow">Common questions</p><h2>Eye tests, answered</h2><div class="faq">
 <details><summary>How much is an eye test?</summary><p>Private eye examinations are charged; NHS sight tests are free if you qualify. Ask when you book and we will tell you which applies to you.</p></details>
@@ -330,12 +384,12 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 </main>
 <footer><div class="wrap">
   <div class="cols">
-    <div><a class="brand" href="/"><svg viewBox="0 0 330 330" aria-hidden="true"><defs><clipPath id="lidclip2"><path d="M75 165Q165 85 255 165Q165 245 75 165Z"/></clipPath></defs><circle cx="165" cy="165" r="160" fill="#0e3b2e"/><circle cx="165" cy="165" r="150" fill="none" stroke="#c8a24a" stroke-width="6"/><circle cx="165" cy="165" r="112" fill="#f4ecd9"/><path d="M75 165Q165 85 255 165Q165 245 75 165Z" fill="#fff" stroke="#1b1a17" stroke-width="9"/><g class="iris"><circle cx="165" cy="165" r="42" fill="#2f6f8f"/><circle cx="165" cy="165" r="19" fill="#1b1a17"/><circle cx="152" cy="152" r="7" fill="#fff"/></g><g clip-path="url(#lidclip2)"><rect class="lid" x="70" y="80" width="190" height="170" fill="#f4ecd9"/></g><path d="M75 165Q165 85 255 165" fill="none" stroke="#1b1a17" stroke-width="9" stroke-linecap="round"/></svg><span class="name">WINSTANLEY &amp; SON<small>LUNETIERS · LIVERPOOL</small></span></a>
-      <p style="margin-top:16px"><a href="https://www.google.com/maps/search/?api=1&query=Winstanley+%26+Son+252+Park+Road+Liverpool&query_place_id=ChIJjXJh8ugge0gRZP3_1jIuGXI" style="color:inherit">252 Park Road, Dingle, Liverpool L8 4UE</a><br>Opposite Tesco Extra, next to Sayers. Free parking.<br>Monday to Friday 9am to 5pm.<br><a href="tel:+441517260622">0151 726 0622</a> · <a href="mailto:help@winstanleyandson.co.uk">help@winstanleyandson.co.uk</a></p></div>
+    <div><a class="brand" href="/"><svg viewBox="0 0 330 330" aria-hidden="true"><defs><clipPath id="lidclip2"><path d="M75 165Q165 85 255 165Q165 245 75 165Z"/></clipPath></defs><circle cx="165" cy="165" r="160" fill="#0e3b2e"/><circle cx="165" cy="165" r="150" fill="none" stroke="#c8a24a" stroke-width="6"/><circle cx="165" cy="165" r="112" fill="#f4ecd9"/><path d="M75 165Q165 85 255 165Q165 245 75 165Z" fill="#fff" stroke="#1b1a17" stroke-width="9"/><g class="iris"><circle cx="165" cy="165" r="42" fill="#2f6f8f"/><circle cx="165" cy="165" r="19" fill="#1b1a17"/><circle cx="152" cy="152" r="7" fill="#fff"/></g><g clip-path="url(#lidclip2)"><rect class="lid" x="70" y="80" width="190" height="170" fill="#f4ecd9"/></g><path d="M75 165Q165 85 255 165" fill="none" stroke="#1b1a17" stroke-width="9" stroke-linecap="round"/></svg><span class="name">WINSTANLEY &amp; SON<small>LUNETIERS ¬∑ LIVERPOOL</small></span></a>
+      <p style="margin-top:16px"><a href="https://www.google.com/maps/search/?api=1&query=Winstanley+%26+Son+252+Park+Road+Liverpool&query_place_id=ChIJjXJh8ugge0gRZP3_1jIuGXI" style="color:inherit">252 Park Road, Dingle, Liverpool L8 4UE</a><br>Opposite Tesco Extra, next to Sayers. Free parking.<br>Monday to Friday 9am to 5pm.<br><a href="tel:+441517260622">0151 726 0622</a> ¬∑ <a href="mailto:help@winstanleyandson.co.uk">help@winstanleyandson.co.uk</a></p></div>
     <nav aria-label="Pages"><a href="/varifocals-liverpool/">Varifocals</a><a href="/eye-tests-liverpool/">Eye tests</a><a href="/same-day-glasses-liverpool/">Same day glasses</a><a href="/bespoke-eyewear-liverpool/">Bespoke eyewear</a><a href="/glasses-club/">Glasses Club</a><a href="/reviews/">Reviews</a><a href="/contact/">Find us</a></nav>
     <nav aria-label="More"><a href="/book-an-eye-test/">Book an eye test</a><a href="sms:+447405935793">Text us</a><a href="https://wa.me/441514539045">WhatsApp</a><a href="https://www.instagram.com/winstanleyandson/">Instagram</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav>
   </div>
-  <div class="fine">Winstanley &amp; Son · Independent opticians, Dingle, Liverpool · Bespoke eyewear designed and made by hand in Liverpool since 1998. Private and NHS eye examinations by our optometrist.</div>
+  <div class="fine">Winstanley &amp; Son ¬∑ Independent opticians, Dingle, Liverpool ¬∑ Bespoke eyewear designed and made by hand in Liverpool since 1998. Private and NHS eye examinations by our optometrist.</div>
 </div></footer>
 <div class="bar"><a class="btn ghost" href="tel:+441517260622">Call</a><a class="btn" href="https://api.leadconnectorhq.com/widget/booking/4sJKbS06FGilvKy4Kjwy">Book an eye test</a></div>
 <a class="chatbubble" href="sms:+447405935793" aria-label="Text us"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></a>
@@ -346,7 +400,7 @@ var ID='G-JHDZW4KQNL',PX='1684805635896482',c=null;try{c=localStorage.getItem('c
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}window.gtag=gtag;
 gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});
 gtag('js',new Date());gtag('config',ID,{send_page_view:true});
-function grant(){gtag('consent','update',{ad_storage:'granted',analytics_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});if(!window.fbq){!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init',PX);fbq('track','PageView');if(location.pathname.indexOf('varifocal-offer')>-1)fbq('track','ViewContent',{content_name:'varifocal offer'});}}
+function grant(){if(window.winstanleyCaptureAttribution)window.winstanleyCaptureAttribution();gtag('consent','update',{ad_storage:'granted',analytics_storage:'granted',ad_user_data:'granted',ad_personalization:'granted'});if(!window.fbq){!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init',PX);fbq('track','PageView');if(location.pathname.indexOf('varifocal-offer')>-1)fbq('track','ViewContent',{content_name:'varifocal offer'});}}
 function loadGA(){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ID;document.head.appendChild(s)}
 function later(fn){var done=false;function go(){if(done)return;done=true;fn()};['pointerdown','keydown','touchstart','scroll'].forEach(function(e){addEventListener(e,go,{once:true,passive:true})});if(document.readyState==='complete')setTimeout(go,4000);else addEventListener('load',function(){setTimeout(go,4000)})}
 later(loadGA);
@@ -355,7 +409,7 @@ if(c==='1'){later(grant)}else if(c===null){bar.hidden=false}
 bar.addEventListener('click',function(e){var b=e.target.closest('[data-ck]');if(!b)return;try{localStorage.setItem('ck',b.dataset.ck)}catch(x){}bar.hidden=true;if(b.dataset.ck==='1')grant()});
 document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'',ev=null;
 if(h.indexOf('widget/booking')>-1)ev='book_click';else if(h.indexOf('tel:')===0)ev='call_click';else if(h.indexOf('sms:')===0)ev='text_click';else if(h.indexOf('wa.me')>-1)ev='whatsapp_click';else if(h.indexOf('payment-link')>-1)ev='join_click';
-if(!ev)return;gtag('event',ev,{page_path:location.pathname,link_text:(a.textContent||'').trim().slice(0,40)});if(window.fbq){fbq('track',ev==='book_click'?'Schedule':(ev==='join_click'?'InitiateCheckout':'Contact'))}},{passive:true});
+if(!ev)return;gtag('event',ev,{page_path:location.pathname,link_text:(a.textContent||'').trim().slice(0,40)});if(window.fbq){if(ev==='book_click'){if(true)fbq('track','Schedule');else fbq('trackCustom','BookingButtonClick')}else fbq('track',ev==='join_click'?'InitiateCheckout':'Contact')}},{passive:true});
 })();
 </script>
 <script>(function(){
@@ -363,7 +417,7 @@ var modal=null,frameLoaded=false;
 function build(){
   var d=document.createElement('div');
   d.className='book-modal';d.hidden=true;d.setAttribute('role','dialog');d.setAttribute('aria-modal','true');d.setAttribute('aria-label','Book an eye test');
-  d.innerHTML='<div class="box"><div class="bmhead"><strong>Book an eye test</strong><button type="button" class="bmclose" aria-label="Close">&times;</button></div><div class="bmbody"><div class="bmloading">Loading the booking calendar…</div></div></div>';
+  d.innerHTML='<div class="box"><div class="bmhead"><strong>Book an eye test</strong><button type="button" class="bmclose" aria-label="Close">&times;</button></div><div class="bmbody"><div class="bmloading">Loading the booking calendar‚Ä¶</div></div></div>';
   document.body.appendChild(d);
   d.addEventListener('click',function(e){if(e.target===d)closeIt()});
   d.querySelector('.bmclose').addEventListener('click',closeIt);
@@ -373,7 +427,7 @@ function build(){
 function openIt(url){
   if(!modal)modal=build();
   if(!frameLoaded){
-    var f=document.createElement('iframe');f.src=url;f.title='Book an eye test';
+    var f=document.createElement('iframe');f.src=window.winstanleyBookingUrl?window.winstanleyBookingUrl(url):url;f.title='Book an eye test';
     modal.querySelector('.bmbody').appendChild(f);frameLoaded=true;
   }
   modal.hidden=false;document.documentElement.style.overflow='hidden';
