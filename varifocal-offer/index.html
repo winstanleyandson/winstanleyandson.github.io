@@ -337,6 +337,33 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
     });
     return output;
   }
+  var sources = [
+    [/(^|\.)google\.|googlequicksearchbox/, 'google', 'organic'],
+    [/(^|\.)bing\.com$/, 'bing', 'organic'],
+    [/(^|\.)(duckduckgo\.com|search\.yahoo\.com|ecosia\.org)$/, 'other-search', 'organic'],
+    [/(^|\.)(facebook\.com|fb\.com|messenger\.com)$/, 'facebook', 'social'],
+    [/(^|\.)instagram\.com$/, 'instagram', 'social'],
+    [/(^|\.)(youtube\.com|youtu\.be)$/, 'youtube', 'social'],
+    [/(^|\.)tiktok\.com$/, 'tiktok', 'social'],
+    [/(^|\.)(chatgpt\.com|openai\.com)$/, 'chatgpt', 'ai'],
+    [/(^|\.)perplexity\.ai$/, 'perplexity', 'ai'],
+    [/(^|\.)copilot\.microsoft\.com$/, 'other-ai', 'ai']
+  ];
+  function fromReferrer() {
+    var host = '', ref = '';
+    try { ref = String((root.document && root.document.referrer) || ''); } catch (_) {}
+    try { host = new URL(ref).hostname.toLowerCase(); } catch (_) {}
+    if (/^android-app:\/\/com\.google\.android\.googlequicksearchbox/.test(ref))
+      host = 'googlequicksearchbox';
+    if (!host || host === root.location.hostname) return {};
+    // Gemini lives on google.com, so it is checked before Google search.
+    if (/(^|\.)gemini\.google\.com$/.test(host)) return {utm_source: 'other-ai', utm_medium: 'ai'};
+    if (/(^|\.)mail\.google\.com$/.test(host)) return {utm_source: 'gmail', utm_medium: 'email'};
+    for (var i = 0; i < sources.length; i++) {
+      if (sources[i][0].test(host)) return {utm_source: sources[i][1], utm_medium: sources[i][2]};
+    }
+    return {utm_source: host.replace(/^www\./, '').slice(0, 100), utm_medium: 'referral'};
+  }
   function capture() {
     if (!permitted()) {
       memory = {};
@@ -350,6 +377,9 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
     incoming = clean(incoming);
     // Replace the complete touch: never attach a previous Google click ID to a new campaign.
     if (Object.keys(incoming).length) memory = incoming;
+    // No tagged link and nothing held for this tab: record only the kind of site the visitor
+    // came from (e.g. google / organic), never the referring page's address.
+    else if (!Object.keys(memory).length) memory = clean(fromReferrer());
     try { root.sessionStorage.setItem(key, JSON.stringify(memory)); } catch (_) {}
   }
   root.winstanleyBookingUrl = function (raw) {
