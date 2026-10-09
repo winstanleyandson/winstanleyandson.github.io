@@ -32,36 +32,37 @@ li{max-width:66ch}
 .btn:hover{background:var(--green-2);color:var(--parchment)}
 .btn.ghost{background:transparent;color:var(--green)}
 .btn.ghost:hover{background:rgba(14,59,46,.08);color:var(--green)}
-.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 8px}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0 4px}
 .chatbubble{position:fixed;right:16px;bottom:calc(78px + env(safe-area-inset-bottom));z-index:35;width:56px;height:56px;border-radius:50%;background:var(--green);color:var(--parchment);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.28);text-decoration:none;border:1.5px solid var(--gold)}
 .chatbubble:hover{background:var(--green-2);color:var(--parchment)}
 .chatbubble svg{width:26px;height:26px}
 
 /* header */
 .top{background:var(--parchment);border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:20}
-.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:66px}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:66px;width:min(100% - 40px,1240px)}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--green)}
 .brand svg{width:44px;height:44px;flex-shrink:0}
 .brand .name{font-family:var(--display);font-weight:600;font-size:17px;letter-spacing:.12em;line-height:1.05;white-space:nowrap}
 .brand .name small{display:block;font-size:9px;letter-spacing:.3em;color:var(--gold-text);font-weight:500;margin-top:3px}
-.menu{position:relative}
+.menu{position:relative;margin-left:auto}
 .menu summary{list-style:none;cursor:pointer;font-family:var(--display);font-size:12px;letter-spacing:.22em;padding:12px 4px;color:var(--green);min-height:44px;display:flex;align-items:center}
 .menu summary::-webkit-details-marker{display:none}
 .menu nav{position:absolute;right:0;top:100%;background:var(--parchment-2);border:1px solid var(--rule);border-radius:3px;min-width:240px;padding:8px 0;box-shadow:0 12px 30px rgba(27,26,23,.15)}
 .menu nav a{display:block;padding:12px 18px;font-family:var(--display);font-size:13px;letter-spacing:.14em;text-decoration:none;color:var(--green)}
 .menu nav a:hover{background:rgba(14,59,46,.06)}
 .top-cta{display:none}
+.top-tel{display:none}
 .desknav{display:none}
 
 /* hero */
-.hero{padding:44px 0 34px;background:var(--parchment);position:relative;overflow:hidden}
+.hero{padding:20px 0 30px;background:var(--parchment);position:relative;overflow:hidden}
 .hero .wrap{position:relative}
 .plane-tiles{position:absolute;right:-60px;top:-40px;width:46%;height:120%;opacity:.16;pointer-events:none;background-color:#11453a;background-image:linear-gradient(#08251d 2px,transparent 2px),linear-gradient(90deg,#08251d 2px,transparent 2px),linear-gradient(135deg,rgba(255,255,255,.14) 0 3px,transparent 3px 23px,rgba(0,0,0,.16) 23px 26px);background-size:26px 26px,26px 26px,26px 26px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 40%);mask-image:linear-gradient(90deg,transparent,#000 40%);transform:translateY(0)}
 .plane-mark{filter:drop-shadow(0 18px 24px rgba(14,59,46,.28))}
 @supports (animation-timeline: scroll()){@media (prefers-reduced-motion: no-preference){.plane-tiles{animation:tiles linear both;animation-timeline:scroll();animation-range:0 600px}.plane-mark{animation:mark linear both;animation-timeline:scroll();animation-range:0 600px}@keyframes tiles{to{transform:translateY(-120px)}}@keyframes mark{to{transform:translateY(40px) scale(.96)}}}}
-.hero .roundel{width:132px;height:132px;margin:0 0 22px}
+.hero .roundel{width:88px;height:88px;margin:0 0 6px}
 h1{max-width:16ch}
-.trust{display:flex;flex-wrap:wrap;gap:10px 22px;margin:22px 0 0;padding:0;list-style:none;font-size:16px;color:var(--slate)}
+.trust{display:flex;flex-wrap:wrap;gap:10px 22px;margin:14px 0 0;padding:0;list-style:none;font-size:16px;color:var(--slate)}
 .trust li{display:flex;align-items:center;gap:8px}
 .trust b{color:var(--ink);font-weight:600}
 .stars{color:var(--gold);letter-spacing:2px;font-size:15px}
@@ -134,6 +135,9 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
   .hero .wrap{display:grid;grid-template-columns:1fr 1.6fr;gap:40px;align-items:center}
   h1{max-width:20ch}
   .hero .roundel{width:min(100%,300px);height:auto;margin:0 auto}
+  .hero{padding:44px 0 34px}
+  .btn-row{margin:22px 0 8px}
+  .trust{margin-top:22px}
   .split{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}
   .contact .split{align-items:start}
   footer .cols{grid-template-columns:1.4fr 1fr 1fr}
@@ -146,11 +150,11 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
   .grid.four .service.wide{grid-column:span 12;display:flex;gap:40px;align-items:baseline}
   .grid.four .service.wide h3{flex:0 0 32%}
   .grid.four .service.wide p{max-width:none}
-  .menu{display:none}
-  .desknav{display:flex;gap:2px;margin-left:auto}
-  .desknav a{white-space:nowrap;padding:10px 10px;font-family:var(--display);font-size:12px;letter-spacing:.16em;text-decoration:none;color:var(--green)}
+  .desknav a{white-space:nowrap;padding:10px 6px;font-family:var(--display);font-size:11px;letter-spacing:.08em;text-decoration:none;color:var(--green)}
   .desknav a:hover{color:var(--oxblood)}
-  .top-cta{display:inline-flex;min-height:44px;padding:8px 16px;font-size:12px;white-space:nowrap;margin-left:12px}
+  .top-cta{display:inline-flex;min-height:44px;padding:8px 10px;font-size:11px;white-space:nowrap;margin-left:8px}
+  .top-tel{display:inline-flex;align-items:center;min-height:44px;margin-left:8px;font-family:var(--display);font-weight:600;font-size:12px;letter-spacing:.1em;color:var(--green);text-decoration:none;white-space:nowrap}
+  .top-tel:hover{color:var(--oxblood)}
   .bar{display:none}
   .chatbubble{bottom:24px}
   footer{padding-bottom:44px}
@@ -233,8 +237,8 @@ footer .fine{font-size:15px;color:#cfc4a8;margin-top:26px;border-top:1px solid r
 .swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:14px;margin-top:14px}.swatch{margin:0;text-align:center}.swatch svg{width:100%;height:auto}.swatch figcaption{font-size:.85em;margin-top:6px;color:var(--ink)}
 .coats{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;margin-top:14px}.coat{background:rgba(255,255,255,.45);border:1px solid rgba(0,0,0,.08);border-radius:6px;padding:14px}.coat .ico{width:44px;height:44px;color:var(--green,#0e3b2e);margin-bottom:8px}.coat .ico svg{width:100%;height:100%}.coat h3{font-size:1rem;margin:0 0 4px}.coat p{font-size:.9em;margin:0;line-height:1.45}
 
-/* 7 Sep 2026: stop desktop header overflowing below ~1500px, and media grid min-width */
-@media(min-width:720px) and (max-width:1520px){.desknav{gap:0}.desknav a{padding:10px 7px;font-size:11px;letter-spacing:.12em}.top-cta{padding:8px 12px;font-size:11px;margin-left:8px}}
+/* 9 Oct 2026: header phone number from 900px; text nav from 1260px (it measured 1172px with the number, plus scrollbar), MENU button below that. Media grid min-width. */
+@media(min-width:1260px){.menu{display:none}.desknav{display:flex;gap:0;margin-left:auto}}
 .media>*{min-width:0}.vfacade img{max-width:100%}
 
 /* 7 Sep 2026: booking calendar opens inline in a modal instead of leaving the site */
