@@ -1,0 +1,337 @@
+{
+ "id": "eg_1NXDcoPk",
+ "title": "I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened",
+ "duration": "18:00",
+ "rank": 15,
+ "url": "https://www.youtube.com/watch?v=eg_1NXDcoPk",
+ "published": "Sep 28, 2026",
+ "views": "128,092 views",
+ "description": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI gave Codex and GPT-6 Astra $10,000 of real money to trade stocks for seven trading days, and the goal was to beat the S&P 500. \n\nYou'll see how I set up the routines and agent handoffs, why I had to hand the actual trades to a Grok Bot, and how I changed the strategy when the agent was trading too cautiously. I check in at the end of every trading day with the actual numbers, including the day six Fed rate hike that dragged the portfolio down.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTimestamps:\n0:00 The $10K AI Gamble\n0:56 Day 0\n2:48 Day 1\n4:07 Day 2\n5:58 Day 3\n8:02 Day 4\n10:04 Day 5\n12:15 Day 6\n14:34 Day 7\n15:22 Final Results",
+ "links": [],
+ "chapters": [
+  {
+   "title": "The $10K AI Gamble",
+   "time": "0:00"
+  },
+  {
+   "title": "Day 0",
+   "time": "0:56"
+  },
+  {
+   "title": "Day 1",
+   "time": "2:48"
+  },
+  {
+   "title": "Day 2",
+   "time": "4:07"
+  },
+  {
+   "title": "Day 3",
+   "time": "5:58"
+  },
+  {
+   "title": "Day 4",
+   "time": "8:02"
+  },
+  {
+   "title": "Day 5",
+   "time": "10:04"
+  },
+  {
+   "title": "Day 6",
+   "time": "12:15"
+  },
+  {
+   "title": "Day 7",
+   "time": "14:34"
+  },
+  {
+   "title": "Final Results",
+   "time": "15:22"
+  }
+ ],
+ "guests": [],
+ "top_comments": [
+  {
+   "creator": false,
+   "likes": "118",
+   "replies": "3",
+   "text": "Viewers should be careful about treating this video as evidence that AI can trade profitably. By the creator’s own figures, the account finished at $9,900 versus $9,980 for the S&P 500: a 1% loss and 0.8 percentage points of underperformance.\r\nThroughout the challenge, he repeatedly pushes the system to trade more, removes filters, and increases exposure because he is frustrated with inactivity. Saying he would rather lose $500 than see little activity is a major red flag. More trades and less cash do not mean better decisions.\r\nWith frequent human interventions, changing rules, and only seven trading days, this experiment cannot establish a reliable trading edge. Screenshots alone also do n",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "30",
+   "replies": "1",
+   "text": "The biggest takeaway for me: the AI wasn’t really trading alone. Nate was constantly adjusting its strategy. That changes the experiment a lot.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "14",
+   "replies": "",
+   "text": "The thumbnail is misleading.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "10",
+   "replies": "1",
+   "text": "im curios if the sole goal was to outperform the S+P -then why have a 3k stake on the S+P fund ? What am I missing here ?? Surely If you are alligned with the movement in S+P with 3k of the 10K - then thats gonna move exactly as the S+P whoch woud mean you cannot outperform it with that fund ??????",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "6",
+   "replies": "",
+   "text": "What stood out wasn’t whether Astra beat the S&P — it was how much its behavior changed once the human started pushing it to take more risk. At D2C, that raises a more interesting question: when an autonomous agent makes the trades but humans still define the objective and risk tolerance, who is actually making the decision?",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": true,
+   "likes": "5",
+   "replies": "1",
+   "text": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?astra-7-day-trading&hcategory=youtube-videos&utm_campaign=plus-group\r\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=astra-7-day-trading&hcategory=youtube-videos&utm_campaign=free-group",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "5",
+   "replies": "",
+   "text": "Keep going with multiple updates!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "Thanks for the video. The most interesting part is not whether the model can beat S&P but if it can devise an intelligent strategy to do so. Based on the video this is not the case.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "You are the best Nate😊",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "Options would be fascinating. Did you have it run on fundamentals or did you pipe in any technical data?",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "can't wait for future updates :)",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Having someone with the capital actually try this out in real life is gold!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "One overseen issue here is LLMs get their \"knowledge\" from scraping everything from everywhere. Problem is 90% of traders lose money consistently.  The good ones can EASILY take $10k and make $5k-$10k profit in 7 days.- but you'll never see their strategies posted anywhere.  So by nature,  no LLM could ever research or create a consistently profitable system since it has only gathered garbage (on trading specifically). The TRUE edge is knowing how the markets work and coming up with something no one else has. Then you can be in the 10%.\nI guess it's like anything else with using LLMs. It's better as a tool to augment your OWN knowledge, rather than helping from scratch. Ex: asking an LLM wha",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "You should try trading ES futures, I’m curious how it would do with a more typical “day trading” strategy. Maybe even some chart analysis.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "You can do paper trading (ie not for real money) on alpaca.\nIt's a great way to burn tokens pointlessly and give yourself a good dose of AI psychosis",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Through emails you won’t compete with the quant, has to bet on finding and betting the break out or momentum, good work.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Still watching... but what if you didn't set a time limit and use a goal limit instead. Keep going until you either double or half your $10k?",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Hey Nate why don't you try to add some of our strategies to your setup and see how it performs? You have more leverage with options though.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Thanks for the video. Maybe can include ETFs?",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Maybe do a 1k start and on separate device just run 24/7 or restart when needed let it run for a year on maybe 30% growth parameters on something that is a little higher than good and see over a longer horizon if the magic shows or its time for fable or Gemini whatever edition then😅",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Try HFT trading with AI, would be good to see how it perform",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Thanks Nate for this new trading challenge.\nDespite, it's preventing me of trying",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Great video as usual. Thanks Nate!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Thank you! 🤝",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Really Good Practical and Informative vedio",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Keep it going!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Great challenge",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Looking forward to day 30 report",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I am coming to the event now.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Would be great to join the event Nate",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "There is never a substitute for your own judgement",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Would love to see the strategy it used",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Future Nate! Im hope i can get that AI OS live ticket!!!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Nate give us an update at after a month!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I would love to have some update videos, even 1 year",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "do for opus 5.5",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Yes please a 30-60-and 90 days",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "que gran contenido, yo igual lo intente con JEV pero no fue la mejor decision gracias por el video",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "I always use this prompt, its doing wonders : \" You are my trading manager, make no mistakes\"",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Cool experiment",
+   "published": "2 weeks ago"
+  }
+ ],
+ "slug": "15-i-gave-gpt-6-astra-10-000-to-trade-stocks-and-this-happened"
+}

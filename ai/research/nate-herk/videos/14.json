@@ -1,0 +1,337 @@
+{
+ "id": "7eo-11K2e3c",
+ "title": "I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know.",
+ "duration": "25:49",
+ "rank": 14,
+ "url": "https://www.youtube.com/watch?v=7eo-11K2e3c",
+ "published": "Sep 28, 2026",
+ "views": "155,125 views",
+ "description": "FREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/op...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI put Claude Sonnet 5.5 and Opus 5.5 through seven real workflows, from websites and motion design to spreadsheets, action plans, and live dashboards. \n\nWe compare the outputs, speed, and cost to see where Sonnet gets the job done and where Opus is worth the extra spend. I also show how clear prompts and reusable skills change which model I'd choose.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Sonnet 5.5 vs Opus 5.5\n0:41 Pricing and Choosing Your Model\n2:07 Website Design Comparison\n7:13 Motion Design Comparison\n9:57 Creating a 90-Day Action Plan\n14:15 Spreadsheets and Investor Decks\n17:43 Visual Explainers With Skills\n20:24 Building an AI News Dashboard\n23:16 Creating a YouTube Resource Guide\n24:49 Final Results and Takeaways",
+ "links": [],
+ "chapters": [
+  {
+   "title": "Sonnet 5.5 vs Opus 5.5",
+   "time": "0:00"
+  },
+  {
+   "title": "Pricing and Choosing Your Model",
+   "time": "0:41"
+  },
+  {
+   "title": "Website Design Comparison",
+   "time": "2:07"
+  },
+  {
+   "title": "Motion Design Comparison",
+   "time": "7:13"
+  },
+  {
+   "title": "Creating a 90-Day Action Plan",
+   "time": "9:57"
+  },
+  {
+   "title": "Spreadsheets and Investor Decks",
+   "time": "14:15"
+  },
+  {
+   "title": "Visual Explainers With Skills",
+   "time": "17:43"
+  },
+  {
+   "title": "Building an AI News Dashboard",
+   "time": "20:24"
+  },
+  {
+   "title": "Creating a YouTube Resource Guide",
+   "time": "23:16"
+  },
+  {
+   "title": "Final Results and Takeaways",
+   "time": "24:49"
+  }
+ ],
+ "guests": [],
+ "top_comments": [
+  {
+   "creator": false,
+   "likes": "45",
+   "replies": "2",
+   "text": "Hey @nateherk, I’ve noticed in all these comparison videos you (and others) compare cost which is great, but then say “if we promoted again maybe I could do better for the same price.”\n\nI’d love to see a video where you try that. Use a cheaper model and try to get the price closer to a higher model and see if you can get better quality for the same price.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "37",
+   "replies": "5",
+   "text": "I preferred the Sonnet version based on the animated cans. 🤷",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "17",
+   "replies": "3",
+   "text": "I’m confused here, are you testing the models against a blank slate or are they pulling from an enormous library of skills and MCP connectors? You said you weren’t sure if it used ElevenLabs for the voice demo, that makes it sound like they’re accessing tools that wouldn’t make it a faithful presentation.\n\nWouldn’t running them with nothing be better to see what they’re capable of?",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "9",
+   "replies": "1",
+   "text": "To be fair, it must also be said that if someone were to use these prompts from scratch, they would never achieve this results. It is obvious that you have already done a lot of architectural groundwork through your Cloud MD, Memory MD, and whatever else you have created beyond that. Likewise, your Cloud Code seems to have access to all service providers. What was your current architecture like at that time?",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "7",
+   "replies": "1",
+   "text": "The early bird catches the worm. 🤣💪🏽💯💯",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "6",
+   "replies": "1",
+   "text": "I really appreciate your videos man. One of like four or five guys I follow and rely on for keeping up with the world of AI.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "5",
+   "replies": "1",
+   "text": "In my opinion, using Sonnet generally doesn’t make much sense for me when it comes to coding. Opus 5.5 Medium has an Artificial Analysis Intelligence Index of 51 and a cost per task of $1.34. Sonnet 5.5 xhigh has an index of 52 and a cost of approximately $2.74. It’s much more expensive for nearly the same level of intelligence per task. Sonnet 5.5 High has an index of 47 and a cost of $1.08 per task. I’d rather use Opus 5.5 Medium as my default and pay a little more for greater intelligence. Speed might be a factor, though. It makes more sense to use MiMo-V2.6-Pro, which offers significantly lower costs while delivering nearly the same performance as Sonnet 5.5 High.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "1",
+   "text": "Nate uploads more than I do 😂",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Is it possible to get the prompt for the motion design part?",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": true,
+   "likes": "1",
+   "replies": "10",
+   "text": "FREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/optin/scrollcraft/?utm_source=youtube&utm_medium=organic&utm_content=sonnet-5.5-vs-opus-5.5&sl=yt_sonnet-5.5-vs-opus-5.5\nFREE MONTH voice to text: https://get.glaido.com/nate",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "One for planning, one for executing. Probably thats how they designed them. We need Fable 5.5 for actual architecture.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "1",
+   "text": "Wow Nate, this video was so insightful for me, loved it! I was a little bit confused on when to use each one.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Thanks for making this content",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "The difference is in parameters:\nHaiku < Sonnet < Opus < Fable\nMore parameters = best prediction = less agent steps = less tokens, but slower and more expensive.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Hey @nateherk, great video! Did you use Hyperframes for the video comparison? Your video demos are so dynamic, but mine tend to be quite static. Is it down to prompting, or have you built a custom skill on top of Hyperframes? \n\nWould love to know your workflow if you’re happy to share!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "can share motion show reel skills mate?",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "25:00 you said it’s 16$ difference, but it’s actually 26$",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "What would be a good video is to have an end state for each and see how much it costs to get to the end state. i find sonnet will take more prompts to get it how you like and so may end up being more expensive on a task. A single prompt isnt really representation on which one is better for a task as such as you had no end state.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Man i have a small request, could you just bring up a series such that even a non tech guy starts to understand how he can use ai in his daily life to automate his boring stuff and such that he gets to know what are all the new ai's coming up for people like him\nOr just a series like \"ai for web development\" or \"ai for content creation\" where u explain the A to Z about how they can use ai in their profession which might even help them achieve the things that they could never have achieved if they just replied completely on themselves",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "your content is excellent thanks!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Something that others do are blind tests; it'd be interesting if you could try the new releases with some blind comparisons.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Thanks for the comparison, next time please include some coding challenge part also.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "What I've been experimenting with, and would be interesting to see you do...  opus 5.5 Low vs Sonet Medium.  Subjectively, the opus experience is nicer, but would be interesting to see the costs as thinning tokens count towards output.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Look at Nate man, so agentic",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "damn that tweet you posted was a big mind blown meme for me thank you!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Bro, claude best platform ❤",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Interesting.  I’m trialling running my main coding sessions in sonnet, while doing the planning and reviewing using opus agents. After a week I can see it’s certainly stretching my usage much further with no significant impact on quality, but will see now if sonnet 5.5 changes anything.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Good job thank you but...you did not include the thinking effort that was set-up...the output and cost are quite different depending on it. You should try comparing Sonnet 5.5 (high effort) vs Opus 5.5 (medium).",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Sonnet 5.5 is perfect! Opus 5.5 is best if you're looking for that icing on the cake!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "bro, where can I get the \"motion showreel skill\". The generated video was freaking awesome.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "In the motion design comparison, I notice that Claude was able to generate graphics using tons of logos (Teams, Outlooks, GitHub, etc.). Claude never wants to display logos for me. How did you achieve this? Thanks for the video, great content!",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "My experience is that Opus 5.5 often gets complex tasks wrong whereas Fable 5.1 is more adept and serious about project work. I use Fable to rescue failed Opus 5.5 sessions",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Hey Nate! Please do make a video or tutorial on this latest AI E-commerce platform 3dimli. I have started using it since it's free to start. If you would make a tutorial on how to properly use it, it will be very helpful",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Great. Just confirmed what the cost per intelligence charts show.\n\nIt does not worth to prompt Sonnet 2-3-4 times and pay more in the end.\n\nJust use Opus 5.5",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Great video. However, I think that it would be better if you just gave the win to the model with the best output., not the cheapest one. Several times you say, “Well, if I use the money I save on Sonnet to give it more prompts, it will probably be as good” but then you’re not factoring in the cost of of human labour nor the bottleneck of having to do additional prompts by a human.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "My thoughts exactly you compare costs but how many go arounds to get what you want out of sonnet then tell us what it costs. I like your videos but this one was meh… very indecisive. Thank you tho I do like and learn a lot from your work",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "While impressive, when I saw your spreadsheet around 17:00...my concern is that if that was developed with AI, how do you know if the data is correct?  My concern is that users will lose that muscle memory to discern the difference.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Hey cool video would you share the motion showreel skill",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Did you switch to separate AI OS setups for GPTs and Claude? What’s the current situation now?",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "I think the question should be a different one. How important is perfectionism or quality to me? Am I willing to pay twice as much for a tiny bit more quality? Because a 1-to-1 proportional ratio between price and performance is not realistic anywhere. When it comes to food, but also vehicles, we pay a disproportionate premium for a tiny bit more quality, a tiny bit more health, a tiny bit more safety. Do I want to deliver the best possible work, or simply affordable work?",
+   "published": "2 weeks ago"
+  }
+ ],
+ "slug": "14-i-tested-sonnet-5-5-vs-opus-5-5-what-you-need-to-know"
+}
