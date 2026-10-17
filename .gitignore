@@ -1,0 +1,6 @@
+# Local-only research inputs (copyrighted transcripts and virtualenvs stay off the public site)
+ai/research/nate-herk/transcripts/*.md
+ai/research/nate-herk/transcripts/*.json
+ai/research/nate-herk/repos-clones/
+.venv/
+__pycache__/

@@ -1,0 +1,333 @@
+{
+ "id": "DFlELTiSPk8",
+ "title": "Master 96% of Codex in under 35 minutes",
+ "duration": "34:34",
+ "rank": 9,
+ "url": "https://www.youtube.com/watch?v=DFlELTiSPk8",
+ "published": "Oct 3, 2026",
+ "views": "80,634 views",
+ "description": "‪@OpenAI‬ http://www.chatgpt.com/download/\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nLearn the 18 core Codex concepts you need to start using it, even if you've never written a line of code. \n\nI walk through projects, skills, plugins, subagents, and more, with practical examples from my own setup. You'll learn how to give Codex context, turn repeat tasks into reusable workflows, and manage work from your desktop or phone.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Projects And AGENTS.md\n3:58 Agent Loop And Goals\n9:54 Local, Cloud, And Remote\n13:25 Worktrees And Codex Settings\n16:10 Models, Tokens, And Usage\n19:18 Effort And Permissions\n21:38 Skills And .agents\n25:03 Plugins And Browser Use\n27:05 Hosting With Sites\n28:18 Subagents And Scheduled Tasks\n31:41 Voice Mode\n34:19 Final Thoughts\n\n#ChatGPT_Partner",
+ "links": [
+  "http://www.chatgpt.com/download/"
+ ],
+ "chapters": [
+  {
+   "title": "Projects And AGENTS.md",
+   "time": "0:00"
+  },
+  {
+   "title": "Agent Loop And Goals",
+   "time": "3:58"
+  },
+  {
+   "title": "Local, Cloud, And Remote",
+   "time": "9:54"
+  },
+  {
+   "title": "Worktrees And Codex Settings",
+   "time": "13:25"
+  },
+  {
+   "title": "Models, Tokens, And Usage",
+   "time": "16:10"
+  },
+  {
+   "title": "Effort And Permissions",
+   "time": "19:18"
+  },
+  {
+   "title": "Skills And .agents",
+   "time": "21:38"
+  },
+  {
+   "title": "Plugins And Browser Use",
+   "time": "25:03"
+  },
+  {
+   "title": "Hosting With Sites",
+   "time": "27:05"
+  },
+  {
+   "title": "Subagents And Scheduled Tasks",
+   "time": "28:18"
+  },
+  {
+   "title": "Voice Mode",
+   "time": "31:41"
+  },
+  {
+   "title": "Final Thoughts",
+   "time": "34:19"
+  }
+ ],
+ "guests": [],
+ "top_comments": [
+  {
+   "creator": false,
+   "likes": "5",
+   "replies": "2",
+   "text": "Why did you stop talking and making videos on n8n? Reason! Looking forward to your response. On the other hand, this video and all the others are very interesting and provide great information and knowledge. Thank you.  Really appreciated.",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "The local vs. cloud section answered a question I didn’t even know I had 😂",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "1",
+   "text": "This is probably the best video I have seen where you explained things for a model in such a way it makes you want to switch to that model. I really wish you would go back to the basics and do this again for folder structure and business memory.  I think that is the biggest challenge out there.  But my guess is that ChatGPT is the best at that.",
+   "published": "12 days ago"
+  },
+  {
+   "creator": true,
+   "likes": "2",
+   "replies": "",
+   "text": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?el=codex-18-concepts&hcategory=youtube-videos&utm_campaign=plus-group\nFREE MONTH voice to text: https://get.glaido.com/nate",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "good overview. I really need more info around worktrees/branching and ideal processes for exploring different ideas while not compromising the original thread -- and how to merge everything once satisfied. Basically, version control (for dummies)",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Thanks for sharing 🙏❤",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "1",
+   "text": "I’m not technical at all but you are so easy to understand that I am back on track trying to set up an OS system (which I had given up on ever being able to figure out). Thank you!",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "God bless you",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "IBM Bob... I'm not sure why no one is using it - it's the best of everything and being completely slept on... It's built as an orchestrator it works with pretty well every model and between anthropic, openai, IBM's models, It scales across entire software development lifecycles (SDLC). It supports self-hosted, air-gapped on-premise deployments for banks and governments, includes built-in governance, and features specialized capabilities for legacy code modernization (like Java upgrades or Mainframe/COBOL translation).\n\nThe best part is that ensures you only pay for that premium logic when you absolutely need it, removing that layer and keeping costs down... I still use all the same models an",
+   "published": "13 days ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "This was great",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Awesome video Nate, many thanks it showed me things I was unaware of like sites",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Your the best dude thanks for the great content, I have getting it done cause the video i watched about Claude code opus 5.5 motion graphics. Bro thanks so much!!!",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "The video is awesome, looking for claude code as well similarly",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Extremely useful content!",
+   "published": "12 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "This was wonderful! Thank you so much!",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Big fan Nate ❤",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Thank you very much.",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Great video",
+   "published": "5 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Best part is Astra will make you a local transcriber if you ask where I can share your video and literally adopt your best applicable ideas",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "For vast majority of tasks you'd be absolutely fine with GPT-6 Luna. Terra I find kind of useless.",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Спасибо.",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "DO you still use and recommend the Get Shit Done and Superpowers skills that you've spoken about before or are those outdated now and should we get out of the way of models like Astra?",
+   "published": "12 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "30:14 , Scheduled task to monitor a public Facebook page, codex unable to pick it up.",
+   "published": "12 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Thanks mate, very informative video!\nWould there is a way to share the template of your agent.md file, please? Yours looks very detailed, Id love to personalize mine that much.\nAlso, how did you set up sub-agents? In that .md file originaly?\nThanks!",
+   "published": "10 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Codex stopped working for me. Two weeks in to it and now it absorbs twice the amount of usage?",
+   "published": "12 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Can I use skill one by one after creating in one agent?\nCan I automate these skill if I start using agents ?\nAnswer me",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "1",
+   "text": "The thing about codex is yeah its gonna be smarter and output better files than chat but for a lot of regular learning and planning you're killing your usage for chats you dont need to do in codex. You have unlimited usage with gpt 6 high in chat but not in codex.",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "{\"detail\":\"Bad Request\"}\n\nHave you had issues getting this message?\n\nIt comes up a lot for me when I try to edit in DaVinci Resolve.\n\nLove the vids!",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Hey nate is n8n still leading in the automation side? is it worth learning starting today?",
+   "published": "12 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "3:49 can your agent.md reference files OUTSIDE of the Herk2 folder?",
+   "published": "12 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "1:35 do you have a Herk folder for Codex and one for Claude, or just one used by both?",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Should I still watch the 5h video or is this enough?",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Thanks for sharing",
+   "published": "12 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Why are you still on 5.6 vs 6.1 for sol?",
+   "published": "12 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Are .codex files only for local Projects or do they work for cloud-based Projects too?",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Codex is unusable for the past 10 days. I kept getting disconnection issue",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "1",
+   "text": "Hi..Nate or anyone on chat..\n\nIs it possible to schedule tasks like posting on social media like do routine stuff? I only have the 20$ plan tho..\n\nWould really like some advice on this. I'm sorry for the trouble. 🙏🏽😢💕",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Codex concepts for non-coders is cute until your job description becomes \"babysit the agent\" 😂 Set the guardrails before the spreadsheet does.",
+   "published": "12 days ago"
+  }
+ ],
+ "slug": "09-master-96-of-codex-in-under-35-minutes"
+}

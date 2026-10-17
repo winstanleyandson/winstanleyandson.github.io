@@ -1,0 +1,327 @@
+{
+ "id": "rL5tw6h78zo",
+ "title": "I Tested the Viral Reverse Engineer Anything Skill. What You Need to Know.",
+ "duration": "14:59",
+ "rank": 3,
+ "url": "https://www.youtube.com/watch?v=rL5tw6h78zo",
+ "published": "Oct 13, 2026",
+ "views": "173,296 views",
+ "description": "FREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/op...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nREA Repo: https://github.com/morluto/rea\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI tested Reverse Engineer Anything (REA) with Claude Code to see how it could help me rebuild features from existing apps, including my own Loom-inspired screen recorder. \n\nI break down how it works, a five-step process for using it, and the limitations I ran into. The same approach can help you build better AI skills and workflows by giving your agent clear examples of the output you want.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Reverse Engineer Anything\n0:52 Better AI Outputs With References\n3:14 Rebuilding App Features\n5:20 How REA Works\n7:36 A Five-Step REA Workflow\n11:09 Limits and Caveats\n12:57 Results and Final Takeaways",
+ "links": [
+  "https://github.com/morluto/rea"
+ ],
+ "chapters": [
+  {
+   "title": "Reverse Engineer Anything",
+   "time": "0:00"
+  },
+  {
+   "title": "Better AI Outputs With References",
+   "time": "0:52"
+  },
+  {
+   "title": "Rebuilding App Features",
+   "time": "3:14"
+  },
+  {
+   "title": "How REA Works",
+   "time": "5:20"
+  },
+  {
+   "title": "A Five-Step REA Workflow",
+   "time": "7:36"
+  },
+  {
+   "title": "Limits and Caveats",
+   "time": "11:09"
+  },
+  {
+   "title": "Results and Final Takeaways",
+   "time": "12:57"
+  }
+ ],
+ "guests": [],
+ "top_comments": [
+  {
+   "creator": false,
+   "likes": "27",
+   "replies": "3",
+   "text": "REA uses actual decompilers to read code instructions, that's why it takes longer but also produces better results, if you vibe it the model is just guessing, using REA it reads actual instructions, passes it to a tester and compares, if the results are not the same it decompiles again until it gets it exact, so you can recreate features faithfully with enough time. it's most impactful in things like device emulation, where exactness is a must, if you're just copying a feature then yeah, it doesn't have to be exact byte for byte like you would get from REA",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "11",
+   "replies": "",
+   "text": "I actually agree on this. There's nothing that this does that we weren't able to do before with good prompting, good vision, and proper planning. Still it's nice to have it in a skill, although this will probably make me a little bit more lazy. 😂",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "9",
+   "replies": "1",
+   "text": "Future Nate! You reverse engineered the reverse engineering tool!! ... you are beyond next level!",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "6",
+   "replies": "",
+   "text": "It’s not new but the speed of doing so is new.",
+   "published": "2 days ago"
+  },
+  {
+   "creator": true,
+   "likes": "5",
+   "replies": "",
+   "text": "FREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/optin/scrollcraft/?utm_source=youtube&utm_medium=organic&utm_content=reverse-engineer-anything&sl=yt_reverse-engineer-anything\nFREE MONTH voice to text: https://get.glaido.com/nate",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "Really appreciated that you tested REA on rebuilding your own Loom-style screen recorder and gave the limits and caveats their own section, Nate, that kind of honesty is rare in viral-tool videos! Giving the agent clear examples of the output you want is such a practical takeaway for anyone building skills. Have you found certain kinds of features where reverse engineering from a reference still doesn't work well?",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "This is bonkers! Talk about leveling the playing field!",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "Reverse engineering will work for a lot of people who are not willing to pay for the software and probably don’t have a professional need to use it, but I can guarantee you enterprise companies are not reverse engineering software for their benefit, especially from Adobe, but it is interesting and certainly doable for some features, but there’s a big difference from actual algorithm coding and just prompting",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "The flip side is what I keep thinking about. If agents can take apart almost any app, the boundary that matters in your own setup is what they can never change.\n\nI run a one-person firm on Claude Code agents. They check live data, write the reports and prepare decisions, but trading code, its config and anything that moves money sit in a zone no agent can edit without my sign-off, however urgent. When a strategy hit its pre-set limit in September, the system halted on its own, and restarting it still needs me.\n\nAgents get more capable every month. The list of what they can't touch is the part I actually control.",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Your explanations are insane bro keep going",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Great video, appreciate the context on how reverse engineering with AI is nothing new, this is just a refinement of that model.",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "1",
+   "text": "Quick question for anyone who's been using these tools. Does it make more sense to use the standalone desktop apps for AI coding like Claude Code or Codex, or just run everything bundled inside VS Code? I've worked with both but honestly can't decide. I'd like to settle on one setup I can stick with long term, so either the standalone apps or VS Code. Anyone come across a recent comparison?",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "First comment 🎉",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "The examples you shared for reverse engineering are interesting. Thanks for sharing them.",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "I love your work bro!",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "The useful question for teams is what happens when the inputs stop being clean. That is usually where an AI workflow proves itself.",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Tip: make the agent write its full plan to a markdown file before it touches anything, then run a second pass whose whole job is to poke holes in the plan. First drafts are always wrong. That file also doubles as the agent's memory, so after its context compacts it can re-read the file and recover everything. A skill that reverse-engineers in one shot is a great ingredient, but the loop is what makes it a recipe.",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Woah this is lit, thanks Nate",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "I actually do that very often by benchmarks & studying competitors",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "i am just thinking about the time and effort you will spend to learn how to engineer anything manually; this is really insane how stuff is evolving with AI, particularly if you don't have any technical background. Thanks for sharing.",
+   "published": "23 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "oh that was you who recreated that guys motions graphic. lool i thought that was hillarious",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Your explanations of your project",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "After watching the video, yes you can go on rea I don’t use Claude personally I use antigravity. I instructed it to simple reverse engineer, Meta tune. A 52 mgb file from a free trial. Then told it to remove every pay wall and test it until it works without it. Then made a new version call (REA State Of delay) 😂 from the extracted source material without the properties that locks me out behind a paywall. Now I have an exact looking and working meta tune that installs like a free plugin. UNDER 4 hours btw! I had it running! It’s 2:22am while typing this 😂",
+   "published": "2 days ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "tried to put it to the test and got this:\n\"Opus 5.5 (1M context)'s safeguards flagged this session. You may be seeing this for the first time: Opus 5.5 (1M context) is more capable and has stronger safeguards as a result, which can sometimes flag\"",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Very useful! And very fitting timing given the recent news of someone vibe coding Adobe out of spite because they got charged a cancellation fee😅QQ - how would you ‘point’ your agent at the site of interest? Would this be through the inbuilt browser feature of Claude code, via Chrome extension so it can interact with all the features available, or some other pointer? Thanks!",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Great",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "i made my own meta tune because 200$ when i only needed one plug in that libary was stupid and robbery",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Give Ideas, how we can apply AIDLC in real world",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Not exactly new, to be fair. I've already done LLM-based binary analysis with headless Ghidra decompilation, and REA would basically drive the same Ghidra, just through a more generic layer.",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "I don't know anything about agents. What AI do I need to use REA so I can make a clone of the functionality of Lychee Slicer. I'm pissed they moved their best support setting like support painting, inline supports, and support projection.",
+   "published": "13 hours ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "What do you use for frame by frame analysis of a video ?",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "LMAO Just got it like 18 hours ago. Goodness man. You don't miss a thing.",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Did Ai also edit this video cos it hard to tell\nAnd pls do tell how you were able to edit a 30mins long video with Ai doing all the heavy lifting",
+   "published": "23 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Argon here Nate",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "How to run phone",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Hiii Nat \nI am a cement manufacturing industry professional need to automate my production report please help where to start as a complete beginner",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "If I want the specific color grading control that lightroom has I can point it there and I'll get the exact math. I did reverse engineering manually before and it's tedious to say the least, I'd normally much rather wing the color math than clone it. Winging something can take some experimentation iterations and doesn't guarantee a good result either.\n\nThat said, REA is quite poorly designed and I hope someone with a bit more agentic experience will create something proper. And I will not install and use gigantic 1:1 clones made by random people over the weekend, offering no support and holding no responsibility. Not defending adobe here cause they're evil, but I have standards. Cool party t",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Hello uncle",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Rea",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "La traduction française 😭😭",
+   "published": "3 days ago"
+  }
+ ],
+ "slug": "03-i-tested-the-viral-reverse-engineer-anything-skill-what-you-"
+}

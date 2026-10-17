@@ -1,0 +1,297 @@
+{
+ "id": "Z8lf5oWKfj0",
+ "title": "Matt Pocock: The Most Valuable AI Skill to Learn 2027",
+ "duration": "44:51",
+ "rank": 1,
+ "url": "https://www.youtube.com/watch?v=Z8lf5oWKfj0",
+ "published": "Oct 16, 2026",
+ "views": "62,315 views",
+ "description": "Hostinger VPS: http://hostinger.com/nateherkvps\nFREE AI OS Template: https://app.aiautomationsociety.ai/op...\nMy FREE resources: https://www.skool.com/ai-automation-s... &hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nMatt Pocock taught himself to code, wrote it by hand for about 10 years, and now has agents write all of it. \n\nIn this conversation he explains why the best results come from telling agents what you care about and fixing the environment they work in, why spec-driven development made his code worse for months, and why he runs Opus 5.5 on medium effort. We also get into the opportunities for non-technical people, how to stand out when anyone can build a portfolio in a weekend, and the trust ladder he recommends for getting started.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Intro\n1:50 When Coding Agents Clicked\n4:24 Tell Agents What You Care About\n9:39 Where the Opportunities Are\n14:55 Unknown Unknowns & Grill Me\n19:43 How to Stand Out\n26:03 The Spec-Driven Development Failure\n30:48 Models, Harnesses & Effort Levels\n35:27 How to Get Started\n41:31 What's Next for Matt",
+ "links": [],
+ "chapters": [
+  {
+   "title": "Intro",
+   "time": "0:00"
+  },
+  {
+   "title": "When Coding Agents Clicked",
+   "time": "1:50"
+  },
+  {
+   "title": "Tell Agents What You Care About",
+   "time": "4:24"
+  },
+  {
+   "title": "Where the Opportunities Are",
+   "time": "9:39"
+  },
+  {
+   "title": "Unknown Unknowns & Grill Me",
+   "time": "14:55"
+  },
+  {
+   "title": "How to Stand Out",
+   "time": "19:43"
+  },
+  {
+   "title": "The Spec-Driven Development Failure",
+   "time": "26:03"
+  },
+  {
+   "title": "Models, Harnesses & Effort Levels",
+   "time": "30:48"
+  },
+  {
+   "title": "How to Get Started",
+   "time": "35:27"
+  },
+  {
+   "title": "What's Next for Matt",
+   "time": "41:31"
+  }
+ ],
+ "guests": [
+  "Nate Herk | AI Automation and Matt Pocock"
+ ],
+ "top_comments": [
+  {
+   "creator": false,
+   "likes": "19",
+   "replies": "1",
+   "text": "The idea of telling agents what you care about instead of micromanaging every line is a huge shift. I’ve been learning insane stuff through AI Shortcuts for the Lazy Mind, and it’s becoming clear that the environment, context, and feedback loop matter just as much as the model. The trust ladder is probably the smartest way to start without getting overwhelmed.",
+   "published": "12 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "5",
+   "replies": "",
+   "text": "Matt is an impressively clear communicator. Thanks for this interview!",
+   "published": "12 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "The sad part is not everyone is there.\n\nTo get ahead, stay ahead of yourself. Learn something new and apply it every day. Stay ahead by understanding what actually works. And importantly, for yourself.",
+   "published": "7 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "Double dose of genius 😎 Matt x Nate 👌💙",
+   "published": "10 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Dude, the notes appearing on screen are so cool. Kudos",
+   "published": "12 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Where do we find Matt's skills?",
+   "published": "10 hours ago"
+  },
+  {
+   "creator": true,
+   "likes": "1",
+   "replies": "",
+   "text": "Hostinger VPS: http://hostinger.com/nateherkvps\nFREE MONTH voice to text: https://get.glaido.com/nate\nFREE AI OS Template: https://app.aiautomationsociety.ai/optin/ai-os/?utm_source=youtube&utm_medium=organic&utm_content=matt-pocock-pod&sl=yt_matt-pocock-pod",
+   "published": "14 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "This is very helpful for me In my agentic journey",
+   "published": "10 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Matt is spot on when he say that provisioning information (context) to coding agents in a systematic and reproducible manner is critically important (and extremely hard to get right). I've spent so much time designing different systems to do this, but they all seem to fail some way or another. 1) Must be easy to add data. Matt uses an inbox for docs to digest. That is super convenient, but goes against seperation of concerns. You need complete trust in the system, to not place docs inside the projects they concern. 2) The file digestion is inherently a lossy process and some docs cannot be safely reduced as they could hold agent outputs that are 'key findings' or other destillations that sho",
+   "published": "10 hours ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Very cool content, I do agree on the concept Creativity in Creativity out with AI. There is definitely a way of getting working together to get where you wanna go and learn along the way big time. Agree with Matt Pocock's take on that.",
+   "published": "9 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "1",
+   "text": "Are you guys getting clients as ai automation developer?",
+   "published": "14 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "1",
+   "text": "matt you seem to be on the side of the school of thought that humans still need to read and review code.. based on your videos and skills which are still very Human in the Loop. but this way you can never ship 1000 prs per month or get true automation. what is your thought on the other school of thought that believes we never need to actually review the code agents produced?",
+   "published": "12 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "unknown unknowns is a classic among seniors in software engineering, we have various practices such as requirements elicitation techniques to flesh out functional requirements (...for vibe coders: PRD content)",
+   "published": "3 hours ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "As a non coder, knowledge worker, this itw is just goooooooold ! \nSo much value to transpose to my perso and professional Life ! OMG, love how humble and thoughtful these guys are ! \n\nThanks so much !",
+   "published": "22 minutes ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Bro ypu are a gem, thank you for the free knowledfe G!!",
+   "published": "14 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "great interview!",
+   "published": "1 hour ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Love it Nate cheers",
+   "published": "1 hour ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "the most valuable skill for ai is knowing how to read and write which every 6yo has",
+   "published": "4 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Real quick guys, i have just realised communication is a thing again... wild",
+   "published": "7 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Gold 👏",
+   "published": "26 minutes ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Interesting @mattpocockuk I had the same issue but only with Claude Work with seeing Black screens when it captured the screen and not being able to utilize applications or browsers properly but not so much with Codex or even Hermes with Codex. Back to the Powrer of the Harness.",
+   "published": "7 hours ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Oh no, the window is closing. I'm gonna be left behind. What am I gonna do??? NGMI 😭😭",
+   "published": "12 minutes ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "2",
+   "text": "IMPORTANT.\nI'm a complete non-technical, 35 years old from Pakistan. \nI wanna learn and execute these AI skills BUT it's too overwhelming. \nNo idea where to begin; \n* Claude code? \n* TTS tools?\n* Video generation tools ?\n* Editing skills/ tools ?\n* Prompting? \nEtc etc.\nThere are millions of people with this same problem, it'll be good for you if you'd address it.",
+   "published": "14 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Amazing video loved it ❤",
+   "published": "14 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "First❤",
+   "published": "14 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "First!",
+   "published": "14 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Valuable insights , I love this one",
+   "published": "12 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Second",
+   "published": "14 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "1",
+   "text": "Not sure. Multiple projects in the same environment could also work really well, trying to learn from each other. Software engineers simply find it difficult to accept that orderly arrangement may not be that  important. Entropy is the way to go. Do not forget how complex our brain is. Let AI agents struggle and learn and creat patterns. Perhaps, one should also invite people without Software engineering background and learn from their experience as well, who may be perhaps getting better efficiency and accuracy out of AI agents. There is no rule that is right at this moment in the World. I am not sure if all Software engineers could really go deep into a domain to test the limits of AI. Sor",
+   "published": "9 hours ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "this dude did not clarify communication between human and AI",
+   "published": "13 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Hehe creatives rise",
+   "published": "7 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Revenge of the liberal arts majors",
+   "published": "1 hour ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "shitty background music, but nice",
+   "published": "12 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Matt is just a hype. Don't like his ideas.",
+   "published": "6 hours ago"
+  }
+ ],
+ "slug": "01-matt-pocock-the-most-valuable-ai-skill-to-learn-2027"
+}

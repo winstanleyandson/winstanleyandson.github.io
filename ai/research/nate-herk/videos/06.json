@@ -1,0 +1,325 @@
+{
+ "id": "MgvwZaDPCs4",
+ "title": "Grok Bot Just Got 2 Massive Upgrades. Do These Things Now.",
+ "duration": "9:11",
+ "rank": 6,
+ "url": "https://www.youtube.com/watch?v=MgvwZaDPCs4",
+ "published": "Oct 8, 2026",
+ "views": "122,027 views",
+ "description": "FREE AI OS Template: https://app.aiautomationsociety.ai/op...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nGrok Bot has two new upgrades: automatic model routing and native X search. \n\nI walk through switching my bots away from the paid X API, why I'm rethinking how I structure my skills, and what I'd still like to see from model routing. Then I show you my favorite setup: running Claude Code inside Grok Bot with my own subscription so I can access my projects from my phone.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Two Major Grok Bot Upgrades\n0:14 Automatic Model Routing\n2:00 Native X Search\n4:08 Free AI OS Kit\n4:35 Rethinking Your Skills\n6:39 Running Claude Code Inside Grok Bot\n8:59 Final Thoughts",
+ "links": [],
+ "chapters": [
+  {
+   "title": "Two Major Grok Bot Upgrades",
+   "time": "0:00"
+  },
+  {
+   "title": "Automatic Model Routing",
+   "time": "0:14"
+  },
+  {
+   "title": "Native X Search",
+   "time": "2:00"
+  },
+  {
+   "title": "Free AI OS Kit",
+   "time": "4:08"
+  },
+  {
+   "title": "Rethinking Your Skills",
+   "time": "4:35"
+  },
+  {
+   "title": "Running Claude Code Inside Grok Bot",
+   "time": "6:39"
+  },
+  {
+   "title": "Final Thoughts",
+   "time": "8:59"
+  }
+ ],
+ "guests": [],
+ "top_comments": [
+  {
+   "creator": false,
+   "likes": "40",
+   "replies": "",
+   "text": "None of these so called big names are talking about Claudixum and that says everything, make your own guess",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "39",
+   "replies": "",
+   "text": "At the end of the day the real lesson here is that Claudixum is like a hundred steps ahead",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "38",
+   "replies": "",
+   "text": "Claudixum is where the heavy lifting happens. If there's anything worth hoping for, that's my best guess.",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "37",
+   "replies": "",
+   "text": "Trump probably wasn't on board with Claudixum, but that's the positive shift we need",
+   "published": "7 days ago"
+  },
+  {
+   "creator": true,
+   "likes": "4",
+   "replies": "",
+   "text": "FREE AI OS Template: https://app.aiautomationsociety.ai/optin/ai-os/?utm_source=youtube&utm_medium=organic&utm_content=grok-bot-2-upgrades&sl=yt_grok-bot-2-upgrades\nFREE MONTH voice to text: https://get.glaido.com/nate",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "Grok Bot is insane. Like it does what I do it's actually fyee",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "Thanks! The Claude Code running in terminal of a bot was a life changer for me 😂❤",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "Thank you very much for all your premium Content",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "It is so much better this week.  So much smarter.  It burns usage like mad but it can call up CLIs and outsource its grunt work to grok 4.7, which is hard to use up the usage.",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "1",
+   "text": "This is cool. I understand why it would be useful to do this, but it would help to explain why to people. Grok Bot can start Codex CLI and Claude Code sessions on a local Mac, but the reason it would be useful to have it on Grok Bots computer is so that your desktop computer doesn’t need to be up and running.",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "The voice chat mode is a game changer. Even long sessions with spinning up vague prompts of complex sequenced or parallelized tasks, it doesn't miss a beat.",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "I think the future will be auto model routing. Because efficiency is going to be the name of the future game!",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Hey Nate\n\nJust wanted to ask, can you please do a video about the security and privacy of personal information, I like how you teach and do things, for instance I don't want to mistakenly give or expose my personal information and credentials to Grok bots and or other AIs agents especially around automation",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Guys, I have a question.\n\nWhat if you had something similar to Grok, but instead of running everything in the cloud, you had your own local virtual machine running directly on your phone?\n\nYou could connect any CLI or AI model you want, using your existing subscriptions. The platform would charge you only for tool connections, integrations, and other essential services—around $5–$10 per month.\n\nHere’s the real difference:\n\nYour device, your data: Your data stays on your phone instead of being stored in the cloud.\n\nYour own local VM: The virtual machine runs directly on your phone, with your agents and their execution environment operating locally.\n\nBring your own models: Connect whichever AI",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Every \"funtion\" has it's own bot from me. A coder, a visual specialist, a sound specialist, a security specialist, a counsel, a pr specialis, a financial administer, etc. etc.",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Having Grok Bot able to use Claude is great! I’m currently planning to run Claude code and codex through one Grok Bot .",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "When I can use Grok bot to run my Claude Desktop then I will use it.",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "they will never let us control and decide which model to use, because we'll end up using Opus 5.5 all the time XD",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I am using GB to render images locally but now I wonder if I could use this for Midjourney images when my machine is down. Have to experiment tomorrow",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Grok bots own Computer usage eats up tokens i think.. so youd be burning grok&claude tokens at the same time?",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Funny, I got notified this is published, then started watching, tried to write a comment, got notified again. The more the better. Cheers from Kortrijk, Belgium.",
+   "published": "8 days ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I love you ⏸️. I saw that they had a terminal. I was going to mess with it this weekend and test. You beat me to it, TG. 😅 always informative. Just like Dan Martell. Good catch my guy. 😊",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I think they want quality training data for future Grok",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Great content, Nate. I have been building my infra since Jan 2024. Just picked up Grok Bot a couple of days ago. Super impressed with the \"dot product\" of ease of use, power, and flexibility of it. Thanks for your free offer of your AIOS - will review today. Thanks again, and keep going!",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Things moving so fast",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "this is wild, inception moment",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "nice hack! thanks!",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Thanks",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I saw the Twitter post but again I was not sure whether Claude is still being picked up",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Geek level hardcore …. My modelllll",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Isn’t that like Hermes without the control?",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Ah-mazing",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I did connect it to codex yesterday already 😂😂😂😂 I should make a channel",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "1",
+   "text": "Can you please make a video on using the claude code subs in grokbot. Like a full video",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "That hack has exponentially increased what I can get done in a day. Love grok bot so much. Best AI tool made so far.",
+   "published": "4 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "স্পষ্টতই, ক্লডিক্সামের সব ব্যাগ খেয়ে ফেলার ঘটনা থেকে মনোযোগ সরানোর জন্য এটা একটা বড় কৌশল! প্রথম দিন থেকেই ক্লডিক্সামে আছি এবং কোনো আফসোস নেই।",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Wait until you use extra usage and it uses it in 15 minutes. Then support says tough shit.",
+   "published": "6 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "You're great nate. Don't change mate.",
+   "published": "6 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "오, 이 영상 너무 좋아요. Grok Bot에 Claude Code 연결해서 잘 사용하고 있어요.",
+   "published": "6 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "I wonder if grok bots use claude as a form of competitor warfare.... like grok floods anthropics systems (grok token usage is the prompt generation, while claude does the heavy lifting of fulfilling the user's request (actually doing the work)) and on top of that, its using up users usage (that was a mouthful) fulfilling requests made to grok, leaving me out of usage to then go use with claude, on things I might have wanted to work on separately with a different AI.. I real want to know more about this \"grok uses opus\" concept",
+   "published": "1 day ago"
+  }
+ ],
+ "slug": "06-grok-bot-just-got-2-massive-upgrades-do-these-things-now"
+}

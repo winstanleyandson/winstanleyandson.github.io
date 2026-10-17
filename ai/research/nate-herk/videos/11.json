@@ -1,0 +1,301 @@
+{
+ "id": "l8ywUsEJ2XQ",
+ "title": "How to Actually Build & Sell Software with AI as a Non-Techie",
+ "duration": "1:09:33",
+ "rank": 11,
+ "url": "https://www.youtube.com/watch?v=l8ywUsEJ2XQ",
+ "published": "Oct 2, 2026",
+ "views": "103,821 views",
+ "description": "FREE 14 day CodeRabbit trial: https://coderabbit.link/ad-nate-herk-001\nFREE First Client SOP: https://app.aiautomationsociety.ai/op...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI sat down with Dave Ebbelaar to talk about building software with AI, even if you have no coding experience. \n\nWe cover his workflow with Claude Code and Codex, how to test whether your app actually works, and what changes when you start building for other people. Dave also shares the architecture mistakes he’s made and the security basics to understand before you scale.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Intro\n1:28 A solid 10X\n8:19 Sponsor: CodeRabbit\n12:42 The four-rung ladder\n21:05 Building with agents\n27:04 First Client SOP\n42:44 Shipping it safely",
+ "links": [
+  "https://coderabbit.link/ad-nate-herk-001"
+ ],
+ "chapters": [
+  {
+   "title": "Intro",
+   "time": "0:00"
+  },
+  {
+   "title": "A solid 10X",
+   "time": "1:28"
+  },
+  {
+   "title": "Sponsor: CodeRabbit",
+   "time": "8:19"
+  },
+  {
+   "title": "The four-rung ladder",
+   "time": "12:42"
+  },
+  {
+   "title": "Building with agents",
+   "time": "21:05"
+  },
+  {
+   "title": "First Client SOP",
+   "time": "27:04"
+  },
+  {
+   "title": "Shipping it safely",
+   "time": "42:44"
+  }
+ ],
+ "guests": [
+  "Nate Herk | AI Automation and Dave Ebbelaar"
+ ],
+ "top_comments": [
+  {
+   "creator": false,
+   "likes": "15",
+   "replies": "",
+   "text": "Would love a deep dive on security, infrastructure, deployment, etc. for a mid-techie",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "2",
+   "text": "Hello Nate, I’ve watched quite a few of your YouTube videos. In some of them, I noticed that the files in your Codex and Claude Code projects are very well-organized and clean.\n\nIn one of your videos, I also noticed that you added metadata to a skill file. I’m guessing that organizing and structuring files properly like this might also help reduce daily usage compared to less organized setups.\n\nCould you please make a video explaining what kinds of files should be created when working on a project with Codex or Claude Code, what each file is used for, and how to properly organize and maintain them throughout the project?\n\nI think a detailed video on project file structure, skill files, metad",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "As a senior c++ dev coding for 19 years. AI is godsend i mostly check if code generated is up to par. made my life easier 3000x",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Wow I started learning AI 2 repo code from his vids. Thanks for sharing. Yes funny enough but goal engrng, compiler compression.. now works well. Almost completely autonomous.. Depending on how large complex your LoCs.  3-5x /goals with embedded handoff. Lots of success so far!",
+   "published": "2 weeks ago (edited)"
+  },
+  {
+   "creator": true,
+   "likes": "1",
+   "replies": "",
+   "text": "FREE 14 day CodeRabbit trial: https://coderabbit.link/ad-nate-herk-001\r\nFREE MONTH voice to text: https://get.glaido.com/nate",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "We need a practical session on this!! Pls 🙏🙏",
+   "published": "9 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "00:00:00 The 10x Developer Shift & Rise of Generalists\n00:12:44 The Four-Rung Ladder of Software Complexity\n00:21:05 Building with AI Agents & Intent-Driven Engineering\n00:33:30 Quality Control: Evals, Alignment & LLM-as-a-Judge\n00:42:46 Software Architecture & Avoiding Spaghetti Code\n00:55:05 Securing Your Stack: Databases, RLS & Firewalls\n01:02:37 Opportunities for Builders & The Future of AI Coding",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Thanks Nate! As someone building agentic Apps as a no coder myself, this is gold.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Building and selling with AI is cute until the data isn't ready and the ROI ghosts you. The part nobody demos: https://youtu.be/PTjnKD-6N0M",
+   "published": "12 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "is there a specific agent you use for security \n'/?",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "1",
+   "text": "second from Ethiopia",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "1",
+   "text": "what was Matt Pocock's skill Dave mentioned?",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "God damn Nate after talking to this guy you definitely need to do a video on omarchy by DHH !",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "3",
+   "text": "Hey Nate, quick question: which pricing model is the best to make the most money the fastest possible ? (We're talking about service-based businesses)\n\n- Performance-based with an upfront fee\n- Value-based",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "That was a great conversation about AI automation, appreciate this one ⭕️🎥",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Lots of golden nuggets in this one.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "this is gold!",
+   "published": "9 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Well done, Nate. 👊🏾",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Dave is awesome 🎉",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Big fan Nate ❤",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Спасибо!, что делитесь опытом!👍",
+   "published": "6 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Unexpected collab",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Gold!!!",
+   "published": "9 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Great video - thanks Nate and Dave.\n\nI think a good follow up to this video is a 'normie' break down of Matt Pocock's skills. Their skills have helped me enormously when it comes to application and software development.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "10x is a very, very conservative number. I believe for a single developer it’s more like 50x + because one can easily work on 5 projects still working less hours than before.",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Great content. Lots of value. Your audio across your clips needs normalizing. You have spikes between media that spikes in volume.",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "you can tell claude what you wanna build  but you can't tell what type of tools  you want to build  with and where and how you want to  run",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "I m do this",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "u aint find it or link it in ur description.",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "The 10x line is real for a solo build. The part I would not skip is what Dave said about the leak. Once emails and personal data are out, you do not get the old state back. A recruiting agent is that problem on day one. Resumes, comp notes, hiring-manager Slack. Shipping a demo to yourself is not the same as handing it to a hospital TA team that still has to explain the process to a compliance officer.",
+   "published": "9 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Timestamps in 2026?",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "best",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Please use Urdu language for your all videos",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Thank you for these looks into how production has changed. I just made something useful- a typewriter system that provides editorial guidance: Typewriter: Build with AI, from Interview to Video\nhttps://youtu.be/ET9Vc8mj8Wk",
+   "published": "13 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "first",
+   "published": "2 weeks ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Why would you recommend selling (while doing yourself) software for people who doesn’t code? This is literal terrible business",
+   "published": "2 weeks ago"
+  }
+ ],
+ "slug": "11-how-to-actually-build-sell-software-with-ai-as-a-non-techie"
+}

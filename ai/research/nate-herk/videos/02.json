@@ -1,0 +1,335 @@
+{
+ "id": "KZiF2J83zaY",
+ "title": "AI Agents Just Became Multiplayer. Here's How to Build Them.",
+ "duration": "22:24",
+ "rank": 2,
+ "url": "https://www.youtube.com/watch?v=KZiF2J83zaY",
+ "published": "Oct 15, 2026",
+ "views": "75,691 views",
+ "description": "$50 off Kylon here: https://kylon.io/lp/nate-herk?utm_sou...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nMost of us have been using AI in single-player mode, where your AI OS, skills, and connected accounts only help you. \n\nIn this video I show how my team and I use Kylon to put humans and agents in one shared workspace, including our own Claude Code and Codex subscriptions, so everyone can build apps and automations together. I also walk through a fresh setup, how credits and pricing work, and how I’d roll this out to a team one work stream at a time. Kylon sponsored this video.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Humans and Agents in One Workspace\n1:17 Single Player vs Multiplayer AI\n3:00 Why I Tried Kylon\n4:01 Moving a Team to AI Native\n5:29 AIS Instagram Room Example\n9:28 Fresh Workspace Setup\n12:55 Bring Your Own Claude Code and Codex\n16:30 How to Get Started With Your Team\n20:57 Final Thoughts",
+ "links": [
+  "https://kylon.io/lp/nate-herk?utm_source=youtube&utm_medium=creator&utm_campaign=nate_herk&utm_content=dedicated_video"
+ ],
+ "chapters": [
+  {
+   "title": "Humans and Agents in One Workspace",
+   "time": "0:00"
+  },
+  {
+   "title": "Single Player vs Multiplayer AI",
+   "time": "1:17"
+  },
+  {
+   "title": "Why I Tried Kylon",
+   "time": "3:00"
+  },
+  {
+   "title": "Moving a Team to AI Native",
+   "time": "4:01"
+  },
+  {
+   "title": "AIS Instagram Room Example",
+   "time": "5:29"
+  },
+  {
+   "title": "Fresh Workspace Setup",
+   "time": "9:28"
+  },
+  {
+   "title": "Bring Your Own Claude Code and Codex",
+   "time": "12:55"
+  },
+  {
+   "title": "How to Get Started With Your Team",
+   "time": "16:30"
+  },
+  {
+   "title": "Final Thoughts",
+   "time": "20:57"
+  }
+ ],
+ "guests": [],
+ "top_comments": [
+  {
+   "creator": false,
+   "likes": "32",
+   "replies": "",
+   "text": "Youtube is now full of people advertising subscription slop. $50 a month for diet slack that my agent can build itself.",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "32",
+   "replies": "3",
+   "text": "This is basically just Buzz, but paid since Buzz is free 🤔",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "11",
+   "replies": "7",
+   "text": "ok so instead of that we could potentially build that platform from a scratch. expose the agents to artifacts and work on them. Supply the app that we could build in half a day in rust give it api access, keep that in house rather than pay someone",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "7",
+   "replies": "",
+   "text": "22 minute infomercial \n\nnah I'm good",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "6",
+   "replies": "",
+   "text": "So, like, just use Buzz.\nNate make bank, Kylon drain my bank.",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "6",
+   "replies": "",
+   "text": "wow to bring your codex and claude code agent into the same workspace is supre cool!",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "Challenge #1. Finding humans to work with 😂",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "Trust me it's valuable tutorial  I can say it befor even watch it!",
+   "published": "1 day ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "Future Nate!",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "1",
+   "text": "This is what I am trying to figure out with my AI team. Trying to get a virtual world where they can all work and collab multi team. Things are moving fast",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "Thanks Nate! it is so cool!",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "Buzz does all this - for free",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "1",
+   "text": "Ideally grok bot could be invited as the main bot",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "I did this using Hermes a year ago.",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "The initial 90 free credits dont go far and the plan starts at 50$ for 500credits this is more expensive that grok bot and it can not do half the things grok can do locally on the computer it has its use case but damn expensive I tried it day -1 but won’t take a paid plan",
+   "published": "20 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Nate with the 🔥🔥🔥 content and tools",
+   "published": "13 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "And from what I gathered just now, it had the same connectors as Claude and codex",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Wild I built this for myself a few months ago and here it is now. Pretty bad ass Nate.",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Nate, you are a star... I was trying to build a similar system where different models brainstorm one idea in the live chat... A year ago, it was a big challenge.  While watching your video, I actually built such a complex chat (MVP) that I can run it on my MAC and use the subscriptions I have got on Claude, OpenAI, and Gemini, instead of burning out tokens. Thank you for the idea... love your channel bud...",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I have enjoyed Nate’s videos for awhile but it seems like things are slowing down. Keep it up Nate. I look forward to what else you discover",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Make the arabic language in the piste audio pls 🎉🎉",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "just use paperclip its MIT",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Okay... Same idea but can we make it Microsoft Teams council of agents?",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "super nice！",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "1",
+   "text": "Anthropic doesn't allow this kind of multi-player environment, they offer claude team sub for this purpose.",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Nice!",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Why not Claude Tag?",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Does Kylon have access to your content?  That always makes me nervous.",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "There will be an easier way in a day or so lol",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "1",
+   "text": "It looks the same as buzz",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Hell yeah",
+   "published": "1 day ago"
+  },
+  {
+   "creator": true,
+   "likes": " ",
+   "replies": "",
+   "text": "$50 off Kylon here: https://kylon.io/lp/nate-herk?utm_source=youtube&utm_medium=creator&utm_campaign=nate_herk&utm_content=dedicated_video\nFREE MONTH voice to text: https://get.glaido.com/nate\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=kylon-video-1&hcategory=youtube-videos&utm_campaign=free-group",
+   "published": "1 day ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "The multiplayer shift is real, and the coordination part is where we have bled the most. We once ran a researcher agent plus a writer agent for a client, and the researcher kept overwriting the writer's drafts because nobody owned the shared doc. Now we give one agent the pen and the other one read-only access, and everything gets calmer. The orchestration pattern matters more than the model :)",
+   "published": "2 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Multiplayer is where the hidden bill shows up: every extra agent adds handoffs, not just hands. We ran 40 Claude Code agents and cut to 15 because coordination was eating more than the parallelism gave back. Fewer agents, written handoffs and one reviewer per gate is what actually scaled.",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "On the 14:30 point about local agents going offline: if you go the Mac mini or plugged-in laptop route, run `caffeinate -s` in Terminal (built into macOS) or turn on \"prevent automatic sleeping\" in Energy settings, otherwise the machine still sleeps and your teammates get silence. Also curious: when a teammate messages your local Claude Code, does it inherit your env vars and connected accounts, or can you scope what it can touch per channel?",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "can you pls do a vid on the pros and cons of having your os on the cloud or local",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "I guess the operative word here is \"token burn\".",
+   "published": "18 hours ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Amazing sharing Thanks! May I ask: How do Claude Code and ChatGPT’s team plans compare with Kylon for team members collaborating on projects?",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Ramp Glass has entered the room",
+   "published": "1 day ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Yep, this channel is full infomercial now.  It happens.  I get it.  Get your money.",
+   "published": "1 day ago"
+  }
+ ],
+ "slug": "02-ai-agents-just-became-multiplayer-here-s-how-to-build-them"
+}
