@@ -41,6 +41,8 @@ All read-only. Make scenario run history; Slack alerts and the isolated test cha
 - **Skill-use register**: ask which skills ran after a job [09-master-codex-in-35-minutes.md 23:01]. The video is possibly promotional (partner tag in its description).
 - **Vet before install, one tool at a time**, logged as a change: [05-six-best-github-repos-for-claude.md 9:46 and 8:56]; Nate's token-saver figures are reported by him from another party's test.
 - **Collision awareness** for the rule that one session owns the website: [10-five-claude-code-mods.md 9:11]. Reads only; the mod itself is not adopted.
+- **One page of pending approvals and scheduled jobs**, each with its last run, as an extension of the agents register rather than a product: [13-openai-dots-vs-meta-muse.md 8:36]. One reviewer's account of a consumer agent; the product is not adopted and lists only, never approves.
+- **Change-during-trial log**: every rule or threshold change made while an agent is being evaluated goes in the change register beside its results, and the results are labelled as changed during the run: [15-gpt-6-astra-stock-trading-experiment.md 2:48 and 5:34]. The video is a trading experiment read only as a workflow lesson.
 
 ## System prompt
 
@@ -99,3 +101,5 @@ An entry is not live until it has a kill-switch line and a watchdog line. On any
 - [09-master-codex-in-35-minutes.md](../videos/09-master-codex-in-35-minutes.md): scheduled tasks [28:18]; which skills ran [23:01]; start on ask for approval [19:18]. Possibly promotional.
 - [05-six-best-github-repos-for-claude.md](../videos/05-six-best-github-repos-for-claude.md): one tool at a time [9:46]; spend tracking [8:56].
 - [10-five-claude-code-mods.md](../videos/10-five-claude-code-mods.md): file-collision check [9:11]; mining session logs for patterns [1:55], run locally with counts only.
+- [13-openai-dots-vs-meta-muse.md](../videos/13-openai-dots-vs-meta-muse.md): approvals tab and heartbeat in one place [8:36]. Product claims from garbled captions; promotional links in description.
+- [15-gpt-6-astra-stock-trading-experiment.md](../videos/15-gpt-6-astra-stock-trading-experiment.md): rule changes during a trial confound results [2:48, 5:34]. Herk's own figures, inconsistent; workflow lesson only, never money advice.

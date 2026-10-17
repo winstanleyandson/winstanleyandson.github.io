@@ -50,6 +50,8 @@ It builds on what is already live and does not replace it: the Make operations b
 - **Cheaper model on saved evidence.** Saved investigation may let a cheaper model do work that once needed a stronger one, so replay and compare [videos/03-reverse-engineer-anything-skill.md, 11:58].
 - **Usage by person, room and agent.** The reporting idea only; the video is sponsored and its pricing is second-hand [videos/02-multiplayer-ai-agents-kylon.md, 15:52].
 - **Waste spotting.** An unused tool loading on every message is a cost [videos/05-six-best-github-repos-for-claude.md, 8:56]. The token-saver savings there are his test results; none are adopted.
+- **Cheaper model first where a spec and a check exist, and a per-skill record of which model each skill was proven on.** A well-made skill produced near-identical output from both models, and the rule is to try the cheaper model where done is checkable [videos/14-sonnet-5-5-vs-opus-5-5-tested.md, 1:36, 23:58 and 24:44]. Single runs judged by Herk; the price figures are his and unchecked, so only the method is borrowed.
+- **Speed tier as a cost dial.** A top speed setting multiplied allowance use by several times for no quality gain on one job, so record allowance share per job type before any premium mode is trialled [videos/12-codex-ultrafast-tested.md, 1:33, 4:52 and 5:39]. One run per setting; plan pricing is self-reported.
 
 ## System prompt
 
@@ -106,3 +108,5 @@ Do not print or request token values. If a read fails, stop and say so in the al
 - [03 Reverse engineer anything](../videos/03-reverse-engineer-anything-skill.md): 11:58 replay on a cheaper model. Not sponsored; promotional links in description.
 - [02 Multiplayer AI agents](../videos/02-multiplayer-ai-agents-kylon.md): 15:52 usage by person, room and agent. Sponsored by Kylon.
 - [05 Six best GitHub repos](../videos/05-six-best-github-repos-for-claude.md): 8:56 waste spotting. Promotional links in description.
+- [14 Sonnet 5.5 against Opus 5.5](../videos/14-sonnet-5-5-vs-opus-5-5-tested.md): 1:36 cheaper model first and per-skill record; 23:58 a good skill levels the models; 24:44 cost logged per run. Figures unchecked; ScrollCraft is self-promotion; Glaido link promotional.
+- [12 Codex Ultrafast tested](../videos/12-codex-ultrafast-tested.md): 1:33 and 5:39 allowance share per job; 4:52 speed against allowance. Plan facts self-reported; Glaido and Hostinger links promotional.

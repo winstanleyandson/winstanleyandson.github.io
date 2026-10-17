@@ -42,6 +42,7 @@ All read-only: the Xero connection the finance agent already uses; the lens, fra
 - **Model as a cost dial.** Idea: model and effort choices change cost, so record them per job [videos/09-master-codex-in-35-minutes.md, 16:41 and 19:50]. The description carries promotional links, so treat the usage economics as self-reported.
 - **Spend tracker.** Idea: flag waste such as an unused tool loading on every message [videos/05-six-best-github-repos-for-claude.md, 8:56]. Token-saver add-ons from the same segment are not used.
 - **Proof by running.** Idea: a claim that something works is not evidence until it is run [videos/05-six-best-github-repos-for-claude.md, 7:54]. This is the basis for the golden questions.
+- **Formulas, not pasted values.** Idea: any sheet it reads or drafts should compute from live formulas so a changed input updates every figure and stays checkable [videos/14-sonnet-5-5-vs-opus-5-5-tested.md, 15:16]. Herk's own standard; the model comparison around it is single-run and its prices are unchecked.
 
 ## System prompt
 
@@ -100,3 +101,4 @@ Lead each report with the finding for the owner, then the table with citations, 
 - `videos/06-grok-bot-two-upgrades.md`: 2:22, 3:10 and 3:58, metered spend against native features, and checking self-reported cost.
 - `videos/09-master-codex-in-35-minutes.md`: 16:41 and 19:50, model and effort as a cost dial (possibly promotional, self-reported).
 - `videos/05-six-best-github-repos-for-claude.md`: 7:54 and 8:56, proof by running and the spend tracker.
+- `videos/14-sonnet-5-5-vs-opus-5-5-tested.md`: 15:16, formulas rather than pasted values (single-run comparison, prices unchecked; Glaido link promotional).

@@ -43,6 +43,7 @@ The website repository, drafts folder only; the build script is untouched and th
 - **Source note per guide.** [07](../videos/07-anthropic-context-engineering-claude-code.md) at 10:17, a design inference from the summary.
 - **Countable finish line.** [09](../videos/09-master-codex-in-35-minutes.md) at 7:57; Herk's own claim, possibly promotional.
 - **Skills as recipes.** Fix the recipe when a draft is off. [09](../videos/09-master-codex-in-35-minutes.md) at 22:12.
+- **Judge model scored against the owner's marks.** A second model grades drafts against a sample the owner has marked good or poor, its agreement with the owner is measured, and it is retuned after any model change; a second trust measure beside the edit rate. [11](../videos/11-build-and-sell-software-as-a-non-techie.md) at 36:44 to 39:25 and 41:12. The guest's method, pseudonymised samples only, owner approval unchanged.
 
 ## System prompt
 
@@ -105,3 +106,4 @@ On any error or missing input, stop and say so plainly. Do not retry quietly. St
 - [05](../videos/05-six-best-github-repos-for-claude.md): tells list, 3:57; HyperFrames, 0:24.
 - [07](../videos/07-anthropic-context-engineering-claude-code.md): source note per guide, 10:17.
 - [09](../videos/09-master-codex-in-35-minutes.md): countable finish line, 7:57; recipe skills, 22:12.
+- [11](../videos/11-build-and-sell-software-as-a-non-techie.md): judge model with measured agreement, 36:44 to 39:25; retune after a model change, 41:12. Interview; one sponsored segment.

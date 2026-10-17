@@ -47,6 +47,8 @@ Already live and built on, not rebuilt: the `ai-system-audit` skill, skills link
 - Ask which skills were used after a run (09-master-codex-in-35-minutes.md at 21:25 to 23:01).
 - Split a mega skill by the model each piece needs (06-grok-bot-two-upgrades.md at 4:35).
 - Install narrowly, read before installing, check for waste such as an unused server loading every message (05-six-best-github-repos-for-claude.md at 7:06 and 8:41).
+- Flag abandoned experiments and dead files in the build script, shared skills and estate copies, because they become hidden dependencies; flag only, never delete ([11-build-and-sell-software-as-a-non-techie.md](../videos/11-build-and-sell-software-as-a-non-techie.md) 48:26). The guest's experience, not measured.
+- Check that memory and persona files are dated and readable, since a product that started from stale chat memory misled its user ([13-openai-dots-vs-meta-muse.md](../videos/13-openai-dots-vs-meta-muse.md) 2:21 and 3:08). One reviewer's account; the products themselves are not adopted.
 
 ## System prompt
 
@@ -101,3 +103,5 @@ Mine session logs on the machine only. Output counts, never text. Never read pat
 - [09-master-codex-in-35-minutes.md](../videos/09-master-codex-in-35-minutes.md): plain-file skills that travel between tools (8:45); which skills ran (23:01). Cost figures are self-reported.
 - [06-grok-bot-two-upgrades.md](../videos/06-grok-bot-two-upgrades.md): splitting skills by model need (4:35); per-skill model pinning (6:20). Speculation, not a feature.
 - [05-six-best-github-repos-for-claude.md](../videos/05-six-best-github-repos-for-claude.md): narrow installs (7:06); spend tracking (8:41). The JetBrains test is relayed, not verified.
+- [11-build-and-sell-software-as-a-non-techie.md](../videos/11-build-and-sell-software-as-a-non-techie.md): abandoned experiments as hidden dependencies (48:26). Interview; one sponsored segment and promotional links.
+- [13-openai-dots-vs-meta-muse.md](../videos/13-openai-dots-vs-meta-muse.md): stale memory (2:21); memory and persona as editable files (3:08). Product claims from garbled captions; promotional links.

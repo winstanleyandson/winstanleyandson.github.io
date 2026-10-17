@@ -38,6 +38,8 @@ A local build-agent hook; offline fixture suites on sanitised copies; the websit
 - **Ship check**: ask whether the client would accept the work; his example script worked in one environment only. [08-expert-clone-andrej-karpathy.md 8:43]. Pocock's point that tests raise the floor for weak work supports it. [01-matt-pocock-most-valuable-ai-skill-2027.md 4:48]
 - **Real-browser proof**: an agent saying a feature works is not evidence; a command-line browser driver clicks through as a customer would. [05-six-best-github-repos-for-claude.md 7:34 and 7:06 to 7:54]. The summary rates the claim about token cost as Herk's and the README's. Claude Security from the same segment is not adopted: Codex stays sole reviewer.
 - **Rebuild and test**: do not ship because it looks finished. [03-reverse-engineer-anything-skill.md 10:21]. Seen, inferred, unknown labels on findings. [03-reverse-engineer-anything-skill.md 9:34]
+- **Define good, then build the test set from examples**: collect examples of a good result, turn them into fixtures, and let the build agent loop against a measurable target. [11-build-and-sell-software-as-a-non-techie.md 29:39 to 32:18]. The guest's practice, not measured; the estate uses pseudonymised fixtures only.
+- **Ask for the checkable definition of done before a build starts**: a vague brief is a design conversation, not a cheap build. [14-sonnet-5-5-vs-opus-5-5-tested.md 12:54]. Herk's single-run comparison; the method only.
 
 ## System prompt
 
@@ -92,3 +94,5 @@ Use fixtures only. Never touch a live scenario, token or patient record. If you 
 - [05-six-best-github-repos-for-claude.md](../videos/05-six-best-github-repos-for-claude.md) 7:06 to 7:54: real-browser proof. Description links to Glaido and Hostinger are promotional.
 - [01-matt-pocock-most-valuable-ai-skill-2027.md](../videos/01-matt-pocock-most-valuable-ai-skill-2027.md) 4:48: tests raise the floor. Interview; a Hostinger sponsor read runs near 8:26 to 9:37.
 - [03-reverse-engineer-anything-skill.md](../videos/03-reverse-engineer-anything-skill.md) 9:34, 10:21: labelled findings, rebuild and test.
+- [11-build-and-sell-software-as-a-non-techie.md](../videos/11-build-and-sell-software-as-a-non-techie.md) 29:39 to 32:18: define good, examples as the test set, loop against a target. Interview; the CodeRabbit segment is sponsored and is not adopted.
+- [14-sonnet-5-5-vs-opus-5-5-tested.md](../videos/14-sonnet-5-5-vs-opus-5-5-tested.md) 12:54: checkable definition of done first. Single runs; Glaido link promotional.
