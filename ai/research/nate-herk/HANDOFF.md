@@ -1,13 +1,22 @@
 # Handoff: Nate Herk's last 10 videos -> AI accounts + md files
 
-Started in a Claude Code cloud session on 17 October 2026, moved to local at the user's request.
-Branch: `claude/pensive-ride-e880xu`. Continue locally from a clean checkout of this repo with:
+Started in a Claude Code cloud session on 17 October 2026, continued the same day on Gavin's Mac in the
+Claude desktop app (the cloud environment could not reach youtube.com). Local checkout of this branch:
+`/Users/gavin/~:Code:winstanleyandson.github.io` (cloned 17 Oct 2026, branch `claude/pensive-ride-e880xu`).
 
-```
-claude --teleport session_01N57o8nGapzJHPSEgPFw9pH
-```
+## Local state (17 Oct 2026)
 
-(or claude.ai/code -> this session -> Open in -> Terminal). Teleport loads the full conversation history.
+- Transcripts: all 10 fetched via youtube-transcript-api (2.3k to 8.9k words each) into `transcripts/`.
+  They are **gitignored** (copyrighted material must not be published on this public GitHub Pages site); re-run
+  `scripts/fetch_transcripts.py` to regenerate them on another machine.
+- The 13 linked repos are shallow-cloned read-only under `repos-clones/` (also gitignored, ~650 MB; `morluto/rea`
+  and `heygen-com/hyperframes` are the big ones). Nothing from them is ever executed.
+- `estate-context.md` (new): sanitised brief of what is already live in the automation estate and the AI CEO/CMO/CIO/CFO
+  verdicts from the owner's 10 Oct 2026 internal reports, so account designs build on them instead of duplicating them.
+  Those internal reports stay off this repo: they contain trading figures.
+- Work runs as Claude Code workflows: 10 summary agents + 10 verifiers, then synthesis, then roster design, then one
+  writer + one checker per account, then a completeness critic. Outputs land in `ai/videos/`, `ai/SYNTHESIS.md`,
+  `ai/accounts/`.
 
 ## The request
 
@@ -42,18 +51,32 @@ meaning was intended (e.g. AI OS setup, or AI-run social accounts).
 | 9 | 3 Oct 2026 | 34:34 | 81k | Master 96% of Codex in under 35 minutes | DFlELTiSPk8 |
 | 10 | 2 Oct 2026 | 11:19 | 244k | Claude Code Mods Are Game Changers. Set Up These 5 NOW. | 9hetShMMp2s |
 
+### The 5 before them (added 17 Oct 2026 at the owner's request; same channel, long-form only)
+
+| # | Published | Length | Views | Title | ID |
+|---|-----------|--------|-------|-------|----|
+| 11 | 2 Oct 2026 | 1:09:33 | 104k | How to Actually Build & Sell Software with AI as a Non-Techie (interview; CodeRabbit sponsor link) | l8ywUsEJ2XQ |
+| 12 | 1 Oct 2026 | 9:03 | 44k | I Tested Codex's $500/mo Ultrafast. What You Need to Know. | pY5_Ux_YJjo |
+| 13 | 30 Sep 2026 | 16:30 | 474k | I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know. | BvvfZKKz4Yo |
+| 14 | 28 Sep 2026 | 25:49 | 155k | I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know. | 7eo-11K2e3c |
+| 15 | 28 Sep 2026 | 18:00 | 128k | I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened | eg_1NXDcoPk |
+
+Videos 11-15 link no GitHub repositories (video 11 carries only a sponsor link). Their metadata was fetched with
+`scripts/innertube_fetch.py --count 15` and merged into `videos.json` and `videos/11.json` to `15.json` on 17 Oct 2026;
+ranks 1-10 were left exactly as first collected.
+
 ## What is in this folder
 
 | File | Contents |
 |------|----------|
-| `videos.json`, `videos/NN.json` | Per video: title, date, duration, views, full description, chapter list with timestamps, cleaned resource links, guests, top ~40 comments (text, likes, replies, creator flag; commenter names removed). |
+| `videos.json`, `videos/NN.json` | 15 videos (the 10 newest plus the 5 before them). Per video: title, date, duration, views, full description, chapter list with timestamps, cleaned resource links, guests, top ~40 comments (text, likes, replies, creator flag; commenter names removed). |
 | `business-context.md` | Brief on Winstanley & Son's services, systems, workflows, constraints: the context the account-design agents need. |
 | `repos.json` | The 13 public GitHub repos the videos link to (REA skill, Scroll Craft, Hyperframes, Google Workspace CLI, Apify MCP, Humanizer, Addy Osmani's agent-skills, Expo skills, Supabase agent-skills, Stripe AI skills, Playwright CLI, Anthropic claude-plugins-official, open-seo). Clone with `git clone --depth 1`. |
 | `scripts/innertube_fetch.py` | Regenerates videos.json without an API key (works even where youtube.com is blocked). |
 | `scripts/fetch_transcripts.py` | Fetches the transcripts (needs normal internet). Run this first locally. |
 | `transcripts/` | Empty until fetch_transcripts.py has run. |
 
-## Next steps for the local session
+## Next steps for the local session (step 1 done 17 Oct 2026; steps 2-6 running as workflows)
 
 1. Fetch transcripts (see `transcripts/README.md`). Check the summary line: all 10 should succeed; video 1 and 9 are
    long and will be ~7k and ~5k words.

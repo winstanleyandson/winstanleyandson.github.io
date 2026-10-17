@@ -3220,6 +3220,1631 @@
     }
    ],
    "slug": "10-claude-code-mods-are-game-changers-set-up-these-5-now"
+  },
+  {
+   "id": "l8ywUsEJ2XQ",
+   "title": "How to Actually Build & Sell Software with AI as a Non-Techie",
+   "duration": "1:09:33",
+   "rank": 11,
+   "url": "https://www.youtube.com/watch?v=l8ywUsEJ2XQ",
+   "published": "Oct 2, 2026",
+   "views": "103,821 views",
+   "description": "FREE 14 day CodeRabbit trial: https://coderabbit.link/ad-nate-herk-001\nFREE First Client SOP: https://app.aiautomationsociety.ai/op...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI sat down with Dave Ebbelaar to talk about building software with AI, even if you have no coding experience. \n\nWe cover his workflow with Claude Code and Codex, how to test whether your app actually works, and what changes when you start building for other people. Dave also shares the architecture mistakes he’s made and the security basics to understand before you scale.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Intro\n1:28 A solid 10X\n8:19 Sponsor: CodeRabbit\n12:42 The four-rung ladder\n21:05 Building with agents\n27:04 First Client SOP\n42:44 Shipping it safely",
+   "links": [
+    "https://coderabbit.link/ad-nate-herk-001"
+   ],
+   "chapters": [
+    {
+     "title": "Intro",
+     "time": "0:00"
+    },
+    {
+     "title": "A solid 10X",
+     "time": "1:28"
+    },
+    {
+     "title": "Sponsor: CodeRabbit",
+     "time": "8:19"
+    },
+    {
+     "title": "The four-rung ladder",
+     "time": "12:42"
+    },
+    {
+     "title": "Building with agents",
+     "time": "21:05"
+    },
+    {
+     "title": "First Client SOP",
+     "time": "27:04"
+    },
+    {
+     "title": "Shipping it safely",
+     "time": "42:44"
+    }
+   ],
+   "guests": [
+    "Nate Herk | AI Automation and Dave Ebbelaar"
+   ],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "15",
+     "replies": "",
+     "text": "Would love a deep dive on security, infrastructure, deployment, etc. for a mid-techie",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "2",
+     "text": "Hello Nate, I’ve watched quite a few of your YouTube videos. In some of them, I noticed that the files in your Codex and Claude Code projects are very well-organized and clean.\n\nIn one of your videos, I also noticed that you added metadata to a skill file. I’m guessing that organizing and structuring files properly like this might also help reduce daily usage compared to less organized setups.\n\nCould you please make a video explaining what kinds of files should be created when working on a project with Codex or Claude Code, what each file is used for, and how to properly organize and maintain them throughout the project?\n\nI think a detailed video on project file structure, skill files, metad",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "As a senior c++ dev coding for 19 years. AI is godsend i mostly check if code generated is up to par. made my life easier 3000x",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Wow I started learning AI 2 repo code from his vids. Thanks for sharing. Yes funny enough but goal engrng, compiler compression.. now works well. Almost completely autonomous.. Depending on how large complex your LoCs.  3-5x /goals with embedded handoff. Lots of success so far!",
+     "published": "2 weeks ago (edited)"
+    },
+    {
+     "creator": true,
+     "likes": "1",
+     "replies": "",
+     "text": "FREE 14 day CodeRabbit trial: https://coderabbit.link/ad-nate-herk-001\r\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "We need a practical session on this!! Pls 🙏🙏",
+     "published": "9 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "00:00:00 The 10x Developer Shift & Rise of Generalists\n00:12:44 The Four-Rung Ladder of Software Complexity\n00:21:05 Building with AI Agents & Intent-Driven Engineering\n00:33:30 Quality Control: Evals, Alignment & LLM-as-a-Judge\n00:42:46 Software Architecture & Avoiding Spaghetti Code\n00:55:05 Securing Your Stack: Databases, RLS & Firewalls\n01:02:37 Opportunities for Builders & The Future of AI Coding",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Thanks Nate! As someone building agentic Apps as a no coder myself, this is gold.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Building and selling with AI is cute until the data isn't ready and the ROI ghosts you. The part nobody demos: https://youtu.be/PTjnKD-6N0M",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "is there a specific agent you use for security \n'/?",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "second from Ethiopia",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "what was Matt Pocock's skill Dave mentioned?",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "God damn Nate after talking to this guy you definitely need to do a video on omarchy by DHH !",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "3",
+     "text": "Hey Nate, quick question: which pricing model is the best to make the most money the fastest possible ? (We're talking about service-based businesses)\n\n- Performance-based with an upfront fee\n- Value-based",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "That was a great conversation about AI automation, appreciate this one ⭕️🎥",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Lots of golden nuggets in this one.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "this is gold!",
+     "published": "9 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Well done, Nate. 👊🏾",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Dave is awesome 🎉",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Big fan Nate ❤",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Спасибо!, что делитесь опытом!👍",
+     "published": "6 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Unexpected collab",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Gold!!!",
+     "published": "9 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great video - thanks Nate and Dave.\n\nI think a good follow up to this video is a 'normie' break down of Matt Pocock's skills. Their skills have helped me enormously when it comes to application and software development.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "10x is a very, very conservative number. I believe for a single developer it’s more like 50x + because one can easily work on 5 projects still working less hours than before.",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great content. Lots of value. Your audio across your clips needs normalizing. You have spikes between media that spikes in volume.",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "you can tell claude what you wanna build  but you can't tell what type of tools  you want to build  with and where and how you want to  run",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I m do this",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "u aint find it or link it in ur description.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "The 10x line is real for a solo build. The part I would not skip is what Dave said about the leak. Once emails and personal data are out, you do not get the old state back. A recruiting agent is that problem on day one. Resumes, comp notes, hiring-manager Slack. Shipping a demo to yourself is not the same as handing it to a hospital TA team that still has to explain the process to a compliance officer.",
+     "published": "9 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Timestamps in 2026?",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "best",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Please use Urdu language for your all videos",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Thank you for these looks into how production has changed. I just made something useful- a typewriter system that provides editorial guidance: Typewriter: Build with AI, from Interview to Video\nhttps://youtu.be/ET9Vc8mj8Wk",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "first",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Why would you recommend selling (while doing yourself) software for people who doesn’t code? This is literal terrible business",
+     "published": "2 weeks ago"
+    }
+   ],
+   "slug": "11-how-to-actually-build-sell-software-with-ai-as-a-non-techie"
+  },
+  {
+   "id": "pY5_Ux_YJjo",
+   "title": "I Tested Codex's $500/mo Ultrafast. What You Need to Know.",
+   "duration": "9:03",
+   "rank": 12,
+   "url": "https://www.youtube.com/watch?v=pY5_Ux_YJjo",
+   "published": "Oct 1, 2026",
+   "views": "44,202 views",
+   "description": "FREE First Client SOP: https://app.aiautomationsociety.ai/op...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI tested Codex Ultrafast against Standard with GPT-6 Astra on two tasks: editing a reel from my Google trip and creating a YouTube resource guide. We compare how long each took, the quality of the outputs, and how much weekly usage they burned through so you can decide when the extra speed is worth it.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Codex Ultrafast Explained\n1:09 Google Reel Test\n2:10 Watching Both Video Edits\n4:10 Quality, Speed, and Usage\n5:12 Resource Guide Test\n6:35 Comparing the Resource Guides\n8:12 When I'd Use Ultrafast",
+   "links": [],
+   "chapters": [
+    {
+     "title": "Codex Ultrafast Explained",
+     "time": "0:00"
+    },
+    {
+     "title": "Google Reel Test",
+     "time": "1:09"
+    },
+    {
+     "title": "Watching Both Video Edits",
+     "time": "2:10"
+    },
+    {
+     "title": "Quality, Speed, and Usage",
+     "time": "4:10"
+    },
+    {
+     "title": "Resource Guide Test",
+     "time": "5:12"
+    },
+    {
+     "title": "Comparing the Resource Guides",
+     "time": "6:35"
+    },
+    {
+     "title": "When I'd Use Ultrafast",
+     "time": "8:12"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "26",
+     "replies": "2",
+     "text": "Weekly quota gone in 15 minutes. For only 500$/mo! WHAT A TIME TO BE ALIVE!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "22",
+     "replies": "",
+     "text": "Your credits also go ultra fast",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "9",
+     "replies": "2",
+     "text": "🚨The $500 plan a month is not a new plan; it's the old $200 plan. It gives exactly the same amount of compute as the old $200 plan, it's just costs twice as much for the same amount of compute that the old $200.00 plan USED to give (it was reduced in half (meaning by 50%!!!). Make sure you do not misrepresent that! 🚨",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "7",
+     "replies": "",
+     "text": "Glamorisation of $500 plans is suuuuuuper cooooolllll. Uhuuul",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "8x faster seems to be achieved by halve the output speed of the base output speed.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "1",
+     "text": "LOL.  i was wondering why everything slowed down this week.  Now i know, if we slow down the $100 plan the $500 plan will seem really fast...",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Personally, I preferred the video produced by the standard mode; it felt more cohesive and harmonious—like a unified story. The \"Ultrafast\" mode was a bit jerky. In any case, that $500 price tag is a scam by OpenAI; I can't imagine anyone falling for it, except for influencers.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "first!!!! great vid Nate like usual.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Why are you comparing outputs? The model is the same, why would the results be \"better\" because of ultrafast?  I want/wanted to see the speed of execution",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Thanks you bro for your help to understand the future of AI",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "$500 ????",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Thanks that was what I needed to know without any bs",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Open AI trying to sell you a Porsche when underneath it’s still a Volkswagen.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "🔥🔥 The Best",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "make a video on new  Claude Code mod with examples . thank you",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Cadê a faixa de áudio em PT-BR ????? 😭😭",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": ":face-purple-crying:its fire",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "At this point, if you can afford to pay $500 on a GPT subscription, I recommend you invest that $500 into stocks and whatever, so it can make more money. Just stay with a $20+ subscription if you really want to.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": true,
+     "likes": " ",
+     "replies": "",
+     "text": "FREE First Client SOP: https://app.aiautomationsociety.ai/optin/first-client-SOP/?utm_source=youtube&utm_medium=organic&utm_content=ultrafast-gpt-6-astra&sl=yt_ultrafast-gpt-6-astra\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great vid thanks!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "its not just eating usage its devouring the usage completly",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Token maxing. But I love the final sentence of the video: we don’t really need it until we are backed against a wall",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Solid video.  My wife and I are trying to start her own flower business.  Best agentic or ai platform to build it out of?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "They should offer that starting with the Pro subscription, not just at the 500 level.",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Big fan Nate ❤",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Ok yea... It is fast.. But my concern is \"Do we really need it to be that fast? Is it worth burning so many tokens just to save a few minutes? \"... Just some thoughts  😁",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Wow 🔥🔥🔥",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I mean, which people are ready to pay five hundred dollars for such a plan? I don't really know, man.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Ultrafast doesn't justify 17% weekly usage burned in one task. OpenAI is desperate at this point.",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "What's the benefit of AI being ultra fast if human can't digest and understand the output?",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I’ve not watched the video yet but I bet it’s real time. 9 minutes and all usage gone 😂",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "1",
+     "text": "Hey bro thanks, what do you think about the grok bots $30 plan is the tokens reasonable for any work?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "You ever test your gasoline? TO make sure you got Premium instead of Regular? No? Nobody else has either. You have no idea what model was used to create either one of these. It was CLEARLY not the same model, not the same reasoning just faster.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I don’t think anyone’s going to pay for this one 😂",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Most dispointing video of Nate herk, but has good things to but I don't like how you made this just simple testing on rush like OpenAI has done with Dots,\n\nSO, yes it's my prespective through watching your videos mostly on 1+ year.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "$500/month is unacceptable",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "First 😂",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "No one cares about this lol",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "we are promoting the wrong people to represent us... lol",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "The mindless AI spin never ends.   AI is just an LLM.   It has no self volition or autonomy.  There is no proof of any “recursive self-improvement”.   It can’t verify its own results,  it has no logic or deduction capability,  it’s not trusted in law or medicine,  it’s only right 50% of the time,  and it can hallucinate.  It added glue to a pizza recipe, it said the word Google had 2 \"p\"s,  it said we should eat rocks for vitamins and minerals.   It's the biggest scam in history.  And why aren’t the AI “experts” on their super yachts ?   LOL.  The AI companies and their clueless fanboys and influencers are frauds and charlatans.",
+     "published": "2 weeks ago"
+    }
+   ],
+   "slug": "12-i-tested-codex-s-500-mo-ultrafast-what-you-need-to-know"
+  },
+  {
+   "id": "BvvfZKKz4Yo",
+   "title": "I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.",
+   "duration": "16:30",
+   "rank": 13,
+   "url": "https://www.youtube.com/watch?v=BvvfZKKz4Yo",
+   "published": "Sep 30, 2026",
+   "views": "473,624 views",
+   "description": "FREE First Client SOP: https://app.aiautomationsociety.ai/op...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI compare OpenAI's Dots and Meta's Muse across features, pricing, memory, integrations, and the experience of actually using them. \n\nYou'll see how they fit into Codex, Slack, WhatsApp, and everyday work, along with the bugs and limitations I ran into. I also share which one I'd choose, who I'd recommend Muse to, and where I think personal AI agents are headed.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 First Impressions\n1:40 Features and Memory\n4:32 Slack, WhatsApp, and Ecosystems\n6:58 Pricing and Model Performance\n8:18 Muse Interface Walkthrough\n10:57 Dots Interface and Limitations\n13:02 My Verdict and Final Thoughts",
+   "links": [],
+   "chapters": [
+    {
+     "title": "First Impressions",
+     "time": "0:00"
+    },
+    {
+     "title": "Features and Memory",
+     "time": "1:40"
+    },
+    {
+     "title": "Slack, WhatsApp, and Ecosystems",
+     "time": "4:32"
+    },
+    {
+     "title": "Pricing and Model Performance",
+     "time": "6:58"
+    },
+    {
+     "title": "Muse Interface Walkthrough",
+     "time": "8:18"
+    },
+    {
+     "title": "Dots Interface and Limitations",
+     "time": "10:57"
+    },
+    {
+     "title": "My Verdict and Final Thoughts",
+     "time": "13:02"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "74",
+     "replies": "2",
+     "text": "Looks Ike we have one more ai but we are trying to find use cases to use it😂",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "56",
+     "replies": "3",
+     "text": "I'm not leaving my Star Trek team of Grok Bots!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "46",
+     "replies": "6",
+     "text": "Impressed with MUSE so far for knowledge work. The underlying model will be revamped soon, but it seems 'good enough' for most everyday office tasks (reports, slides, market analysis). I wouldn't underestimate the power of a polished UX. It can be a barrier of entry for so many. DOTS, BOTS and MUSE all have their lanes. INSTINCT seems to be in a lane of its own. I am rather enjoying that one too.",
+     "published": "2 weeks ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "26",
+     "replies": "",
+     "text": "This is LITERALLY the video I’ve been waiting for since they released Dots cos other creators just could not explain the difference between these two bots. You’re a real teacher. 🔥",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "15",
+     "replies": "1",
+     "text": "I bet the rumored OpenAI consumer hardware/device will be called Dots Hub and basically have small agents running on it.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "10",
+     "replies": "",
+     "text": "this is the best review of Muse and Dot, while not influenced by paid sponsorship. I see why your channel is popular. I've subscribed.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "9",
+     "replies": "1",
+     "text": "The features on Muse seem interesting to recommend to people who are just now getting started on AI, but most business people I know are already in deep with OpenAI, or Anthropic (if they're more serious about coding). It's a heavy lift to get them off those platforms, and begin piling memory into a Facebook product, knowing the history of Meta and its data collection habits. On the positive side, it's good that Meta is pushing the frontier models to catch up on some of these features.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "8",
+     "replies": "1",
+     "text": "I can just tell you I love that you're doing the comparisons. I really like this. I love your series, you're like the only one really killing it. Other people are trying to copy you because they come up on my feed, but you've got it down.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "7",
+     "replies": "2",
+     "text": "I would like to have seen a comparison of privacy because that is the biggest issue I’ve seen brought up in regards to Muse.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": true,
+     "likes": "5",
+     "replies": "",
+     "text": "FREE First Client SOP: https://app.aiautomationsociety.ai/optin/first-client-SOP/?utm_source=youtube&utm_medium=organic&utm_content=muse-vs-dots&sl=yt_muse-vs-dots\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "5",
+     "replies": "1",
+     "text": "Since I'm mostly working with Claude I'm just waiting for anthropic to also release their version",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "My muse has her own Claude Code TUI. :D So she can delegate things to it that she can't do.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "You missed that they are launching multiple dots per account like Grok Bot they just released with a single dot at launch.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "I was expecting a GrokBot competitor too and was very disappointed when it turned out to be another Muse but targeted for employees. Should have been called \"Dot\" instead of \"Dots\" too.",
+     "published": "2 weeks ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "I like this thank you. Very non-hyped up, it's good to get a honest view. I was hoping for a bit more for Dots but I guess they'll improve it.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Great video, I love the char model but the possibility of muse doing meta ads and the cool keychain buddy coming later this has me intrigued, I’ll probably use both too",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Great comparison. Liked the 'slides' you use in your videos. What tool do you use, or is it your own creation?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "i'm already on muse and its free so I cant see myself swapping over. I was surprised how pro active muse is",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "If nothing else influenced me, Muse Monster looks cuter🤖",
+     "published": "2 weeks ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "This is an early version of openclaw shuves into chatgpt",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "1",
+     "text": "There are a lot of really rough edge cases. I found probably 10 today, but as far as the output of the product, it's far more advanced. I ran the same tasks.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Great Effort appreciate A lot",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Exactly what I needed ❤",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Thank you Nate!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "dots availability starting from pro subscription so that’s gonna be definitely a barrier. I’m not gonna use muse but for someone who is considering those two, if basic muse is free then the winner is clear",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Wow its an innovative way to collect user data from META. Good for them :)",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Nate the great is back with another one :finger-red-number-one:",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Very helpful",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I believe the dots slowdown was because of an API overload or excess system strain that occurred at the time. The feature worked perfectly fine the same evening!",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "great video summarizing... i haven't had a chance to use either muse or dots... i don't think either one is for me just yet, but your videos help me stay up to date!",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I can’t speak to every feature shown in the demo, but I started using dots a few days ago, and my experience so far has been seamless and amazing. The initiative and ability to follow through really make it feel next level. If you approach it mainly as an alternative to Grok bots, you might miss some of what it can do. I’ve found it more useful to treat it like a personal assistant I can collaborate with: give it context, work through ideas together, and let it challenge my assumptions.",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I didn't know about Open AI Dots before this video.",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "So Grok bot, muse and dots idea were already available in Claude app desktop. I’m not sure at all how this would really help in life.",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I've been using it in a cabinet shop, I used to code for a living, we monitor text messages, email, our online store, etc. It's a busy shop. I have enjoyed dots for firing off jobs, it seems to call/use the appropriate projects and skills when I ask it to. So far, it is cool. I like the grok bot concept of task oriented bots, which to me has the feeling that each bot is an expert on that topic, that said, I can ask bots anything about my business, which is well cataloged and the projects and it does it well.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "The Slack and WhatsApp part decides it for me, since that's where I'd use an assistant the most. Is anyone running Muse inside WhatsApp yet?",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I'll be a contrarian here, but I am loving dots. It's been working great for me, coding and creating presentations for me while I drive. Connected to my AI brain also.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great video bro",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "“Dots should have been called Bugs” 😂\nThanks for the breakdown!",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "1",
+     "text": "Great video. Super helpful for me understanding more about Dots. I think I already have something built with Hermes as an always on bot for scheduled automations. I was disappointed to learn that I need to be on a higher tier to use Dots but sounds like I don’t really need it",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "GOOD VIDEOS! thanks for sharing",
+     "published": "9 days ago"
+    }
+   ],
+   "slug": "13-i-tested-openai-s-dots-vs-meta-s-muse-what-you-need-to-know"
+  },
+  {
+   "id": "7eo-11K2e3c",
+   "title": "I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know.",
+   "duration": "25:49",
+   "rank": 14,
+   "url": "https://www.youtube.com/watch?v=7eo-11K2e3c",
+   "published": "Sep 28, 2026",
+   "views": "155,125 views",
+   "description": "FREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/op...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI put Claude Sonnet 5.5 and Opus 5.5 through seven real workflows, from websites and motion design to spreadsheets, action plans, and live dashboards. \n\nWe compare the outputs, speed, and cost to see where Sonnet gets the job done and where Opus is worth the extra spend. I also show how clear prompts and reusable skills change which model I'd choose.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Sonnet 5.5 vs Opus 5.5\n0:41 Pricing and Choosing Your Model\n2:07 Website Design Comparison\n7:13 Motion Design Comparison\n9:57 Creating a 90-Day Action Plan\n14:15 Spreadsheets and Investor Decks\n17:43 Visual Explainers With Skills\n20:24 Building an AI News Dashboard\n23:16 Creating a YouTube Resource Guide\n24:49 Final Results and Takeaways",
+   "links": [],
+   "chapters": [
+    {
+     "title": "Sonnet 5.5 vs Opus 5.5",
+     "time": "0:00"
+    },
+    {
+     "title": "Pricing and Choosing Your Model",
+     "time": "0:41"
+    },
+    {
+     "title": "Website Design Comparison",
+     "time": "2:07"
+    },
+    {
+     "title": "Motion Design Comparison",
+     "time": "7:13"
+    },
+    {
+     "title": "Creating a 90-Day Action Plan",
+     "time": "9:57"
+    },
+    {
+     "title": "Spreadsheets and Investor Decks",
+     "time": "14:15"
+    },
+    {
+     "title": "Visual Explainers With Skills",
+     "time": "17:43"
+    },
+    {
+     "title": "Building an AI News Dashboard",
+     "time": "20:24"
+    },
+    {
+     "title": "Creating a YouTube Resource Guide",
+     "time": "23:16"
+    },
+    {
+     "title": "Final Results and Takeaways",
+     "time": "24:49"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "45",
+     "replies": "2",
+     "text": "Hey @nateherk, I’ve noticed in all these comparison videos you (and others) compare cost which is great, but then say “if we promoted again maybe I could do better for the same price.”\n\nI’d love to see a video where you try that. Use a cheaper model and try to get the price closer to a higher model and see if you can get better quality for the same price.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "37",
+     "replies": "5",
+     "text": "I preferred the Sonnet version based on the animated cans. 🤷",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "17",
+     "replies": "3",
+     "text": "I’m confused here, are you testing the models against a blank slate or are they pulling from an enormous library of skills and MCP connectors? You said you weren’t sure if it used ElevenLabs for the voice demo, that makes it sound like they’re accessing tools that wouldn’t make it a faithful presentation.\n\nWouldn’t running them with nothing be better to see what they’re capable of?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "9",
+     "replies": "1",
+     "text": "To be fair, it must also be said that if someone were to use these prompts from scratch, they would never achieve this results. It is obvious that you have already done a lot of architectural groundwork through your Cloud MD, Memory MD, and whatever else you have created beyond that. Likewise, your Cloud Code seems to have access to all service providers. What was your current architecture like at that time?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "7",
+     "replies": "1",
+     "text": "The early bird catches the worm. 🤣💪🏽💯💯",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "6",
+     "replies": "1",
+     "text": "I really appreciate your videos man. One of like four or five guys I follow and rely on for keeping up with the world of AI.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "5",
+     "replies": "1",
+     "text": "In my opinion, using Sonnet generally doesn’t make much sense for me when it comes to coding. Opus 5.5 Medium has an Artificial Analysis Intelligence Index of 51 and a cost per task of $1.34. Sonnet 5.5 xhigh has an index of 52 and a cost of approximately $2.74. It’s much more expensive for nearly the same level of intelligence per task. Sonnet 5.5 High has an index of 47 and a cost of $1.08 per task. I’d rather use Opus 5.5 Medium as my default and pay a little more for greater intelligence. Speed might be a factor, though. It makes more sense to use MiMo-V2.6-Pro, which offers significantly lower costs while delivering nearly the same performance as Sonnet 5.5 High.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "1",
+     "text": "Nate uploads more than I do 😂",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Is it possible to get the prompt for the motion design part?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": true,
+     "likes": "1",
+     "replies": "10",
+     "text": "FREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/optin/scrollcraft/?utm_source=youtube&utm_medium=organic&utm_content=sonnet-5.5-vs-opus-5.5&sl=yt_sonnet-5.5-vs-opus-5.5\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "One for planning, one for executing. Probably thats how they designed them. We need Fable 5.5 for actual architecture.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "Wow Nate, this video was so insightful for me, loved it! I was a little bit confused on when to use each one.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Thanks for making this content",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "The difference is in parameters:\nHaiku < Sonnet < Opus < Fable\nMore parameters = best prediction = less agent steps = less tokens, but slower and more expensive.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Hey @nateherk, great video! Did you use Hyperframes for the video comparison? Your video demos are so dynamic, but mine tend to be quite static. Is it down to prompting, or have you built a custom skill on top of Hyperframes? \n\nWould love to know your workflow if you’re happy to share!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "can share motion show reel skills mate?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "25:00 you said it’s 16$ difference, but it’s actually 26$",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "What would be a good video is to have an end state for each and see how much it costs to get to the end state. i find sonnet will take more prompts to get it how you like and so may end up being more expensive on a task. A single prompt isnt really representation on which one is better for a task as such as you had no end state.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Man i have a small request, could you just bring up a series such that even a non tech guy starts to understand how he can use ai in his daily life to automate his boring stuff and such that he gets to know what are all the new ai's coming up for people like him\nOr just a series like \"ai for web development\" or \"ai for content creation\" where u explain the A to Z about how they can use ai in their profession which might even help them achieve the things that they could never have achieved if they just replied completely on themselves",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "your content is excellent thanks!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Something that others do are blind tests; it'd be interesting if you could try the new releases with some blind comparisons.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Thanks for the comparison, next time please include some coding challenge part also.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "What I've been experimenting with, and would be interesting to see you do...  opus 5.5 Low vs Sonet Medium.  Subjectively, the opus experience is nicer, but would be interesting to see the costs as thinning tokens count towards output.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Look at Nate man, so agentic",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "damn that tweet you posted was a big mind blown meme for me thank you!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Bro, claude best platform ❤",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Interesting.  I’m trialling running my main coding sessions in sonnet, while doing the planning and reviewing using opus agents. After a week I can see it’s certainly stretching my usage much further with no significant impact on quality, but will see now if sonnet 5.5 changes anything.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Good job thank you but...you did not include the thinking effort that was set-up...the output and cost are quite different depending on it. You should try comparing Sonnet 5.5 (high effort) vs Opus 5.5 (medium).",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Sonnet 5.5 is perfect! Opus 5.5 is best if you're looking for that icing on the cake!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "bro, where can I get the \"motion showreel skill\". The generated video was freaking awesome.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "In the motion design comparison, I notice that Claude was able to generate graphics using tons of logos (Teams, Outlooks, GitHub, etc.). Claude never wants to display logos for me. How did you achieve this? Thanks for the video, great content!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "My experience is that Opus 5.5 often gets complex tasks wrong whereas Fable 5.1 is more adept and serious about project work. I use Fable to rescue failed Opus 5.5 sessions",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Hey Nate! Please do make a video or tutorial on this latest AI E-commerce platform 3dimli. I have started using it since it's free to start. If you would make a tutorial on how to properly use it, it will be very helpful",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great. Just confirmed what the cost per intelligence charts show.\n\nIt does not worth to prompt Sonnet 2-3-4 times and pay more in the end.\n\nJust use Opus 5.5",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great video. However, I think that it would be better if you just gave the win to the model with the best output., not the cheapest one. Several times you say, “Well, if I use the money I save on Sonnet to give it more prompts, it will probably be as good” but then you’re not factoring in the cost of of human labour nor the bottleneck of having to do additional prompts by a human.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "My thoughts exactly you compare costs but how many go arounds to get what you want out of sonnet then tell us what it costs. I like your videos but this one was meh… very indecisive. Thank you tho I do like and learn a lot from your work",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "While impressive, when I saw your spreadsheet around 17:00...my concern is that if that was developed with AI, how do you know if the data is correct?  My concern is that users will lose that muscle memory to discern the difference.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Hey cool video would you share the motion showreel skill",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Did you switch to separate AI OS setups for GPTs and Claude? What’s the current situation now?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I think the question should be a different one. How important is perfectionism or quality to me? Am I willing to pay twice as much for a tiny bit more quality? Because a 1-to-1 proportional ratio between price and performance is not realistic anywhere. When it comes to food, but also vehicles, we pay a disproportionate premium for a tiny bit more quality, a tiny bit more health, a tiny bit more safety. Do I want to deliver the best possible work, or simply affordable work?",
+     "published": "2 weeks ago"
+    }
+   ],
+   "slug": "14-i-tested-sonnet-5-5-vs-opus-5-5-what-you-need-to-know"
+  },
+  {
+   "id": "eg_1NXDcoPk",
+   "title": "I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened",
+   "duration": "18:00",
+   "rank": 15,
+   "url": "https://www.youtube.com/watch?v=eg_1NXDcoPk",
+   "published": "Sep 28, 2026",
+   "views": "128,092 views",
+   "description": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI gave Codex and GPT-6 Astra $10,000 of real money to trade stocks for seven trading days, and the goal was to beat the S&P 500. \n\nYou'll see how I set up the routines and agent handoffs, why I had to hand the actual trades to a Grok Bot, and how I changed the strategy when the agent was trading too cautiously. I check in at the end of every trading day with the actual numbers, including the day six Fed rate hike that dragged the portfolio down.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTimestamps:\n0:00 The $10K AI Gamble\n0:56 Day 0\n2:48 Day 1\n4:07 Day 2\n5:58 Day 3\n8:02 Day 4\n10:04 Day 5\n12:15 Day 6\n14:34 Day 7\n15:22 Final Results",
+   "links": [],
+   "chapters": [
+    {
+     "title": "The $10K AI Gamble",
+     "time": "0:00"
+    },
+    {
+     "title": "Day 0",
+     "time": "0:56"
+    },
+    {
+     "title": "Day 1",
+     "time": "2:48"
+    },
+    {
+     "title": "Day 2",
+     "time": "4:07"
+    },
+    {
+     "title": "Day 3",
+     "time": "5:58"
+    },
+    {
+     "title": "Day 4",
+     "time": "8:02"
+    },
+    {
+     "title": "Day 5",
+     "time": "10:04"
+    },
+    {
+     "title": "Day 6",
+     "time": "12:15"
+    },
+    {
+     "title": "Day 7",
+     "time": "14:34"
+    },
+    {
+     "title": "Final Results",
+     "time": "15:22"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "118",
+     "replies": "3",
+     "text": "Viewers should be careful about treating this video as evidence that AI can trade profitably. By the creator’s own figures, the account finished at $9,900 versus $9,980 for the S&P 500: a 1% loss and 0.8 percentage points of underperformance.\r\nThroughout the challenge, he repeatedly pushes the system to trade more, removes filters, and increases exposure because he is frustrated with inactivity. Saying he would rather lose $500 than see little activity is a major red flag. More trades and less cash do not mean better decisions.\r\nWith frequent human interventions, changing rules, and only seven trading days, this experiment cannot establish a reliable trading edge. Screenshots alone also do n",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "30",
+     "replies": "1",
+     "text": "The biggest takeaway for me: the AI wasn’t really trading alone. Nate was constantly adjusting its strategy. That changes the experiment a lot.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "14",
+     "replies": "",
+     "text": "The thumbnail is misleading.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "10",
+     "replies": "1",
+     "text": "im curios if the sole goal was to outperform the S+P -then why have a 3k stake on the S+P fund ? What am I missing here ?? Surely If you are alligned with the movement in S+P with 3k of the 10K - then thats gonna move exactly as the S+P whoch woud mean you cannot outperform it with that fund ??????",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "6",
+     "replies": "",
+     "text": "What stood out wasn’t whether Astra beat the S&P — it was how much its behavior changed once the human started pushing it to take more risk. At D2C, that raises a more interesting question: when an autonomous agent makes the trades but humans still define the objective and risk tolerance, who is actually making the decision?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": true,
+     "likes": "5",
+     "replies": "1",
+     "text": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?astra-7-day-trading&hcategory=youtube-videos&utm_campaign=plus-group\r\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=astra-7-day-trading&hcategory=youtube-videos&utm_campaign=free-group",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "5",
+     "replies": "",
+     "text": "Keep going with multiple updates!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Thanks for the video. The most interesting part is not whether the model can beat S&P but if it can devise an intelligent strategy to do so. Based on the video this is not the case.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "You are the best Nate😊",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Options would be fascinating. Did you have it run on fundamentals or did you pipe in any technical data?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "can't wait for future updates :)",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Having someone with the capital actually try this out in real life is gold!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "One overseen issue here is LLMs get their \"knowledge\" from scraping everything from everywhere. Problem is 90% of traders lose money consistently.  The good ones can EASILY take $10k and make $5k-$10k profit in 7 days.- but you'll never see their strategies posted anywhere.  So by nature,  no LLM could ever research or create a consistently profitable system since it has only gathered garbage (on trading specifically). The TRUE edge is knowing how the markets work and coming up with something no one else has. Then you can be in the 10%.\nI guess it's like anything else with using LLMs. It's better as a tool to augment your OWN knowledge, rather than helping from scratch. Ex: asking an LLM wha",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "You should try trading ES futures, I’m curious how it would do with a more typical “day trading” strategy. Maybe even some chart analysis.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "You can do paper trading (ie not for real money) on alpaca.\nIt's a great way to burn tokens pointlessly and give yourself a good dose of AI psychosis",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Through emails you won’t compete with the quant, has to bet on finding and betting the break out or momentum, good work.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Still watching... but what if you didn't set a time limit and use a goal limit instead. Keep going until you either double or half your $10k?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Hey Nate why don't you try to add some of our strategies to your setup and see how it performs? You have more leverage with options though.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Thanks for the video. Maybe can include ETFs?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Maybe do a 1k start and on separate device just run 24/7 or restart when needed let it run for a year on maybe 30% growth parameters on something that is a little higher than good and see over a longer horizon if the magic shows or its time for fable or Gemini whatever edition then😅",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Try HFT trading with AI, would be good to see how it perform",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Thanks Nate for this new trading challenge.\nDespite, it's preventing me of trying",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Great video as usual. Thanks Nate!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Thank you! 🤝",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Really Good Practical and Informative vedio",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Keep it going!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Great challenge",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Looking forward to day 30 report",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I am coming to the event now.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Would be great to join the event Nate",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "There is never a substitute for your own judgement",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Would love to see the strategy it used",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Future Nate! Im hope i can get that AI OS live ticket!!!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Nate give us an update at after a month!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I would love to have some update videos, even 1 year",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "do for opus 5.5",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Yes please a 30-60-and 90 days",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "que gran contenido, yo igual lo intente con JEV pero no fue la mejor decision gracias por el video",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I always use this prompt, its doing wonders : \" You are my trading manager, make no mistakes\"",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Cool experiment",
+     "published": "2 weeks ago"
+    }
+   ],
+   "slug": "15-i-gave-gpt-6-astra-10-000-to-trade-stocks-and-this-happened"
   }
  ]
 }
