@@ -1,6 +1,6 @@
 # Video summaries
 
-Ten summaries of Nate Herk | AI Automation videos, published 2 to 16 October 2026. Each file covers what the video says, what it means for Winstanley & Son, the account ideas it suggests, and the sources and confidence. Confidence is as reported in each file's final section. See the [synthesis](../SYNTHESIS.md) for the cross-video view.
+Fifteen summaries of Nate Herk | AI Automation videos, published 28 September to 16 October 2026. Each file covers what the video says, what it means for Winstanley & Son, the account ideas it suggests, and the sources and confidence. Confidence is as reported in each file's final section. See the [synthesis](../SYNTHESIS.md) for the cross-video view.
 
 | No. | Published | Duration | Title | Takeaway | Confidence |
 |---|---|---|---|---|---|
@@ -14,9 +14,14 @@ Ten summaries of Nate Herk | AI Automation videos, published 2 to 16 October 202
 | 08 | 5 Oct 2026 | 10:45 | [I Built Another Andrej Karpathy Using Claude](08-expert-clone-andrej-karpathy.md) | Build the smallest working version and say what you expect before running it; a cited wiki of sources keeps an expert helper honest. | High on the video; medium on external claims |
 | 09 | 3 Oct 2026 | 34:34 | [Master 96% of Codex in under 35 minutes](09-master-codex-in-35-minutes.md) | A tour of 18 Codex ideas, including scheduled tasks, one working folder and permission modes. | High on the summary; medium that product claims are current |
 | 10 | 2 Oct 2026 | 11:19 | [Claude Code Mods Are Game Changers. Set Up These 5 NOW.](10-five-claude-code-mods.md) | Mods change how the desktop app looks and behaves, but the time saved is small and unmeasured. | High on what was shown; low on benefits |
+| 11 | 2 Oct 2026 | 1:09:33 | [How to Actually Build & Sell Software with AI as a Non-Techie](11-build-and-sell-software-as-a-non-techie.md) | A four-rung risk ladder (self, team, sold to a company, sold to the public), a test set built from examples, and a judge model scored for agreement with a human. | High on what was said; medium on garbled names; low on productivity and security claims |
+| 12 | 1 Oct 2026 | 9:03 | [I Tested Codex's $500/mo Ultrafast. What You Need to Know.](12-codex-ultrafast-tested.md) | A top speed setting was far slower than advertised on a long job and cost several times the allowance for no visible quality gain. | High on what was shown and measured; low on general speed, usage and pricing claims |
+| 13 | 30 Sep 2026 | 16:30 | [I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.](13-openai-dots-vs-meta-muse.md) | Two consumer cloud agents; approvals in one place, a heartbeat and editable memory files are the useful patterns, and vendor-held memory rules them out near patient data. | High on what Herk showed; low on model names, pricing, limits and privacy |
+| 14 | 28 Sep 2026 | 25:49 | [I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know.](14-sonnet-5-5-vs-opus-5-5-tested.md) | Where a job has a clear spec and a check, or a skill defines good, start with the cheaper model; log time and cost per run and record which model each skill was proven on. | Medium: figures stated but unchecked; one chapter garbled; single runs |
+| 15 | 28 Sep 2026 | 18:00 | [I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened](15-gpt-6-astra-stock-trading-experiment.md) | Read only as a workflow lesson: scheduled routines that hand notes forward act as one worker, and rule changes during a trial make its result meaningless. | High on what was shown; low on any conclusion about AI trading |
 
 ## Auto-captions and the paraphrase rule
 
 All transcripts are auto-generated captions. They garble proper nouns, product names and some figures, and they carry no speaker labels. Each summary notes where this affects a claim. Transcripts themselves are not published here. Summaries paraphrase in plain English and quote at most a few words, so the videos remain the source for anyone who wants the exact wording.
 
-Videos 11 to 15 will be added to this table as they are processed.
+Videos 11 to 15 were added on 17 October 2026 and are covered by section 8 of the synthesis.
