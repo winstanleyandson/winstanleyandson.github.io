@@ -1,0 +1,272 @@
+{
+ "id": "bvGptCLDhyo",
+ "title": "I Built Another Andrej Karpathy Using Claude",
+ "duration": "10:45",
+ "rank": 8,
+ "url": "https://www.youtube.com/watch?v=bvGptCLDhyo",
+ "published": "Oct 5, 2026",
+ "views": "73,524 views",
+ "description": "FREE AI OS Template: https://app.aiautomationsociety.ai/op...\nMy playbook for growing a $1M AI agency: https://app.aiautomationsociety.ai/op...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nAndrej Karpathy explains AI better than anyone alive, so I built another Andrej Karpathy using Claude. It's not a voice clone. \n\nIt's a Claude Code agent built from over 700,000 words of his lectures, blogs and posts, and it teaches the way he does. I'll show you the 4 steps to build your own, and once you've done it with Karpathy, you can do it with pretty much any expert you learn from.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTimestamps:\n00:00 - Karpathy's brain\n00:18 - Who is he?\n01:07 - Why bother?\n02:47 - 700K words\n03:50 - His own wiki\n05:37 - 7 rules\n06:42 - Mini Karpathy\n07:38 - Run it first\n08:48 - Would it ship?",
+ "links": [
+  "https://app.aiautomationsociety.ai/opaa-ads-optin"
+ ],
+ "chapters": [
+  {
+   "title": "Karpathy's brain",
+   "time": "0:00"
+  },
+  {
+   "title": "Who is he?",
+   "time": "0:18"
+  },
+  {
+   "title": "Why bother?",
+   "time": "1:07"
+  },
+  {
+   "title": "700K words",
+   "time": "2:47"
+  },
+  {
+   "title": "His own wiki",
+   "time": "3:50"
+  },
+  {
+   "title": "7 rules",
+   "time": "5:37"
+  },
+  {
+   "title": "Mini Karpathy",
+   "time": "6:42"
+  },
+  {
+   "title": "Run it first",
+   "time": "7:38"
+  },
+  {
+   "title": "Would it ship?",
+   "time": "8:48"
+  }
+ ],
+ "guests": [],
+ "top_comments": [
+  {
+   "creator": false,
+   "likes": "5",
+   "replies": "1",
+   "text": "im honestly just afraid that i would just seem as a fancy gadget and that ultimately it would just complexify claude’s thinking and workflow that produces massive biased response and forget about the initial prompt goal",
+   "published": "11 days ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "Somebody please do the same with Alex Hormozi and give us the gGitHubrepo",
+   "published": "10 days ago"
+  },
+  {
+   "creator": true,
+   "likes": "3",
+   "replies": "",
+   "text": "FREE AI OS Template: https://app.aiautomationsociety.ai/optin/ai-os/?utm_source=youtube&utm_medium=organic&utm_content=claude-karpathy-agent&sl=yt_claude-karpathy-agent\nFREE MONTH voice to text: https://get.glaido.com/nate",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "my own Alex Hormozi , thats really cool,  probably will get a mouthful on why i do everything wrong \"when its actually simple\" ... but brutal feedback is welcome",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "Great content as usual! Added to the autoresearch repo karpathy also shared, this would be an interesting loop to build and get it to create and self improve products",
+   "published": "11 days ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "Big fan Nate ❤",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "1",
+   "text": "oh the irony: I have a nate-herk-knowledgebase that tries to do the same thing with nate's brain :0,  but not nearly as well as Nate has done here!  Now, let me just add this video to the corpus.....",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "the resources for this video are not in the google spreadsheet for this quarter. I was hoping to download the agent",
+   "published": "11 days ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Thanks for sharing",
+   "published": "10 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "will this cause output maxxing and make things more expensive (using more usage significally?)",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "A huge thanks for sharing this Nate!!🤩",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Wow!! Thank you very much!",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Amazing🙌🏻Next video On vaultsink dev ?",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Nice",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "0:42 😂",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Hi @Nate, I have a question, Where is the place should we store Karpathy's wiki? In the same vault of second brain or separated place?",
+   "published": "10 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I've basically done something, or done 'the simple version first' just the other day but with your videos as I've basically made a library. I'm able to question it and learn from it, and obviously link this back, and can constantly check in but i will take this and run with it, your a gold mine",
+   "published": "10 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "So cool! I made one for you Nate - like 3 months ago when you shared all of your google resources and videos. My man",
+   "published": "10 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I’m confused. What would be a practical example of how this works? Why would I build this?",
+   "published": "10 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "ive done something like this but it's jobs & ive",
+   "published": "10 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "This is great.",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Claude maxxing",
+   "published": "10 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Clever!",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Nate",
+   "published": "11 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Thanks for sharing this. It is quite helpful to have a sub agent and a skill with kaparthy brain. Something to test out later on projects",
+   "published": "9 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "wow this was a cool idea. turning karpathy into an agent is pretty wild. do you think this build takes a ton of time to set up. and how does a custom agent like this compare to something like llamapress ai. i heard good things about llamapress.",
+   "published": "9 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "And Nate, In video, where is the step we create karpathy-ingest skill ?",
+   "published": "10 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Great build, thanks for showing the prompts on screen. Quick question: at 2:45 you say there are six prompts, but I could only find five cards (crawl, wiki, rules, two files, run gate). The /karpathy-ingest skill shows up at 9:36 already built, so I'm guessing the sixth prompt is the one that creates it? Could you drop it here or in the description? Would love to set up the full loop.",
+   "published": "10 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "great video, where is the gist link?",
+   "published": "2 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Благодарю за вашу щедрость",
+   "published": "10 days ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "I'am sorry Nate but i did applied this on you, i need to catch up on what ever you did these last months then we'll get to kaparthei",
+   "published": "4 days ago"
+  }
+ ],
+ "slug": "08-i-built-another-andrej-karpathy-using-claude"
+}

@@ -1,0 +1,332 @@
+{
+ "id": "oz2CwrPV2Rg",
+ "title": "Anthropic Engineers Just 10x'd Everyone's Claude Code",
+ "duration": "12:23",
+ "rank": 7,
+ "url": "https://www.youtube.com/watch?v=oz2CwrPV2Rg",
+ "published": "Oct 8, 2026",
+ "views": "108,798 views",
+ "description": "Use your ChatGPT sub to power Hyperagent: https://www.hyperagent.com/nate100\nApply for up to $20K with Hyperagent's agency program: https://www.hyperagent.com/agencies\nFREE AI OS Template: https://app.aiautomationsociety.ai/op...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nMore instructions don't always mean better results from Claude Code. I break down Anthropic's context engineering guidance, show what /doctor found in my setup, and walk through a small fix to my YouTube workflow. \n\nYou'll learn what to keep in your CLAUDE.md and skills, what to load only when needed, and how to make regular audits part of your AI operating system.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Anthropic's New Context Rules\n3:30 Hyperagent (Sponsor)\n4:13 Testing Claude With Fewer Instructions\n6:01 What Context To Keep\n7:04 Auditing My Setup With /doctor\n9:43 Fixing My YouTube Workflow\n10:51 Scheduling AIOS Audits\n12:11 Final Thoughts",
+ "links": [
+  "https://www.hyperagent.com/nate100",
+  "https://www.hyperagent.com/agencies"
+ ],
+ "chapters": [
+  {
+   "title": "Anthropic's New Context Rules",
+   "time": "0:00"
+  },
+  {
+   "title": "Hyperagent (Sponsor)",
+   "time": "3:30"
+  },
+  {
+   "title": "Testing Claude With Fewer Instructions",
+   "time": "4:13"
+  },
+  {
+   "title": "What Context To Keep",
+   "time": "6:01"
+  },
+  {
+   "title": "Auditing My Setup With /doctor",
+   "time": "7:04"
+  },
+  {
+   "title": "Fixing My YouTube Workflow",
+   "time": "9:43"
+  },
+  {
+   "title": "Scheduling AIOS Audits",
+   "time": "10:51"
+  },
+  {
+   "title": "Final Thoughts",
+   "time": "12:11"
+  }
+ ],
+ "guests": [],
+ "top_comments": [
+  {
+   "creator": false,
+   "likes": "61",
+   "replies": "4",
+   "text": "Is anyone counting? because from my math, we are at already 100000000000x if all those \"10x your agents/claude code/code\" were true",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "32",
+   "replies": "2",
+   "text": "Okay so this looks like a complete AI video",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "11",
+   "replies": "",
+   "text": "Old news posted as if it were breaking news ._.",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "6",
+   "replies": "",
+   "text": "Old content..?",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "I thought we didn’t even need skills anymore, and that Claude code was incorporating them in automatically",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "this shit is getting soo exhausting keeping up brah.. as soon as i get my setup nice.. something new popups",
+   "published": "6 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "4",
+   "replies": "",
+   "text": "So much talk so little information",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "So where is that doctor skill?",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "Seems like this video is a little bit outdated. It doesn't even mention Opus 5.5?",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "3",
+   "replies": "",
+   "text": "Hype bro has to hype - post something original.",
+   "published": "6 days ago"
+  },
+  {
+   "creator": true,
+   "likes": "2",
+   "replies": "1",
+   "text": "Use your ChatGPT sub to power Hyperagent: https://www.hyperagent.com/nate100\r\nApply for up to $20K with Hyperagent's agency program: https://www.hyperagent.com/agencies\nFREE MONTH voice to text: https://get.glaido.com/nate",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "It's improving every single day!\nThanks for updating",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Nice man!",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "No shot. Everyone knows you get better outputs from Claude the harder you smash the keys.",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "I mean its for the best but I literally just improved, just to improve again, and this pattern wont stop. So how can we create a agent that just autonomously leads and orchestrate its own updates? .",
+   "published": "6 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "this doesnt make sense.,.... custom software requires context - especially enterprise grade",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "",
+   "text": "Pls no stressig annoying music. Thx",
+   "published": "6 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "2",
+   "replies": "3",
+   "text": "But I have a one question about",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Thanks, Nate. You always have some of the highest quality content I can apply and benefit from right away.",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "This one is awesome nate dude",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Great job as always",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Can you do another podcast video, I found the last one very educational",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Youtube needs filter for AI slop",
+   "published": "5 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Ive used everything-claude-code since like opus 4-4.5 - every chat was starting from like 60k+ tokens\nCleaned up everything: agents, skills, hooks, useless mcps i never used, dropped auto compact to like 320-350k\n\n20k tokens at start, quality and speed went up, as well as usage dropped down, as less bloat was burning tokens",
+   "published": "6 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I dont want to brag but I intuitively knew that as the models get better I would need to be less precise with the \"common/obvious\" things.  Eg: In the past we used to tell it to use git and what commands and what for. Then we got skills, and now we dont even need much , it just knows. 90% of it.",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "I can't use CC with an Anthropic subscription instead of API tokens so unless they change that I'm sticking with Codex and that's coming from someone who learned everything within Terminal on Mac back in the day. I love Anthropic and CC but money is money and I'm not investing in a company who can't work without the American government and I'm not even American. \n\nGood luck to Anthropic.",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Let me get this straight.  Giving it more detail makes it dumber?  Giving it less detail gives it a lesser quality output but you still have to train it to fix the low quality?  Basically clear out the rules and train it again. I’m still trying to understand how is it dumb with explicit instructions?  Isn’t that counterintuitive?  Give them the liberty to show you what it can do without as much rules because you might like it better.  I have a problem with the word “might”. That’s subjective. So it’s going to guess better. Why?  Improvement on guessing is not really an upgrade. A true upgrade should be auto compact. Or auto save and refresh session based on new task. Or auto mistake learn ne",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Why are you citing Anthropic articles / videos / posts, and not providing them in your summaries?",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "hy nate - can you share the skills you are using to build animations on ur videos?",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "You talk a lot about it in the video and use the command /audit. This command is probably your own development. Have you ever explained it in any of your videos? Is it available for use? Where can I find more content about it? Thanks for your great video, by the way.",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "What is the point of publishing this 1 year later? It's a serious question I mean, I truly don't understand the point here.",
+   "published": "5 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "Claude still does a massive amount of comments in the code. It does not do a good job of look at the surrounding code, lol. \n\nAs a side note, when you reference things, can you provide links?",
+   "published": "8 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "this video is old i guess",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": "1",
+   "replies": "",
+   "text": "/doctor is great, but I'd also add /claude-api prompt-audit",
+   "published": "7 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "I found several to try.  HUGE list, \n lots of useful projects I hadnt heard of elsewhere.",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Trimming instructions instead of piling on more is a great context takeaway.",
+   "published": "3 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "so today, what is the best way to create bulk ugc  pipline??  been watching your content but what would you recommend right now???",
+   "published": "8 days ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "Did you just Max Headroom glitch at 9:46? lol",
+   "published": "8 days ago (edited)"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "BLA BLA BLA BLA n where is my 10x button! xD",
+   "published": "4 days ago"
+  },
+  {
+   "creator": false,
+   "likes": " ",
+   "replies": "",
+   "text": "hmm Why does nobody talk about real problems like this? I use Cowork, not Code. All 51 of my skills are my own, uploaded as .skill files, but the app labels them “plugin” skills, so Claude can’t edit them. When I asked it to improve one, it showed a “save skill” card that did nothing: no error, nothing saved. So every fix means Claude writes a new .skill file, I re-upload it by hand and replace the old one. Slow and easy to mess up.\n\nEvery video is about Claude Code, so Cowork problems get ignored. Not everyone is a developer, and some of us want Cowork. Anthropic: let Claude update my uploaded skills with my approval, or at least show a clear error instead of a card that silently fails.",
+   "published": "8 days ago"
+  }
+ ],
+ "slug": "07-anthropic-engineers-just-10x-d-everyone-s-claude-code"
+}

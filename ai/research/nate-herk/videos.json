@@ -1,0 +1,3225 @@
+{
+ "channel_handle": "@nateherk",
+ "channel_id": "UC2ojq-nuP8ceeHqiroeKhBA",
+ "videos": [
+  {
+   "id": "Z8lf5oWKfj0",
+   "title": "Matt Pocock: The Most Valuable AI Skill to Learn 2027",
+   "duration": "44:51",
+   "rank": 1,
+   "url": "https://www.youtube.com/watch?v=Z8lf5oWKfj0",
+   "published": "Oct 16, 2026",
+   "views": "62,315 views",
+   "description": "Hostinger VPS: http://hostinger.com/nateherkvps\nFREE AI OS Template: https://app.aiautomationsociety.ai/op...\nMy FREE resources: https://www.skool.com/ai-automation-s... &hcategory=youtube-videos&utm_campaign=free-group\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nMatt Pocock taught himself to code, wrote it by hand for about 10 years, and now has agents write all of it. \n\nIn this conversation he explains why the best results come from telling agents what you care about and fixing the environment they work in, why spec-driven development made his code worse for months, and why he runs Opus 5.5 on medium effort. We also get into the opportunities for non-technical people, how to stand out when anyone can build a portfolio in a weekend, and the trust ladder he recommends for getting started.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Intro\n1:50 When Coding Agents Clicked\n4:24 Tell Agents What You Care About\n9:39 Where the Opportunities Are\n14:55 Unknown Unknowns & Grill Me\n19:43 How to Stand Out\n26:03 The Spec-Driven Development Failure\n30:48 Models, Harnesses & Effort Levels\n35:27 How to Get Started\n41:31 What's Next for Matt",
+   "links": [],
+   "chapters": [
+    {
+     "title": "Intro",
+     "time": "0:00"
+    },
+    {
+     "title": "When Coding Agents Clicked",
+     "time": "1:50"
+    },
+    {
+     "title": "Tell Agents What You Care About",
+     "time": "4:24"
+    },
+    {
+     "title": "Where the Opportunities Are",
+     "time": "9:39"
+    },
+    {
+     "title": "Unknown Unknowns & Grill Me",
+     "time": "14:55"
+    },
+    {
+     "title": "How to Stand Out",
+     "time": "19:43"
+    },
+    {
+     "title": "The Spec-Driven Development Failure",
+     "time": "26:03"
+    },
+    {
+     "title": "Models, Harnesses & Effort Levels",
+     "time": "30:48"
+    },
+    {
+     "title": "How to Get Started",
+     "time": "35:27"
+    },
+    {
+     "title": "What's Next for Matt",
+     "time": "41:31"
+    }
+   ],
+   "guests": [
+    "Nate Herk | AI Automation and Matt Pocock"
+   ],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "19",
+     "replies": "1",
+     "text": "The idea of telling agents what you care about instead of micromanaging every line is a huge shift. I’ve been learning insane stuff through AI Shortcuts for the Lazy Mind, and it’s becoming clear that the environment, context, and feedback loop matter just as much as the model. The trust ladder is probably the smartest way to start without getting overwhelmed.",
+     "published": "12 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "5",
+     "replies": "",
+     "text": "Matt is an impressively clear communicator. Thanks for this interview!",
+     "published": "12 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "The sad part is not everyone is there.\n\nTo get ahead, stay ahead of yourself. Learn something new and apply it every day. Stay ahead by understanding what actually works. And importantly, for yourself.",
+     "published": "7 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Double dose of genius 😎 Matt x Nate 👌💙",
+     "published": "10 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Dude, the notes appearing on screen are so cool. Kudos",
+     "published": "12 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Where do we find Matt's skills?",
+     "published": "10 hours ago"
+    },
+    {
+     "creator": true,
+     "likes": "1",
+     "replies": "",
+     "text": "Hostinger VPS: http://hostinger.com/nateherkvps\nFREE MONTH voice to text: https://get.glaido.com/nate\nFREE AI OS Template: https://app.aiautomationsociety.ai/optin/ai-os/?utm_source=youtube&utm_medium=organic&utm_content=matt-pocock-pod&sl=yt_matt-pocock-pod",
+     "published": "14 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "This is very helpful for me In my agentic journey",
+     "published": "10 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Matt is spot on when he say that provisioning information (context) to coding agents in a systematic and reproducible manner is critically important (and extremely hard to get right). I've spent so much time designing different systems to do this, but they all seem to fail some way or another. 1) Must be easy to add data. Matt uses an inbox for docs to digest. That is super convenient, but goes against seperation of concerns. You need complete trust in the system, to not place docs inside the projects they concern. 2) The file digestion is inherently a lossy process and some docs cannot be safely reduced as they could hold agent outputs that are 'key findings' or other destillations that sho",
+     "published": "10 hours ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Very cool content, I do agree on the concept Creativity in Creativity out with AI. There is definitely a way of getting working together to get where you wanna go and learn along the way big time. Agree with Matt Pocock's take on that.",
+     "published": "9 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "Are you guys getting clients as ai automation developer?",
+     "published": "14 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "matt you seem to be on the side of the school of thought that humans still need to read and review code.. based on your videos and skills which are still very Human in the Loop. but this way you can never ship 1000 prs per month or get true automation. what is your thought on the other school of thought that believes we never need to actually review the code agents produced?",
+     "published": "12 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "unknown unknowns is a classic among seniors in software engineering, we have various practices such as requirements elicitation techniques to flesh out functional requirements (...for vibe coders: PRD content)",
+     "published": "3 hours ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "As a non coder, knowledge worker, this itw is just goooooooold ! \nSo much value to transpose to my perso and professional Life ! OMG, love how humble and thoughtful these guys are ! \n\nThanks so much !",
+     "published": "22 minutes ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Bro ypu are a gem, thank you for the free knowledfe G!!",
+     "published": "14 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "great interview!",
+     "published": "1 hour ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Love it Nate cheers",
+     "published": "1 hour ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "the most valuable skill for ai is knowing how to read and write which every 6yo has",
+     "published": "4 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Real quick guys, i have just realised communication is a thing again... wild",
+     "published": "7 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Gold 👏",
+     "published": "26 minutes ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Interesting @mattpocockuk I had the same issue but only with Claude Work with seeing Black screens when it captured the screen and not being able to utilize applications or browsers properly but not so much with Codex or even Hermes with Codex. Back to the Powrer of the Harness.",
+     "published": "7 hours ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Oh no, the window is closing. I'm gonna be left behind. What am I gonna do??? NGMI 😭😭",
+     "published": "12 minutes ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "2",
+     "text": "IMPORTANT.\nI'm a complete non-technical, 35 years old from Pakistan. \nI wanna learn and execute these AI skills BUT it's too overwhelming. \nNo idea where to begin; \n* Claude code? \n* TTS tools?\n* Video generation tools ?\n* Editing skills/ tools ?\n* Prompting? \nEtc etc.\nThere are millions of people with this same problem, it'll be good for you if you'd address it.",
+     "published": "14 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Amazing video loved it ❤",
+     "published": "14 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "First❤",
+     "published": "14 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "First!",
+     "published": "14 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Valuable insights , I love this one",
+     "published": "12 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Second",
+     "published": "14 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "1",
+     "text": "Not sure. Multiple projects in the same environment could also work really well, trying to learn from each other. Software engineers simply find it difficult to accept that orderly arrangement may not be that  important. Entropy is the way to go. Do not forget how complex our brain is. Let AI agents struggle and learn and creat patterns. Perhaps, one should also invite people without Software engineering background and learn from their experience as well, who may be perhaps getting better efficiency and accuracy out of AI agents. There is no rule that is right at this moment in the World. I am not sure if all Software engineers could really go deep into a domain to test the limits of AI. Sor",
+     "published": "9 hours ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "this dude did not clarify communication between human and AI",
+     "published": "13 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Hehe creatives rise",
+     "published": "7 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Revenge of the liberal arts majors",
+     "published": "1 hour ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "shitty background music, but nice",
+     "published": "12 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Matt is just a hype. Don't like his ideas.",
+     "published": "6 hours ago"
+    }
+   ],
+   "slug": "01-matt-pocock-the-most-valuable-ai-skill-to-learn-2027"
+  },
+  {
+   "id": "KZiF2J83zaY",
+   "title": "AI Agents Just Became Multiplayer. Here's How to Build Them.",
+   "duration": "22:24",
+   "rank": 2,
+   "url": "https://www.youtube.com/watch?v=KZiF2J83zaY",
+   "published": "Oct 15, 2026",
+   "views": "75,691 views",
+   "description": "$50 off Kylon here: https://kylon.io/lp/nate-herk?utm_sou...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nMost of us have been using AI in single-player mode, where your AI OS, skills, and connected accounts only help you. \n\nIn this video I show how my team and I use Kylon to put humans and agents in one shared workspace, including our own Claude Code and Codex subscriptions, so everyone can build apps and automations together. I also walk through a fresh setup, how credits and pricing work, and how I’d roll this out to a team one work stream at a time. Kylon sponsored this video.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Humans and Agents in One Workspace\n1:17 Single Player vs Multiplayer AI\n3:00 Why I Tried Kylon\n4:01 Moving a Team to AI Native\n5:29 AIS Instagram Room Example\n9:28 Fresh Workspace Setup\n12:55 Bring Your Own Claude Code and Codex\n16:30 How to Get Started With Your Team\n20:57 Final Thoughts",
+   "links": [
+    "https://kylon.io/lp/nate-herk?utm_source=youtube&utm_medium=creator&utm_campaign=nate_herk&utm_content=dedicated_video"
+   ],
+   "chapters": [
+    {
+     "title": "Humans and Agents in One Workspace",
+     "time": "0:00"
+    },
+    {
+     "title": "Single Player vs Multiplayer AI",
+     "time": "1:17"
+    },
+    {
+     "title": "Why I Tried Kylon",
+     "time": "3:00"
+    },
+    {
+     "title": "Moving a Team to AI Native",
+     "time": "4:01"
+    },
+    {
+     "title": "AIS Instagram Room Example",
+     "time": "5:29"
+    },
+    {
+     "title": "Fresh Workspace Setup",
+     "time": "9:28"
+    },
+    {
+     "title": "Bring Your Own Claude Code and Codex",
+     "time": "12:55"
+    },
+    {
+     "title": "How to Get Started With Your Team",
+     "time": "16:30"
+    },
+    {
+     "title": "Final Thoughts",
+     "time": "20:57"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "32",
+     "replies": "",
+     "text": "Youtube is now full of people advertising subscription slop. $50 a month for diet slack that my agent can build itself.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "32",
+     "replies": "3",
+     "text": "This is basically just Buzz, but paid since Buzz is free 🤔",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "11",
+     "replies": "7",
+     "text": "ok so instead of that we could potentially build that platform from a scratch. expose the agents to artifacts and work on them. Supply the app that we could build in half a day in rust give it api access, keep that in house rather than pay someone",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "7",
+     "replies": "",
+     "text": "22 minute infomercial \n\nnah I'm good",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "6",
+     "replies": "",
+     "text": "So, like, just use Buzz.\nNate make bank, Kylon drain my bank.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "6",
+     "replies": "",
+     "text": "wow to bring your codex and claude code agent into the same workspace is supre cool!",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Challenge #1. Finding humans to work with 😂",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Trust me it's valuable tutorial  I can say it befor even watch it!",
+     "published": "1 day ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Future Nate!",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "1",
+     "text": "This is what I am trying to figure out with my AI team. Trying to get a virtual world where they can all work and collab multi team. Things are moving fast",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Thanks Nate! it is so cool!",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Buzz does all this - for free",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "1",
+     "text": "Ideally grok bot could be invited as the main bot",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "I did this using Hermes a year ago.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "The initial 90 free credits dont go far and the plan starts at 50$ for 500credits this is more expensive that grok bot and it can not do half the things grok can do locally on the computer it has its use case but damn expensive I tried it day -1 but won’t take a paid plan",
+     "published": "20 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Nate with the 🔥🔥🔥 content and tools",
+     "published": "13 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "And from what I gathered just now, it had the same connectors as Claude and codex",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Wild I built this for myself a few months ago and here it is now. Pretty bad ass Nate.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Nate, you are a star... I was trying to build a similar system where different models brainstorm one idea in the live chat... A year ago, it was a big challenge.  While watching your video, I actually built such a complex chat (MVP) that I can run it on my MAC and use the subscriptions I have got on Claude, OpenAI, and Gemini, instead of burning out tokens. Thank you for the idea... love your channel bud...",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I have enjoyed Nate’s videos for awhile but it seems like things are slowing down. Keep it up Nate. I look forward to what else you discover",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Make the arabic language in the piste audio pls 🎉🎉",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "just use paperclip its MIT",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Okay... Same idea but can we make it Microsoft Teams council of agents?",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "super nice！",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "Anthropic doesn't allow this kind of multi-player environment, they offer claude team sub for this purpose.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Nice!",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Why not Claude Tag?",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Does Kylon have access to your content?  That always makes me nervous.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "There will be an easier way in a day or so lol",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "It looks the same as buzz",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Hell yeah",
+     "published": "1 day ago"
+    },
+    {
+     "creator": true,
+     "likes": " ",
+     "replies": "",
+     "text": "$50 off Kylon here: https://kylon.io/lp/nate-herk?utm_source=youtube&utm_medium=creator&utm_campaign=nate_herk&utm_content=dedicated_video\nFREE MONTH voice to text: https://get.glaido.com/nate\nMy FREE resources: https://www.skool.com/ai-automation-society/about?el=kylon-video-1&hcategory=youtube-videos&utm_campaign=free-group",
+     "published": "1 day ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "The multiplayer shift is real, and the coordination part is where we have bled the most. We once ran a researcher agent plus a writer agent for a client, and the researcher kept overwriting the writer's drafts because nobody owned the shared doc. Now we give one agent the pen and the other one read-only access, and everything gets calmer. The orchestration pattern matters more than the model :)",
+     "published": "2 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Multiplayer is where the hidden bill shows up: every extra agent adds handoffs, not just hands. We ran 40 Claude Code agents and cut to 15 because coordination was eating more than the parallelism gave back. Fewer agents, written handoffs and one reviewer per gate is what actually scaled.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "On the 14:30 point about local agents going offline: if you go the Mac mini or plugged-in laptop route, run `caffeinate -s` in Terminal (built into macOS) or turn on \"prevent automatic sleeping\" in Energy settings, otherwise the machine still sleeps and your teammates get silence. Also curious: when a teammate messages your local Claude Code, does it inherit your env vars and connected accounts, or can you scope what it can touch per channel?",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "can you pls do a vid on the pros and cons of having your os on the cloud or local",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I guess the operative word here is \"token burn\".",
+     "published": "18 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Amazing sharing Thanks! May I ask: How do Claude Code and ChatGPT’s team plans compare with Kylon for team members collaborating on projects?",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Ramp Glass has entered the room",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Yep, this channel is full infomercial now.  It happens.  I get it.  Get your money.",
+     "published": "1 day ago"
+    }
+   ],
+   "slug": "02-ai-agents-just-became-multiplayer-here-s-how-to-build-them"
+  },
+  {
+   "id": "rL5tw6h78zo",
+   "title": "I Tested the Viral Reverse Engineer Anything Skill. What You Need to Know.",
+   "duration": "14:59",
+   "rank": 3,
+   "url": "https://www.youtube.com/watch?v=rL5tw6h78zo",
+   "published": "Oct 13, 2026",
+   "views": "173,296 views",
+   "description": "FREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/op...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nREA Repo: https://github.com/morluto/rea\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nI tested Reverse Engineer Anything (REA) with Claude Code to see how it could help me rebuild features from existing apps, including my own Loom-inspired screen recorder. \n\nI break down how it works, a five-step process for using it, and the limitations I ran into. The same approach can help you build better AI skills and workflows by giving your agent clear examples of the output you want.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Reverse Engineer Anything\n0:52 Better AI Outputs With References\n3:14 Rebuilding App Features\n5:20 How REA Works\n7:36 A Five-Step REA Workflow\n11:09 Limits and Caveats\n12:57 Results and Final Takeaways",
+   "links": [
+    "https://github.com/morluto/rea"
+   ],
+   "chapters": [
+    {
+     "title": "Reverse Engineer Anything",
+     "time": "0:00"
+    },
+    {
+     "title": "Better AI Outputs With References",
+     "time": "0:52"
+    },
+    {
+     "title": "Rebuilding App Features",
+     "time": "3:14"
+    },
+    {
+     "title": "How REA Works",
+     "time": "5:20"
+    },
+    {
+     "title": "A Five-Step REA Workflow",
+     "time": "7:36"
+    },
+    {
+     "title": "Limits and Caveats",
+     "time": "11:09"
+    },
+    {
+     "title": "Results and Final Takeaways",
+     "time": "12:57"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "27",
+     "replies": "3",
+     "text": "REA uses actual decompilers to read code instructions, that's why it takes longer but also produces better results, if you vibe it the model is just guessing, using REA it reads actual instructions, passes it to a tester and compares, if the results are not the same it decompiles again until it gets it exact, so you can recreate features faithfully with enough time. it's most impactful in things like device emulation, where exactness is a must, if you're just copying a feature then yeah, it doesn't have to be exact byte for byte like you would get from REA",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "11",
+     "replies": "",
+     "text": "I actually agree on this. There's nothing that this does that we weren't able to do before with good prompting, good vision, and proper planning. Still it's nice to have it in a skill, although this will probably make me a little bit more lazy. 😂",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "9",
+     "replies": "1",
+     "text": "Future Nate! You reverse engineered the reverse engineering tool!! ... you are beyond next level!",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "6",
+     "replies": "",
+     "text": "It’s not new but the speed of doing so is new.",
+     "published": "2 days ago"
+    },
+    {
+     "creator": true,
+     "likes": "5",
+     "replies": "",
+     "text": "FREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/optin/scrollcraft/?utm_source=youtube&utm_medium=organic&utm_content=reverse-engineer-anything&sl=yt_reverse-engineer-anything\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Really appreciated that you tested REA on rebuilding your own Loom-style screen recorder and gave the limits and caveats their own section, Nate, that kind of honesty is rare in viral-tool videos! Giving the agent clear examples of the output you want is such a practical takeaway for anyone building skills. Have you found certain kinds of features where reverse engineering from a reference still doesn't work well?",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "This is bonkers! Talk about leveling the playing field!",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Reverse engineering will work for a lot of people who are not willing to pay for the software and probably don’t have a professional need to use it, but I can guarantee you enterprise companies are not reverse engineering software for their benefit, especially from Adobe, but it is interesting and certainly doable for some features, but there’s a big difference from actual algorithm coding and just prompting",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "The flip side is what I keep thinking about. If agents can take apart almost any app, the boundary that matters in your own setup is what they can never change.\n\nI run a one-person firm on Claude Code agents. They check live data, write the reports and prepare decisions, but trading code, its config and anything that moves money sit in a zone no agent can edit without my sign-off, however urgent. When a strategy hit its pre-set limit in September, the system halted on its own, and restarting it still needs me.\n\nAgents get more capable every month. The list of what they can't touch is the part I actually control.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Your explanations are insane bro keep going",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Great video, appreciate the context on how reverse engineering with AI is nothing new, this is just a refinement of that model.",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "Quick question for anyone who's been using these tools. Does it make more sense to use the standalone desktop apps for AI coding like Claude Code or Codex, or just run everything bundled inside VS Code? I've worked with both but honestly can't decide. I'd like to settle on one setup I can stick with long term, so either the standalone apps or VS Code. Anyone come across a recent comparison?",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "First comment 🎉",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "The examples you shared for reverse engineering are interesting. Thanks for sharing them.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I love your work bro!",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "The useful question for teams is what happens when the inputs stop being clean. That is usually where an AI workflow proves itself.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Tip: make the agent write its full plan to a markdown file before it touches anything, then run a second pass whose whole job is to poke holes in the plan. First drafts are always wrong. That file also doubles as the agent's memory, so after its context compacts it can re-read the file and recover everything. A skill that reverse-engineers in one shot is a great ingredient, but the loop is what makes it a recipe.",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Woah this is lit, thanks Nate",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I actually do that very often by benchmarks & studying competitors",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "i am just thinking about the time and effort you will spend to learn how to engineer anything manually; this is really insane how stuff is evolving with AI, particularly if you don't have any technical background. Thanks for sharing.",
+     "published": "23 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "oh that was you who recreated that guys motions graphic. lool i thought that was hillarious",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Your explanations of your project",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "After watching the video, yes you can go on rea I don’t use Claude personally I use antigravity. I instructed it to simple reverse engineer, Meta tune. A 52 mgb file from a free trial. Then told it to remove every pay wall and test it until it works without it. Then made a new version call (REA State Of delay) 😂 from the extracted source material without the properties that locks me out behind a paywall. Now I have an exact looking and working meta tune that installs like a free plugin. UNDER 4 hours btw! I had it running! It’s 2:22am while typing this 😂",
+     "published": "2 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "tried to put it to the test and got this:\n\"Opus 5.5 (1M context)'s safeguards flagged this session. You may be seeing this for the first time: Opus 5.5 (1M context) is more capable and has stronger safeguards as a result, which can sometimes flag\"",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Very useful! And very fitting timing given the recent news of someone vibe coding Adobe out of spite because they got charged a cancellation fee😅QQ - how would you ‘point’ your agent at the site of interest? Would this be through the inbuilt browser feature of Claude code, via Chrome extension so it can interact with all the features available, or some other pointer? Thanks!",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "i made my own meta tune because 200$ when i only needed one plug in that libary was stupid and robbery",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Give Ideas, how we can apply AIDLC in real world",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Not exactly new, to be fair. I've already done LLM-based binary analysis with headless Ghidra decompilation, and REA would basically drive the same Ghidra, just through a more generic layer.",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I don't know anything about agents. What AI do I need to use REA so I can make a clone of the functionality of Lychee Slicer. I'm pissed they moved their best support setting like support painting, inline supports, and support projection.",
+     "published": "13 hours ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "What do you use for frame by frame analysis of a video ?",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "LMAO Just got it like 18 hours ago. Goodness man. You don't miss a thing.",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Did Ai also edit this video cos it hard to tell\nAnd pls do tell how you were able to edit a 30mins long video with Ai doing all the heavy lifting",
+     "published": "23 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Argon here Nate",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "How to run phone",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Hiii Nat \nI am a cement manufacturing industry professional need to automate my production report please help where to start as a complete beginner",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "If I want the specific color grading control that lightroom has I can point it there and I'll get the exact math. I did reverse engineering manually before and it's tedious to say the least, I'd normally much rather wing the color math than clone it. Winging something can take some experimentation iterations and doesn't guarantee a good result either.\n\nThat said, REA is quite poorly designed and I hope someone with a bit more agentic experience will create something proper. And I will not install and use gigantic 1:1 clones made by random people over the weekend, offering no support and holding no responsibility. Not defending adobe here cause they're evil, but I have standards. Cool party t",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Hello uncle",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Rea",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "La traduction française 😭😭",
+     "published": "3 days ago"
+    }
+   ],
+   "slug": "03-i-tested-the-viral-reverse-engineer-anything-skill-what-you-"
+  },
+  {
+   "id": "nRXHWckVxoM",
+   "title": "This ONE Claude Skill Helps You Think Clearer Than 99% of People",
+   "duration": "14:45",
+   "rank": 4,
+   "url": "https://www.youtube.com/watch?v=nRXHWckVxoM",
+   "published": "Oct 12, 2026",
+   "views": "67,831 views",
+   "description": "Get the FREE Roast Room council: https://www.skool.com/ai-automation-s...\nFREE First Client SOP: https://app.aiautomationsociety.ai/op...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\nI built a Roast Room in Claude Code where seven AI advisors inspired by people like Jeff Bezos, Alex Hormozi, and Warren Buffett debate business decisions and return a scored verdict. \nI walk through how the sub-agents work, what's inside their brains, and how to install the free skill. You'll also learn how to ask better questions so the council can challenge your thinking and help you weigh your options.\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Meet the Roast Room\n2:19 The Advisors Debate\n3:37 The Final Verdict\n4:44 Get the Free Skill\n6:42 How the Council Works\n7:45 Advisor Brains and Setup\n10:52 Asking Better Questions\n13:02 Outsourcing Thinking, Keeping Judgment\n14:31 Next Steps",
+   "links": [],
+   "chapters": [
+    {
+     "title": "Meet the Roast Room",
+     "time": "0:00"
+    },
+    {
+     "title": "The Advisors Debate",
+     "time": "2:19"
+    },
+    {
+     "title": "The Final Verdict",
+     "time": "3:37"
+    },
+    {
+     "title": "Get the Free Skill",
+     "time": "4:44"
+    },
+    {
+     "title": "How the Council Works",
+     "time": "6:42"
+    },
+    {
+     "title": "Advisor Brains and Setup",
+     "time": "7:45"
+    },
+    {
+     "title": "Asking Better Questions",
+     "time": "10:52"
+    },
+    {
+     "title": "Outsourcing Thinking, Keeping Judgment",
+     "time": "13:02"
+    },
+    {
+     "title": "Next Steps",
+     "time": "14:31"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "33",
+     "replies": "",
+     "text": "Alternative title: How to burn your Claude subscribtion within one session",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "10",
+     "replies": "3",
+     "text": "Seven advisors on one model are seven echoes of the same training. A board gets useful when the seats are different providers: we run Claude, Codex, Gemini and Grok on one desk, and route each call by task so only the hard ones hit the expensive model. That routing alone cut our API spend by ~80%.",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "6",
+     "replies": "",
+     "text": "Can we add Nate Herk as an advisor too?",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "1",
+     "text": "I do something similar but my board is a agent from Claude , codex, and grok",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "1",
+     "text": "Are they all using the same Claude model?",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Great ideal. I will do this",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Hey Nate what would be the usage to run this? Is it possible to run this on a 20$ plan?",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "If anyone has used ai at all you know that it’s wrong all the time so there is no way I would trust any outcome",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Isn't this similar to the council skill? That was a huge token hog 😭",
+     "published": "3 days ago"
+    },
+    {
+     "creator": true,
+     "likes": "1",
+     "replies": "",
+     "text": "FREE First Client SOP: https://app.aiautomationsociety.ai/optin/first-client-SOP/?utm_source=youtube&utm_medium=organic&utm_content=roast-room-council&sl=yt_roast-room-council\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I assess people's AI skills for a living, and the thing I'd stress-test here is whether the advisors actually disagree. If they all lean the same way, you have one model's opinion in five costumes. Try asking each one to name the single assumption most likely to be wrong in your plan, and the council becomes a check rather than a mood boost.",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Very clever. Thank you, Nate!🎉",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "F--- awesome!!! I love this and will build my own for what I do with members that would be helpful for what I do",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "This video is gold",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Very clever idea. I could definitely use it. Keep up the grat work Nate. How do you give your agent that much context.",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Thank you so much nate great video as always! \nHow do you make sure these agents actually go thru all steps and read the thesis especially when they are really heavy in contexts from each brain before forming verdicts? Thank you",
+     "published": "4 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I like how the first reference is Barack Obama 🤣. 2014 vibes",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I'm sorry... simple skill??? It's freaking cool?\nThanks Nate !",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "I’m adding this now thank you very much",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Roast Room",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Roast room",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "How can I use this with gemini or codex",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "This is awesome Nate bro! 🙌🏾",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "A detailed video on how to build the personality sub-agents would be extremely helpful.",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I did try the board based on individuals but it ended up being better to build my custom board based on a different criteria.  This is fun to think about and it sounds good on paper but just build your own and it will be much more robust and valuable.",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "This is nice!!",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I literally did this the same couple days ago but then a /what-would-hormozi-do",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Been doing this for 2 years... It's absolutely madness to use just one agent.... If you are just searching then Google is still fine",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Too many chefs... Too many tokens 🤣",
+     "published": "1 day ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "GOOD video NATE love your content from: \"Chile\"",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Crazy effort you have put in! But I have a question, would most of this not have been included in the models PT?",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "We've hit the peak, it's time to short AI Stocks",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Roast skill",
+     "published": "19 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "@nateherk are your agents just reading those MD files directly from your project directory raw ? Id this netter than doing an obsidian vault linked to an Api connection called by a skill?",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great work, Nate! But too bad there‘s no great woman at the table…",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Do they talk a little faster than you?😅",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "roast room",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Hormozi is not an expert he is just a drop shipper that sales courses.",
+     "published": "2 days ago"
+    }
+   ],
+   "slug": "04-this-one-claude-skill-helps-you-think-clearer-than-99-of-peo"
+  },
+  {
+   "id": "HhZdNYI4pJs",
+   "title": "I Tried 100+ Github Repos for Claude. These 6 Are the Best",
+   "duration": "10:37",
+   "rank": 5,
+   "url": "https://www.youtube.com/watch?v=HhZdNYI4pJs",
+   "published": "Oct 11, 2026",
+   "views": "238,876 views",
+   "description": "FREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/op...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nThe repos:\nHyperframes: https://github.com/heygen-com/hyperfr...\nGoogle Workspace CLI: https://github.com/googleworkspace/cli\nApify MCP Server: https://github.com/apify/apify-mcp-se...\nScrollcraft: https://github.com/nateherkai/scroll-...\nHumanizer: https://github.com/blader/humanizer\nAddy Osmani’s Agent Skills: https://github.com/addyosmani/agent-s...\nExpo Skills: https://github.com/expo/skills\nSupabase Agent Skills: https://github.com/supabase/agent-skills\nStripe Best Practices: https://github.com/stripe/ai/tree/mai...\nPlaywright CLI: https://github.com/microsoft/playwrig...\nClaude Security: https://github.com/anthropics/claude-...\nOpenSEO: https://github.com/every-app/open-seo\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nThere are over 100,000 Github repos built for Claude right now, and honestly most of them are a waste of time. \n\nI tried more than 100 of them, and these 6 are the best ones, the ones I can't work without. Some made my projects 10 times faster, some replaced tools I was paying for every month, and I'll show you how to use them to build things businesses will actually pay you for.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTimestamps:\n0:00 Finding the Best Claude Repos\n0:24 Video Editing With Hyperframes\n1:28 Google Workspace CLI and Apify\n3:09 Better Websites and Human Copy\n4:57 Planning Builds With Agent Skills\n6:20 Expo, Supabase, and Stripe\n7:34 Browser Testing and Security\n8:32 SEO With Real Data\n8:56 Token Savers and Usage Tracking\n9:46 Where to Start",
+   "links": [
+    "https://github.com/heygen-com/hyperframes",
+    "https://github.com/googleworkspace/cli",
+    "https://github.com/apify/apify-mcp-server",
+    "https://github.com/nateherkai/scroll-craft",
+    "https://github.com/blader/humanizer",
+    "https://github.com/addyosmani/agent-skills",
+    "https://github.com/expo/skills",
+    "https://github.com/supabase/agent-skills",
+    "https://github.com/stripe/ai/tree/main/skills/stripe-best-practices",
+    "https://github.com/microsoft/playwright-cli",
+    "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-security",
+    "https://github.com/every-app/open-seo"
+   ],
+   "chapters": [
+    {
+     "title": "Finding the Best Claude Repos",
+     "time": "0:00"
+    },
+    {
+     "title": "Video Editing With Hyperframes",
+     "time": "0:24"
+    },
+    {
+     "title": "Google Workspace CLI and Apify",
+     "time": "1:28"
+    },
+    {
+     "title": "Better Websites and Human Copy",
+     "time": "3:09"
+    },
+    {
+     "title": "Planning Builds With Agent Skills",
+     "time": "4:57"
+    },
+    {
+     "title": "Expo, Supabase, and Stripe",
+     "time": "6:20"
+    },
+    {
+     "title": "Browser Testing and Security",
+     "time": "7:34"
+    },
+    {
+     "title": "SEO With Real Data",
+     "time": "8:32"
+    },
+    {
+     "title": "Token Savers and Usage Tracking",
+     "time": "8:56"
+    },
+    {
+     "title": "Where to Start",
+     "time": "9:46"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "16",
+     "replies": "1",
+     "text": "Hi Nate!\n\nThanks for the great repo tips! Really appreciate it.\n\nI have a general question, and maybe you've already covered this in another video: How do you make sure the repositories you download and use are actually SAFE? Do you ask an AI to analyze the code and assess potential security risks before deciding whether to install anything?\n\nWould you for example also suggest disabling automatic updates for anything that doesn't come from an official or trusted source, even after an initial security check? That way I guess you would stay in control of what gets updated and when.\n\nThese are just a couple of examples, but I'd be really interested to hear how you approach security in general. ",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "10",
+     "replies": "",
+     "text": "The real power of AI isn’t in having more tools, but in choosing the right ones and turning them into smarter workflows. Great insights!",
+     "published": "5 days ago"
+    },
+    {
+     "creator": true,
+     "likes": "5",
+     "replies": "2",
+     "text": "FREE MONTH voice to text: https://get.glaido.com/nate\nFREE Scrollcraft Website Design Skill: https://app.aiautomationsociety.ai/optin/scrollcraft/?utm_source=youtube&utm_medium=organic&utm_content=100-github-repos-tested&sl=yt_100-github-repos-tested",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "5",
+     "replies": "",
+     "text": "Nate may God bless you❤",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Matt's skills are top-notch. Can't recommend them enough",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "This is going to save hours of mine... Thanks Nate🎉",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "some real gold in here. cheers",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Anything (caveman, RTK, etc.) with token savings has saved some tokens but output was much worse than if you didn't use it.  You end up burning more in the long run.",
+     "published": "5 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Thank  you again for this great content. A short suggestion, If I may: You should decrease the amount of claude generated motion graphics in your videos. I genuinely love your content, but the more you use these auto-generated parts, the more your videos loose their sincerity. \nPlease do not become a content factory just because you figured out to scale, your secret sauce is YOU.\nCheers !",
+     "published": "4 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "these repos just solved 3 issues i was having on different projects. thanks for the help",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "love this video. I never like or comment on videos but videos like this really excel my learning curve with ai",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "1",
+     "text": "Hi Nate! I have watched your videos now for about nine months and this was one of the most personally useful ones that I have viewed. I really appreciated your emphasis on what to use first I think it will help beginners out a lot. Thank you also for attaching the repos.",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Excellent and Thank you for sharing  and creating /scrollcraft",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Bhai ispe ek series start karo git hub ki useful repos",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Thank you very much NATE ❤",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Thanks, nice one!",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "great content",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Great video!",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "1",
+     "text": "This is a legendary video. Thank you.",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "gracias por el video lo aprecio bastante.",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Humanzier won‘t solve the EU watermark Antrhopic added resently… But thanks for this insightful video! Love your content!",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "I am at 10/10 using all above 👍",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Thanks Nate! Timesaver. Hope its  human eval. That secure some validations.. scanning repos, letting LM suggest only gets you around 80% confidence.. even with S tiers. Yeah also a power Googleuser lol.",
+     "published": "5 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "thanks!",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Thank you",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "😂❤ I hope not much people discover videos like this",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I’ve made some nice stuff with scrollcraft!",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Can we have a video for Github Repos for ChatGpt-Codex",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "ขอบคุณครับ",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Open seo is just an interface for dataforseo they take 30% of the top",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "yo, my man you are crazy. this is sick as hell. thank you so much!!!!😆😄😄😄",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Best claude skills video I've ever watched. Not only the skills are super fucking useful,  but you're straight to the fucking point. You've earned a subscription man, keep up the good work",
+     "published": "14 hours ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Another incredibly useful video by Nate, TYVM",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Workspace CLI + Apify MCP in one list is a powerful combo. One habit that saved us: expose narrow verbs through MCP instead of handing the agent your OAuth token, so one bad prompt can't email your whole inbox.",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great content !",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Ai agent skill 6 gonna try that, bouncing between agents when planning is a pain",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Good job bro",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "thank you Nate",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Game changing tbh",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "game changer!",
+     "published": "4 days ago"
+    }
+   ],
+   "slug": "05-i-tried-100-github-repos-for-claude-these-6-are-the-best"
+  },
+  {
+   "id": "MgvwZaDPCs4",
+   "title": "Grok Bot Just Got 2 Massive Upgrades. Do These Things Now.",
+   "duration": "9:11",
+   "rank": 6,
+   "url": "https://www.youtube.com/watch?v=MgvwZaDPCs4",
+   "published": "Oct 8, 2026",
+   "views": "122,027 views",
+   "description": "FREE AI OS Template: https://app.aiautomationsociety.ai/op...\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nGrok Bot has two new upgrades: automatic model routing and native X search. \n\nI walk through switching my bots away from the paid X API, why I'm rethinking how I structure my skills, and what I'd still like to see from model routing. Then I show you my favorite setup: running Claude Code inside Grok Bot with my own subscription so I can access my projects from my phone.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Two Major Grok Bot Upgrades\n0:14 Automatic Model Routing\n2:00 Native X Search\n4:08 Free AI OS Kit\n4:35 Rethinking Your Skills\n6:39 Running Claude Code Inside Grok Bot\n8:59 Final Thoughts",
+   "links": [],
+   "chapters": [
+    {
+     "title": "Two Major Grok Bot Upgrades",
+     "time": "0:00"
+    },
+    {
+     "title": "Automatic Model Routing",
+     "time": "0:14"
+    },
+    {
+     "title": "Native X Search",
+     "time": "2:00"
+    },
+    {
+     "title": "Free AI OS Kit",
+     "time": "4:08"
+    },
+    {
+     "title": "Rethinking Your Skills",
+     "time": "4:35"
+    },
+    {
+     "title": "Running Claude Code Inside Grok Bot",
+     "time": "6:39"
+    },
+    {
+     "title": "Final Thoughts",
+     "time": "8:59"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "40",
+     "replies": "",
+     "text": "None of these so called big names are talking about Claudixum and that says everything, make your own guess",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "39",
+     "replies": "",
+     "text": "At the end of the day the real lesson here is that Claudixum is like a hundred steps ahead",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "38",
+     "replies": "",
+     "text": "Claudixum is where the heavy lifting happens. If there's anything worth hoping for, that's my best guess.",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "37",
+     "replies": "",
+     "text": "Trump probably wasn't on board with Claudixum, but that's the positive shift we need",
+     "published": "7 days ago"
+    },
+    {
+     "creator": true,
+     "likes": "4",
+     "replies": "",
+     "text": "FREE AI OS Template: https://app.aiautomationsociety.ai/optin/ai-os/?utm_source=youtube&utm_medium=organic&utm_content=grok-bot-2-upgrades&sl=yt_grok-bot-2-upgrades\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Grok Bot is insane. Like it does what I do it's actually fyee",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Thanks! The Claude Code running in terminal of a bot was a life changer for me 😂❤",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Thank you very much for all your premium Content",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "It is so much better this week.  So much smarter.  It burns usage like mad but it can call up CLIs and outsource its grunt work to grok 4.7, which is hard to use up the usage.",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "1",
+     "text": "This is cool. I understand why it would be useful to do this, but it would help to explain why to people. Grok Bot can start Codex CLI and Claude Code sessions on a local Mac, but the reason it would be useful to have it on Grok Bots computer is so that your desktop computer doesn’t need to be up and running.",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "The voice chat mode is a game changer. Even long sessions with spinning up vague prompts of complex sequenced or parallelized tasks, it doesn't miss a beat.",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "I think the future will be auto model routing. Because efficiency is going to be the name of the future game!",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Hey Nate\n\nJust wanted to ask, can you please do a video about the security and privacy of personal information, I like how you teach and do things, for instance I don't want to mistakenly give or expose my personal information and credentials to Grok bots and or other AIs agents especially around automation",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Guys, I have a question.\n\nWhat if you had something similar to Grok, but instead of running everything in the cloud, you had your own local virtual machine running directly on your phone?\n\nYou could connect any CLI or AI model you want, using your existing subscriptions. The platform would charge you only for tool connections, integrations, and other essential services—around $5–$10 per month.\n\nHere’s the real difference:\n\nYour device, your data: Your data stays on your phone instead of being stored in the cloud.\n\nYour own local VM: The virtual machine runs directly on your phone, with your agents and their execution environment operating locally.\n\nBring your own models: Connect whichever AI",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Every \"funtion\" has it's own bot from me. A coder, a visual specialist, a sound specialist, a security specialist, a counsel, a pr specialis, a financial administer, etc. etc.",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Having Grok Bot able to use Claude is great! I’m currently planning to run Claude code and codex through one Grok Bot .",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "When I can use Grok bot to run my Claude Desktop then I will use it.",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "they will never let us control and decide which model to use, because we'll end up using Opus 5.5 all the time XD",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I am using GB to render images locally but now I wonder if I could use this for Midjourney images when my machine is down. Have to experiment tomorrow",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Grok bots own Computer usage eats up tokens i think.. so youd be burning grok&claude tokens at the same time?",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Funny, I got notified this is published, then started watching, tried to write a comment, got notified again. The more the better. Cheers from Kortrijk, Belgium.",
+     "published": "8 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I love you ⏸️. I saw that they had a terminal. I was going to mess with it this weekend and test. You beat me to it, TG. 😅 always informative. Just like Dan Martell. Good catch my guy. 😊",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I think they want quality training data for future Grok",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Great content, Nate. I have been building my infra since Jan 2024. Just picked up Grok Bot a couple of days ago. Super impressed with the \"dot product\" of ease of use, power, and flexibility of it. Thanks for your free offer of your AIOS - will review today. Thanks again, and keep going!",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Things moving so fast",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "this is wild, inception moment",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "nice hack! thanks!",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Thanks",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I saw the Twitter post but again I was not sure whether Claude is still being picked up",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Geek level hardcore …. My modelllll",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Isn’t that like Hermes without the control?",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Ah-mazing",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I did connect it to codex yesterday already 😂😂😂😂 I should make a channel",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "Can you please make a video on using the claude code subs in grokbot. Like a full video",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "That hack has exponentially increased what I can get done in a day. Love grok bot so much. Best AI tool made so far.",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "স্পষ্টতই, ক্লডিক্সামের সব ব্যাগ খেয়ে ফেলার ঘটনা থেকে মনোযোগ সরানোর জন্য এটা একটা বড় কৌশল! প্রথম দিন থেকেই ক্লডিক্সামে আছি এবং কোনো আফসোস নেই।",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Wait until you use extra usage and it uses it in 15 minutes. Then support says tough shit.",
+     "published": "6 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "You're great nate. Don't change mate.",
+     "published": "6 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "오, 이 영상 너무 좋아요. Grok Bot에 Claude Code 연결해서 잘 사용하고 있어요.",
+     "published": "6 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I wonder if grok bots use claude as a form of competitor warfare.... like grok floods anthropics systems (grok token usage is the prompt generation, while claude does the heavy lifting of fulfilling the user's request (actually doing the work)) and on top of that, its using up users usage (that was a mouthful) fulfilling requests made to grok, leaving me out of usage to then go use with claude, on things I might have wanted to work on separately with a different AI.. I real want to know more about this \"grok uses opus\" concept",
+     "published": "1 day ago"
+    }
+   ],
+   "slug": "06-grok-bot-just-got-2-massive-upgrades-do-these-things-now"
+  },
+  {
+   "id": "oz2CwrPV2Rg",
+   "title": "Anthropic Engineers Just 10x'd Everyone's Claude Code",
+   "duration": "12:23",
+   "rank": 7,
+   "url": "https://www.youtube.com/watch?v=oz2CwrPV2Rg",
+   "published": "Oct 8, 2026",
+   "views": "108,798 views",
+   "description": "Use your ChatGPT sub to power Hyperagent: https://www.hyperagent.com/nate100\nApply for up to $20K with Hyperagent's agency program: https://www.hyperagent.com/agencies\nFREE AI OS Template: https://app.aiautomationsociety.ai/op...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nMore instructions don't always mean better results from Claude Code. I break down Anthropic's context engineering guidance, show what /doctor found in my setup, and walk through a small fix to my YouTube workflow. \n\nYou'll learn what to keep in your CLAUDE.md and skills, what to load only when needed, and how to make regular audits part of your AI operating system.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Anthropic's New Context Rules\n3:30 Hyperagent (Sponsor)\n4:13 Testing Claude With Fewer Instructions\n6:01 What Context To Keep\n7:04 Auditing My Setup With /doctor\n9:43 Fixing My YouTube Workflow\n10:51 Scheduling AIOS Audits\n12:11 Final Thoughts",
+   "links": [
+    "https://www.hyperagent.com/nate100",
+    "https://www.hyperagent.com/agencies"
+   ],
+   "chapters": [
+    {
+     "title": "Anthropic's New Context Rules",
+     "time": "0:00"
+    },
+    {
+     "title": "Hyperagent (Sponsor)",
+     "time": "3:30"
+    },
+    {
+     "title": "Testing Claude With Fewer Instructions",
+     "time": "4:13"
+    },
+    {
+     "title": "What Context To Keep",
+     "time": "6:01"
+    },
+    {
+     "title": "Auditing My Setup With /doctor",
+     "time": "7:04"
+    },
+    {
+     "title": "Fixing My YouTube Workflow",
+     "time": "9:43"
+    },
+    {
+     "title": "Scheduling AIOS Audits",
+     "time": "10:51"
+    },
+    {
+     "title": "Final Thoughts",
+     "time": "12:11"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "61",
+     "replies": "4",
+     "text": "Is anyone counting? because from my math, we are at already 100000000000x if all those \"10x your agents/claude code/code\" were true",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "32",
+     "replies": "2",
+     "text": "Okay so this looks like a complete AI video",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "11",
+     "replies": "",
+     "text": "Old news posted as if it were breaking news ._.",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "6",
+     "replies": "",
+     "text": "Old content..?",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "I thought we didn’t even need skills anymore, and that Claude code was incorporating them in automatically",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "this shit is getting soo exhausting keeping up brah.. as soon as i get my setup nice.. something new popups",
+     "published": "6 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "So much talk so little information",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "So where is that doctor skill?",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Seems like this video is a little bit outdated. It doesn't even mention Opus 5.5?",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Hype bro has to hype - post something original.",
+     "published": "6 days ago"
+    },
+    {
+     "creator": true,
+     "likes": "2",
+     "replies": "1",
+     "text": "Use your ChatGPT sub to power Hyperagent: https://www.hyperagent.com/nate100\r\nApply for up to $20K with Hyperagent's agency program: https://www.hyperagent.com/agencies\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "It's improving every single day!\nThanks for updating",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Nice man!",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "No shot. Everyone knows you get better outputs from Claude the harder you smash the keys.",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "I mean its for the best but I literally just improved, just to improve again, and this pattern wont stop. So how can we create a agent that just autonomously leads and orchestrate its own updates? .",
+     "published": "6 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "this doesnt make sense.,.... custom software requires context - especially enterprise grade",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Pls no stressig annoying music. Thx",
+     "published": "6 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "3",
+     "text": "But I have a one question about",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Thanks, Nate. You always have some of the highest quality content I can apply and benefit from right away.",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "This one is awesome nate dude",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Great job as always",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Can you do another podcast video, I found the last one very educational",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Youtube needs filter for AI slop",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Ive used everything-claude-code since like opus 4-4.5 - every chat was starting from like 60k+ tokens\nCleaned up everything: agents, skills, hooks, useless mcps i never used, dropped auto compact to like 320-350k\n\n20k tokens at start, quality and speed went up, as well as usage dropped down, as less bloat was burning tokens",
+     "published": "6 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I dont want to brag but I intuitively knew that as the models get better I would need to be less precise with the \"common/obvious\" things.  Eg: In the past we used to tell it to use git and what commands and what for. Then we got skills, and now we dont even need much , it just knows. 90% of it.",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I can't use CC with an Anthropic subscription instead of API tokens so unless they change that I'm sticking with Codex and that's coming from someone who learned everything within Terminal on Mac back in the day. I love Anthropic and CC but money is money and I'm not investing in a company who can't work without the American government and I'm not even American. \n\nGood luck to Anthropic.",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Let me get this straight.  Giving it more detail makes it dumber?  Giving it less detail gives it a lesser quality output but you still have to train it to fix the low quality?  Basically clear out the rules and train it again. I’m still trying to understand how is it dumb with explicit instructions?  Isn’t that counterintuitive?  Give them the liberty to show you what it can do without as much rules because you might like it better.  I have a problem with the word “might”. That’s subjective. So it’s going to guess better. Why?  Improvement on guessing is not really an upgrade. A true upgrade should be auto compact. Or auto save and refresh session based on new task. Or auto mistake learn ne",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Why are you citing Anthropic articles / videos / posts, and not providing them in your summaries?",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "hy nate - can you share the skills you are using to build animations on ur videos?",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "You talk a lot about it in the video and use the command /audit. This command is probably your own development. Have you ever explained it in any of your videos? Is it available for use? Where can I find more content about it? Thanks for your great video, by the way.",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "What is the point of publishing this 1 year later? It's a serious question I mean, I truly don't understand the point here.",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Claude still does a massive amount of comments in the code. It does not do a good job of look at the surrounding code, lol. \n\nAs a side note, when you reference things, can you provide links?",
+     "published": "8 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "this video is old i guess",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "/doctor is great, but I'd also add /claude-api prompt-audit",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I found several to try.  HUGE list, \n lots of useful projects I hadnt heard of elsewhere.",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Trimming instructions instead of piling on more is a great context takeaway.",
+     "published": "3 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "so today, what is the best way to create bulk ugc  pipline??  been watching your content but what would you recommend right now???",
+     "published": "8 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Did you just Max Headroom glitch at 9:46? lol",
+     "published": "8 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "BLA BLA BLA BLA n where is my 10x button! xD",
+     "published": "4 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "hmm Why does nobody talk about real problems like this? I use Cowork, not Code. All 51 of my skills are my own, uploaded as .skill files, but the app labels them “plugin” skills, so Claude can’t edit them. When I asked it to improve one, it showed a “save skill” card that did nothing: no error, nothing saved. So every fix means Claude writes a new .skill file, I re-upload it by hand and replace the old one. Slow and easy to mess up.\n\nEvery video is about Claude Code, so Cowork problems get ignored. Not everyone is a developer, and some of us want Cowork. Anthropic: let Claude update my uploaded skills with my approval, or at least show a clear error instead of a card that silently fails.",
+     "published": "8 days ago"
+    }
+   ],
+   "slug": "07-anthropic-engineers-just-10x-d-everyone-s-claude-code"
+  },
+  {
+   "id": "bvGptCLDhyo",
+   "title": "I Built Another Andrej Karpathy Using Claude",
+   "duration": "10:45",
+   "rank": 8,
+   "url": "https://www.youtube.com/watch?v=bvGptCLDhyo",
+   "published": "Oct 5, 2026",
+   "views": "73,524 views",
+   "description": "FREE AI OS Template: https://app.aiautomationsociety.ai/op...\nMy playbook for growing a $1M AI agency: https://app.aiautomationsociety.ai/op...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nAndrej Karpathy explains AI better than anyone alive, so I built another Andrej Karpathy using Claude. It's not a voice clone. \n\nIt's a Claude Code agent built from over 700,000 words of his lectures, blogs and posts, and it teaches the way he does. I'll show you the 4 steps to build your own, and once you've done it with Karpathy, you can do it with pretty much any expert you learn from.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTimestamps:\n00:00 - Karpathy's brain\n00:18 - Who is he?\n01:07 - Why bother?\n02:47 - 700K words\n03:50 - His own wiki\n05:37 - 7 rules\n06:42 - Mini Karpathy\n07:38 - Run it first\n08:48 - Would it ship?",
+   "links": [
+    "https://app.aiautomationsociety.ai/opaa-ads-optin"
+   ],
+   "chapters": [
+    {
+     "title": "Karpathy's brain",
+     "time": "0:00"
+    },
+    {
+     "title": "Who is he?",
+     "time": "0:18"
+    },
+    {
+     "title": "Why bother?",
+     "time": "1:07"
+    },
+    {
+     "title": "700K words",
+     "time": "2:47"
+    },
+    {
+     "title": "His own wiki",
+     "time": "3:50"
+    },
+    {
+     "title": "7 rules",
+     "time": "5:37"
+    },
+    {
+     "title": "Mini Karpathy",
+     "time": "6:42"
+    },
+    {
+     "title": "Run it first",
+     "time": "7:38"
+    },
+    {
+     "title": "Would it ship?",
+     "time": "8:48"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "5",
+     "replies": "1",
+     "text": "im honestly just afraid that i would just seem as a fancy gadget and that ultimately it would just complexify claude’s thinking and workflow that produces massive biased response and forget about the initial prompt goal",
+     "published": "11 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "Somebody please do the same with Alex Hormozi and give us the gGitHubrepo",
+     "published": "10 days ago"
+    },
+    {
+     "creator": true,
+     "likes": "3",
+     "replies": "",
+     "text": "FREE AI OS Template: https://app.aiautomationsociety.ai/optin/ai-os/?utm_source=youtube&utm_medium=organic&utm_content=claude-karpathy-agent&sl=yt_claude-karpathy-agent\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "my own Alex Hormozi , thats really cool,  probably will get a mouthful on why i do everything wrong \"when its actually simple\" ... but brutal feedback is welcome",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Great content as usual! Added to the autoresearch repo karpathy also shared, this would be an interesting loop to build and get it to create and self improve products",
+     "published": "11 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "Big fan Nate ❤",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "1",
+     "text": "oh the irony: I have a nate-herk-knowledgebase that tries to do the same thing with nate's brain :0,  but not nearly as well as Nate has done here!  Now, let me just add this video to the corpus.....",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "3",
+     "replies": "",
+     "text": "the resources for this video are not in the google spreadsheet for this quarter. I was hoping to download the agent",
+     "published": "11 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Thanks for sharing",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "will this cause output maxxing and make things more expensive (using more usage significally?)",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "A huge thanks for sharing this Nate!!🤩",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Wow!! Thank you very much!",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Amazing🙌🏻Next video On vaultsink dev ?",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Nice",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "0:42 😂",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Hi @Nate, I have a question, Where is the place should we store Karpathy's wiki? In the same vault of second brain or separated place?",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I've basically done something, or done 'the simple version first' just the other day but with your videos as I've basically made a library. I'm able to question it and learn from it, and obviously link this back, and can constantly check in but i will take this and run with it, your a gold mine",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "So cool! I made one for you Nate - like 3 months ago when you shared all of your google resources and videos. My man",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "I’m confused. What would be a practical example of how this works? Why would I build this?",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "ive done something like this but it's jobs & ive",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "This is great.",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Claude maxxing",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Clever!",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Nate",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Thanks for sharing this. It is quite helpful to have a sub agent and a skill with kaparthy brain. Something to test out later on projects",
+     "published": "9 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "wow this was a cool idea. turning karpathy into an agent is pretty wild. do you think this build takes a ton of time to set up. and how does a custom agent like this compare to something like llamapress ai. i heard good things about llamapress.",
+     "published": "9 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "And Nate, In video, where is the step we create karpathy-ingest skill ?",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great build, thanks for showing the prompts on screen. Quick question: at 2:45 you say there are six prompts, but I could only find five cards (crawl, wiki, rules, two files, run gate). The /karpathy-ingest skill shows up at 9:36 already built, so I'm guessing the sixth prompt is the one that creates it? Could you drop it here or in the description? Would love to set up the full loop.",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "great video, where is the gist link?",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Благодарю за вашу щедрость",
+     "published": "10 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I'am sorry Nate but i did applied this on you, i need to catch up on what ever you did these last months then we'll get to kaparthei",
+     "published": "4 days ago"
+    }
+   ],
+   "slug": "08-i-built-another-andrej-karpathy-using-claude"
+  },
+  {
+   "id": "DFlELTiSPk8",
+   "title": "Master 96% of Codex in under 35 minutes",
+   "duration": "34:34",
+   "rank": 9,
+   "url": "https://www.youtube.com/watch?v=DFlELTiSPk8",
+   "published": "Oct 3, 2026",
+   "views": "80,634 views",
+   "description": "‪@OpenAI‬ http://www.chatgpt.com/download/\nHow I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nLearn the 18 core Codex concepts you need to start using it, even if you've never written a line of code. \n\nI walk through projects, skills, plugins, subagents, and more, with practical examples from my own setup. You'll learn how to give Codex context, turn repeat tasks into reusable workflows, and manage work from your desktop or phone.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 Projects And AGENTS.md\n3:58 Agent Loop And Goals\n9:54 Local, Cloud, And Remote\n13:25 Worktrees And Codex Settings\n16:10 Models, Tokens, And Usage\n19:18 Effort And Permissions\n21:38 Skills And .agents\n25:03 Plugins And Browser Use\n27:05 Hosting With Sites\n28:18 Subagents And Scheduled Tasks\n31:41 Voice Mode\n34:19 Final Thoughts\n\n#ChatGPT_Partner",
+   "links": [
+    "http://www.chatgpt.com/download/"
+   ],
+   "chapters": [
+    {
+     "title": "Projects And AGENTS.md",
+     "time": "0:00"
+    },
+    {
+     "title": "Agent Loop And Goals",
+     "time": "3:58"
+    },
+    {
+     "title": "Local, Cloud, And Remote",
+     "time": "9:54"
+    },
+    {
+     "title": "Worktrees And Codex Settings",
+     "time": "13:25"
+    },
+    {
+     "title": "Models, Tokens, And Usage",
+     "time": "16:10"
+    },
+    {
+     "title": "Effort And Permissions",
+     "time": "19:18"
+    },
+    {
+     "title": "Skills And .agents",
+     "time": "21:38"
+    },
+    {
+     "title": "Plugins And Browser Use",
+     "time": "25:03"
+    },
+    {
+     "title": "Hosting With Sites",
+     "time": "27:05"
+    },
+    {
+     "title": "Subagents And Scheduled Tasks",
+     "time": "28:18"
+    },
+    {
+     "title": "Voice Mode",
+     "time": "31:41"
+    },
+    {
+     "title": "Final Thoughts",
+     "time": "34:19"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "5",
+     "replies": "2",
+     "text": "Why did you stop talking and making videos on n8n? Reason! Looking forward to your response. On the other hand, this video and all the others are very interesting and provide great information and knowledge. Thank you.  Really appreciated.",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "",
+     "text": "The local vs. cloud section answered a question I didn’t even know I had 😂",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "4",
+     "replies": "1",
+     "text": "This is probably the best video I have seen where you explained things for a model in such a way it makes you want to switch to that model. I really wish you would go back to the basics and do this again for folder structure and business memory.  I think that is the biggest challenge out there.  But my guess is that ChatGPT is the best at that.",
+     "published": "12 days ago"
+    },
+    {
+     "creator": true,
+     "likes": "2",
+     "replies": "",
+     "text": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-society-plus/about?el=codex-18-concepts&hcategory=youtube-videos&utm_campaign=plus-group\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "good overview. I really need more info around worktrees/branching and ideal processes for exploring different ideas while not compromising the original thread -- and how to merge everything once satisfied. Basically, version control (for dummies)",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Thanks for sharing 🙏❤",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "1",
+     "text": "I’m not technical at all but you are so easy to understand that I am back on track trying to set up an OS system (which I had given up on ever being able to figure out). Thank you!",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "God bless you",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "IBM Bob... I'm not sure why no one is using it - it's the best of everything and being completely slept on... It's built as an orchestrator it works with pretty well every model and between anthropic, openai, IBM's models, It scales across entire software development lifecycles (SDLC). It supports self-hosted, air-gapped on-premise deployments for banks and governments, includes built-in governance, and features specialized capabilities for legacy code modernization (like Java upgrades or Mainframe/COBOL translation).\n\nThe best part is that ensures you only pay for that premium logic when you absolutely need it, removing that layer and keeping costs down... I still use all the same models an",
+     "published": "13 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "This was great",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Awesome video Nate, many thanks it showed me things I was unaware of like sites",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Your the best dude thanks for the great content, I have getting it done cause the video i watched about Claude code opus 5.5 motion graphics. Bro thanks so much!!!",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "The video is awesome, looking for claude code as well similarly",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Extremely useful content!",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "This was wonderful! Thank you so much!",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Big fan Nate ❤",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Thank you very much.",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great video",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Best part is Astra will make you a local transcriber if you ask where I can share your video and literally adopt your best applicable ideas",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "For vast majority of tasks you'd be absolutely fine with GPT-6 Luna. Terra I find kind of useless.",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Спасибо.",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "DO you still use and recommend the Get Shit Done and Superpowers skills that you've spoken about before or are those outdated now and should we get out of the way of models like Astra?",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "30:14 , Scheduled task to monitor a public Facebook page, codex unable to pick it up.",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Thanks mate, very informative video!\nWould there is a way to share the template of your agent.md file, please? Yours looks very detailed, Id love to personalize mine that much.\nAlso, how did you set up sub-agents? In that .md file originaly?\nThanks!",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Codex stopped working for me. Two weeks in to it and now it absorbs twice the amount of usage?",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Can I use skill one by one after creating in one agent?\nCan I automate these skill if I start using agents ?\nAnswer me",
+     "published": "2 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "1",
+     "text": "The thing about codex is yeah its gonna be smarter and output better files than chat but for a lot of regular learning and planning you're killing your usage for chats you dont need to do in codex. You have unlimited usage with gpt 6 high in chat but not in codex.",
+     "published": "7 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "{\"detail\":\"Bad Request\"}\n\nHave you had issues getting this message?\n\nIt comes up a lot for me when I try to edit in DaVinci Resolve.\n\nLove the vids!",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Hey nate is n8n still leading in the automation side? is it worth learning starting today?",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "3:49 can your agent.md reference files OUTSIDE of the Herk2 folder?",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "1:35 do you have a Herk folder for Codex and one for Claude, or just one used by both?",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Should I still watch the 5h video or is this enough?",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Thanks for sharing",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Why are you still on 5.6 vs 6.1 for sol?",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Are .codex files only for local Projects or do they work for cloud-based Projects too?",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Codex is unusable for the past 10 days. I kept getting disconnection issue",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "1",
+     "text": "Hi..Nate or anyone on chat..\n\nIs it possible to schedule tasks like posting on social media like do routine stuff? I only have the 20$ plan tho..\n\nWould really like some advice on this. I'm sorry for the trouble. 🙏🏽😢💕",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Codex concepts for non-coders is cute until your job description becomes \"babysit the agent\" 😂 Set the guardrails before the spreadsheet does.",
+     "published": "12 days ago"
+    }
+   ],
+   "slug": "09-master-96-of-codex-in-under-35-minutes"
+  },
+  {
+   "id": "9hetShMMp2s",
+   "title": "Claude Code Mods Are Game Changers. Set Up These 5 NOW.",
+   "duration": "11:19",
+   "rank": 10,
+   "url": "https://www.youtube.com/watch?v=9hetShMMp2s",
+   "published": "Oct 2, 2026",
+   "views": "243,565 views",
+   "description": "How I built an AI agency from 0 to over $1 million per year: https://www.skool.com/ai-automation-s...\nMy FREE resources: https://www.skool.com/ai-automation-s...\n\nMy Tools💻\nFREE MONTH voice to text: https://get.glaido.com/nate\nCode NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-...\n\nClaude Code mods let you customize the app by describing what you want in plain English. \n\nI walk through the mods I'm using to track context and usage, hide sensitive details while recording, follow long-running goals, and flag files another chat recently edited. You'll also see how to install mods and get mine for free.\n\nSponsorship Inquiries:\n📧 nate@smoothmedia.co\n\nConnect with me:\n  / nateherkelman  \nhttps://x.com/nateherk\n  / nateherk  \n\nTIMESTAMPS \n0:00 What Claude Code Mods Do\n0:35 Next Steps Mod\n1:55 Building Mods With Natural Language\n2:53 Cache Keeper\n5:30 Recording Mode\n7:23 Goal Meter\n9:11 Collision Guard\n10:35 Get the Free Mods",
+   "links": [],
+   "chapters": [
+    {
+     "title": "What Claude Code Mods Do",
+     "time": "0:00"
+    },
+    {
+     "title": "Next Steps Mod",
+     "time": "0:35"
+    },
+    {
+     "title": "Building Mods With Natural Language",
+     "time": "1:55"
+    },
+    {
+     "title": "Cache Keeper",
+     "time": "2:53"
+    },
+    {
+     "title": "Recording Mode",
+     "time": "5:30"
+    },
+    {
+     "title": "Goal Meter",
+     "time": "7:23"
+    },
+    {
+     "title": "Collision Guard",
+     "time": "9:11"
+    },
+    {
+     "title": "Get the Free Mods",
+     "time": "10:35"
+    }
+   ],
+   "guests": [],
+   "top_comments": [
+    {
+     "creator": false,
+     "likes": "19",
+     "replies": "1",
+     "text": "I’ve been learning Claude mods through a course lately, and the Goal Meter + Collision Guard ideas are exactly the kind of stuff I want to experiment with 🔥 Been picking up a lot from Trent Calloway too, and customizing Claude around your actual workflow feels like a huge advantage!",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "7",
+     "replies": "",
+     "text": "FYI: Expired cache means that asking for a handoff or compact will incurr that full context high cost you are trying to avoid!",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "7",
+     "replies": "3",
+     "text": "Thanks Nate - The handoff is probably the most useful one to prevent context rot",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": true,
+     "likes": "3",
+     "replies": "",
+     "text": "FREE First Client SOP: https://app.aiautomationsociety.ai/optin/first-client-SOP/?utm_source=youtube&utm_medium=organic&utm_content=claude-5-mods&sl=yt_claude-5-mods\nFREE MONTH voice to text: https://get.glaido.com/nate",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "Future Nate!! I can't even believe how insanely fast all this is moving! Your idea to ask your AIOS what would be the best mods to help the current system you have is next Level! Especially if you have been building up your methods and systems! You have been giving me so much to work on i think im gonna have to build and agent to comment for me! Lol! You are the best and keep dropping all this knowledge and hope you get a chance to see what I building one day! Thanks sir!",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "2",
+     "replies": "",
+     "text": "You called the pet mod \"pretty useless\" \nat 02:41\n but that's the one we actually want! Release the pet mod Nate 🐾",
+     "published": "2 weeks ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "Hell yeah dude, that handoff idea was literally the first thing that came to mind before you started reading my mind and talking about it lol. Super excited about mods",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "A number of apps already on the market that do this exact same thing",
+     "published": "2 weeks ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "1",
+     "text": "Hey Nate, awesome breakdown of the Claude Code mods! Quick question/request: Have you considered adding an Uzbek audio track to your videos using AI dubbing tools like ElevenLabs? There’s a rapidly growing AI and developer community in Uzbekistan following your workflows, and having native audio tracks would make your content even more accessible here. Keep up the great work!",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Bro por favor haz que tus videos tengan traducción a español por favor, te ayudaría a que más gente te vea y que nosotros los hispanos podamos ver el contenido tan bueno y valioso que haces",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": "1",
+     "replies": "",
+     "text": "Are there Gemini Mods available to try on their models to optimize research or financial data?",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "hey thank you for keeping things free and easily available for everyone. it’s nice to see a context creator not trying to monetize/gatekeep everything behind a subscription or “course”",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "You're so fast, man! Thanks for video!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Love it, thanks Nate",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Thanks for these, Nate. I had Claude read all four mods line by line before installing. I appreciated that the only network calls it found were the keep-warm pings.\n\nThree changes I made to Cache Keeper, fyi only:\n\n1. The handoff button now first runs a skill of mine that saves what's worth keeping to my memory and project notes. Then it writes the handoff note and offers to clear the chat.\n\n2. I replaced the cold-send guard's \"Compact first\" option with \"Hand off to a fresh chat,\" since compacting skips that save. The new option holds the message you typed and sends it to the fresh chat with the handoff note.\n\n3. Chats already open when the mod loaded showed no line above the prompt until C",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Thank you for putting this out there, Nate!",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "thanks nate :)",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Progress bars would be the dream! haha :face-blue-smiling:",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Hello Nate, I’ve watched quite a few of your YouTube videos. In some of them, I noticed that the files in your Codex and Claude Code projects are very well-organized and clean.\n\nIn one of your videos, I also noticed that you added metadata to a skill file. I’m guessing that organizing and structuring files properly like this might also help reduce daily usage compared to less organized setups.\n\nCould you please make a video explaining what kinds of files should be created when working on a project with Codex or Claude Code, what each file is used for, and how to properly organize and maintain them throughout the project?\n\nI think a detailed video on project file structure, skill files, metad",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Big fan Nate ❤",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I joined, looking at the video database spreadsheet, q4, 2026 and this video is not present yet. last one is sep 27th. Looks like Q4 2026 needs some editing luv. ill check back later. super helpful vidoes, thanks.\nUpdate: i found them after watching your first video. Thanks!",
+     "published": "13 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Great video",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Claude needs to introduce the terminal theme to show usage etc on realtime",
+     "published": "10 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "6:28 I think the term you’re looking for is “mask” Instead of “blur”",
+     "published": "12 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I like them all",
+     "published": "5 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "just add a keepwarm tick that switches on after 45 minutes of silence.",
+     "published": "11 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Seems like deepseek harness without bugs",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I only exclusively use claude code cli TUI version wondered if this will help. Is this only for claude desktop users? Thank you so much was hoping you would do a video on it.\nWow, i do have handoff on a skill but those things you mentioned especially the cachekeeper is a great idea. Thank you.",
+     "published": "2 weeks ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Nice! Are you using Kinetake for recording your videos? looks awesome",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "I find I bounce between harnesses so harness specific features like this don’t excite me because I don’t like when they are really different. Done differences are useful but going crazy with these features didn’t make sense to me. I’ll wait to see what becomes standard. I can see if you only used Claude code this would be useful.",
+     "published": "12 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Thanks for the video. One question. Can I use these mods with obsidian for example?",
+     "published": "2 weeks ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "So that handoff in one click is basically /compact",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Howdy great video explaining the mods.  I mostly run the claude ext in VS code. I pointed it to your transcripts and it appears to have went through and did it's thing (loading/installing) but I am unable to use any of the mods in the vs code extension version of claude.  Must this only run in the terminal?  I'm a noob so i apologize for the questions levels.  how do i dock the mods to the bottom simillar to yours?",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Would it be possible to add Vietnamese as an additional language option for the audio video? Thank you very much!",
+     "published": "2 weeks ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "Weekly Fable 0% and in a week or two Fable usage 100%",
+     "published": "11 days ago (edited)"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "How do you combine the goal skill and the handoff skill to avoid context rot from the /goal, while auto starting a fresh chat, and telling your long running sub agents which new chat to give their completed work too.",
+     "published": "13 days ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "great video. any mod to quickly change Claude Desktop app theme from dark/light? Claude says it cannot do it!",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "The cache keeper mod is useful for tracking session usage and avoiding unexpected API costs. If you're running multiple long-running sessions, it helps you know when to hand off or compact context.",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "can i now watch my subagents actually work",
+     "published": "2 weeks ago"
+    },
+    {
+     "creator": false,
+     "likes": " ",
+     "replies": "",
+     "text": "So it just became pi agent?",
+     "published": "13 days ago"
+    }
+   ],
+   "slug": "10-claude-code-mods-are-game-changers-set-up-these-5-now"
+  }
+ ]
+}
