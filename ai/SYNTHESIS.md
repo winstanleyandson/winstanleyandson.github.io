@@ -1,8 +1,8 @@
-# Synthesis: Nate Herk's ten newest videos, read for Winstanley & Son
+# Synthesis: Nate Herk's fifteen newest videos, read for Winstanley & Son
 
-Written 17 October 2026 from the ten verified summaries in `ai/videos/` (videos published 2 to 16 October 2026), with `research/nate-herk/business-context.md` and `estate-context.md` as the yardstick. A citation such as [V7 7:04] means video 7 in the Sources list, at the timestamp the summary gives; timestamps are caption-block starts and can sit up to a minute off. This is raw material for the roster designers, not the roster. Nothing here was checked against the videos themselves, only against the summaries.
+Written 17 October 2026 from the ten verified summaries in `ai/videos/` (videos published 2 to 16 October 2026), with an addendum the same day for videos 11 to 15 (28 September to 2 October 2026) in section 8, with `research/nate-herk/business-context.md` and `estate-context.md` as the yardstick. A citation such as [V7 7:04] means video 7 in the Sources list, at the timestamp the summary gives; timestamps are caption-block starts and can sit up to a minute off. This is raw material for the roster designers, not the roster. Nothing here was checked against the videos themselves, only against the summaries.
 
-## 1. What the ten videos add up to
+## 1. What the first ten videos add up to
 
 Across one fortnight the channel describes a single working method from several angles. An agent is a folder of plain files: a short routing file, skills that are recipes corrected after each run, and a knowledge folder. Quality comes from showing the agent a finished example or a countable finish line, from keeping instructions to what the model cannot infer, and from forcing proof before the agent may say it is done: a run, a screenshot, a real browser click. Around that core sit three experiments: a panel of sub-agents that argue a decision, an expert clone compiled from public material into a cited wiki, and small interface mods that surface hidden state. Two videos are sponsored or partnered tours of hosted products and one covers a Grok Bot update; in each Nate concedes that the product removes plumbing rather than adding a capability he could not get before [V2 20:39].
 
@@ -192,5 +192,66 @@ Each file is a verified summary in `ai/videos/`. Confidence is as each summary r
 | V8 | `08-expert-clone-andrej-karpathy.md` | Expert clone of Andrej Karpathy, 5 Oct 2026, 10:45 | High on content; medium on external claims, secondary corroboration only |
 | V9 | `09-master-codex-in-35-minutes.md` | Master 96% of Codex, 3 Oct 2026, 34:34, possibly promotional | High on content; medium on product claims and usage economics |
 | V10 | `10-five-claude-code-mods.md` | Five Claude Code mods, 2 Oct 2026, 11:19 | High for what was shown; medium for platform facts; low for benefits |
+| V11 | `11-build-and-sell-software-as-a-non-techie.md` | Build and sell software as a non-techie, interview, 2 Oct 2026, 1:09:33, one sponsored segment | High on what was said; medium on garbled names; low on the productivity and security claims |
+| V12 | `12-codex-ultrafast-tested.md` | Codex Ultrafast tested, 1 Oct 2026, 9:03 | High on what was shown and measured; low on the general speed and usage claims and the plan-pricing dispute |
+| V13 | `13-openai-dots-vs-meta-muse.md` | OpenAI Dots against Meta Muse, 30 Sep 2026, 16:30 | High on what Herk showed and concluded; low on model names, pricing, limits and privacy |
+| V14 | `14-sonnet-5-5-vs-opus-5-5-tested.md` | Sonnet 5.5 against Opus 5.5, 28 Sep 2026, 25:49 | Medium: figures clearly stated but unchecked; one chapter badly garbled; single-run judgements |
+| V15 | `15-gpt-6-astra-stock-trading-experiment.md` | GPT-6 Astra trading experiment, 28 Sep 2026, 18:00 | High on what was shown and said; low on any conclusion about AI trading |
 
 Context files: `research/nate-herk/business-context.md` and `research/nate-herk/estate-context.md`. The structured index `round1-key-ideas.json` was read as a cross-check and treated as data. No transcript is quoted here.
+
+## 8. Addendum: videos 11 to 15 (28 September to 2 October 2026)
+
+Written 17 October 2026 from the five verified summaries `11` to `15` in `ai/videos/`, the five videos published just before the ten above. Citations follow the pattern above; nothing was checked against the videos themselves. None is a build walkthrough. Sponsored, promotional and self-reported claims are labelled as they arise.
+
+### 8.1 What each video adds
+
+**V11, building and selling software as a non-technical person.** An interview whose lasting idea is a four-rung ladder of risk: a tool for yourself, for your team, sold to a company, sold to the public, with legal and data duties rising at each rung and a warning not to skip one [V11 12:42 to 15:20, 17:06]. What separates beginners from veterans is the quality of instructions and review, not the tools [V11 17:58]. On testing: define good, make examples the test set, let an agent loop against a measurable target [V11 29:39 to 32:18]; for subjective output, a second model as judge, scored for agreement with a human who marked a sample and retuned when the model changes [V11 36:44 to 39:25, 41:12]. He says specs and plan mode matter less than a year ago [V11 22:31, 28:46]; that is his own practice, and his report that Anthropic engineers agree is second-hand. CodeRabbit is sponsored, Hostinger and First Client SOP are promotional, and the tenfold productivity figure and the near-impossible-to-hack claim are unsupported assertions [V11 1:28, 53:42].
+
+**V12, Codex Ultrafast.** A test of a top speed setting that, per Herk, comes only on the most expensive plan [V12 0:00]: same prompt, two settings, with time, share of weekly allowance and a side-by-side of outputs recorded [V12 5:12, 6:35]. The reel ran about 2.5 times faster against an advertised eight, for about four times the allowance; the guide ran about seven times faster for three times the allowance, with no quality difference [V12 4:52, 5:39, 7:14]. Verdict: speed bought no visible quality, and a constant need for speed means the planning is wrong [V12 8:00, 8:12]. One run per setting; the comment that the plan is a repriced older tier is unverified. Glaido and Hostinger links are promotional.
+
+**V13, two consumer personal agents.** OpenAI's Dots against Meta's Muse, both always-on cloud agents with memory, schedules and connectors [V13 1:34], after about a day with each. Herk values an approvals tab and a 30-minute heartbeat over documents and email [V13 8:36], memory and persona as two editable files [V13 3:08], and an agent reachable from a team Slack channel [V13 4:42]. He dislikes memory gone stale from old chat history [V13 2:21], scheduled tasks hidden from the product's own screen [V13 11:43] and a product that misdescribed its own features [V13 12:30]. Model names, free-tier limits and the failed demo are one reviewer's account from garbled captions [V13 0:47, 7:02]; privacy is not covered.
+
+**V14, Sonnet 5.5 against Opus 5.5.** Seven tasks, same prompt, both at high effort, judged blind, with time, tokens and API cost logged [V14 2:24, 6:21]. Opus is roughly double per token, but the gap across the set was far smaller [V14 0:48, 24:44]. The rule: where the job has a clear spec and an obvious check, or a skill already defines good, start with the cheaper model; where the goal is vague or needs a thought partner, use the stronger one [V14 1:36, 12:54]. The resource-guide round, where a good skill produced near-identical output from both, is the strongest evidence [V14 23:58]. He also suggests recording which model each skill wins on [V14 1:36] and asks for spreadsheets built on formulas [V14 15:16]. His speed and price figures are unchecked, each round is one run judged by him, viewers dispute the final cost gap and note that his existing memory and skills shaped both outputs. ScrollCraft is self-promotion; Glaido is promotional.
+
+**V15, the trading experiment.** Read strictly as a workflow lesson, never as money advice; the practice does not trade and nothing here is financial advice. Six scheduled routines wake one agent through the day in one thread, each leaving a handoff note the next reads, so short runs behave as one worker [V15 0:56, 1:54]. When the model declined to place orders, Herk split thinker from doer with a second agent woken by an email webhook [V15 3:43, 4:40]. The agent was cautious to the point of inaction and he loosened its gates mid-run, which he and the most-liked comment agree is why the result proves little [V15 2:48, 5:34, 17:36]. His daily figures are inconsistent and the "model restriction" is his account only.
+
+### 8.2 Themes strengthened or weakened
+
+- **2.1, a finished example beats a description: strengthened.** V11's define-good-then-test-set [29:39] and V14's good-skill-levels-the-models [23:58] are the same claim from two angles, and V14 gives it a cost dimension: a vague prompt favours the stronger model, a precise one closes the gap [12:54, 13:41].
+- **2.3, proof by running: strengthened.** V11's judge model is the pack's first method for measuring subjective output [36:44 to 39:25]; V14's blind judging [2:24] and V12's same-prompt A/B [5:12] apply the discipline to model choice.
+- **2.4, match model and effort to the step: strongly strengthened.** V14 supplies the rule and the per-skill record [1:36]; V12 adds speed tier as a second dial that can multiply allowance use for no quality gain [4:52, 7:14]; V11's instructions-and-review point [17:58] argues for spending on review rather than tier.
+- **2.2 and 2.5, small context and interview first: slightly weakened.** V11's guest builds and reacts rather than specifying [22:31], though Herk still interviews to draw out intent [V11 24:16]; V13's stale chat memory [2:21] supports dated files the owner can read. The reconciliation in section 5 item 1 holds.
+- **2.8, shared and always-on agents: strengthened as pattern, weakened as product case.** V13 and V15 show heartbeat, approvals, team channel and chained routines [V13 8:36, 4:42; V15 1:54]; V13 also shows them buggy [11:43, 12:30].
+- **2.9, the trust ladder: strengthened.** V11's rungs [12:42] are the ladder with legal duties attached. V15's cautious agent [2:48] is the opposite failure in a low-stakes setting; here a conservative agent that holds and asks is the desired behaviour.
+- 2.6 and 2.7 are unchanged.
+
+### 8.3 New themes
+
+- **The non-technical builder path and selling software.** V11's ladder maps onto Crewley.ai: the estate is rungs one and two, selling to other practices is rung three with new contract and data duties [V11 12:42 to 16:12]. The `business-filter` skill and five-stage gate already sit at that boundary; the ladder is a sorting label, not a new process.
+- **Speed tiers and allowance cost.** Speed is a dial separate from model and effort and scales badly on long jobs [V12 4:52, 5:39]. The estate's slow steps are gates, not model speed. Record allowance share per job type before any premium mode is trialled [V12 1:33].
+- **Model-tier choice with cost visible.** V14's rule and method [1:36, 2:24] match the estate's orchestrate, build, review split and give it a test: a side-by-side on two or three repeating jobs, on pseudonymised fixtures, before any model change. The method is carried over; the dollar figures are not.
+- **Consumer AI products.** V13's useful pieces (approvals in one place, a heartbeat, editable memory files, Slack as front door) exist here in parts. Both hold memory with the vendor, which rules them out near patient data [V13 1:34].
+- **Autonomous routines and handoffs.** V15's chain of scheduled runs reading each other's notes [1:54] is a pattern the estate's event-triggered agents do not use; a day-shaped, read-only chain (morning brief, midday check of existing alerts, closing summary) would suit the Frame maker's rhythm. Thinker split from doer [V15 4:40] is already the rule: the agent drafts, a person presses.
+
+### 8.4 Contradictions with sections 2 to 5
+
+1. **Specs (item 1).** V11 joins V1's side [22:31]. The spec stage stays for live writes; prototypes already live in the test channel.
+2. **Autonomy (items 3 and 8).** V15 is V9's unattended trading run shown in full, and the agent was never left alone, so nothing was learned [V15 2:48, 5:34]. Autonomy for drafts, checks and reports only, with rules frozen for a trial window.
+3. **Cost claims (item 7).** An advertised eightfold speed measured at 2.5 [V12 4:52] and a disputed final cost gap [V14 24:44] back the rule that a cost claim is reported until a usage page agrees.
+4. **Routing (item 4).** V14 is the counter-practice to V6: model chosen per task, cost logged per run [2:24]. V13's products hide the model behind a persona.
+5. **Hosted products (item 10).** V13 adds two consumer-grade processors with vendor-held memory [1:34]. Local on sanitised material or not at all.
+6. **Model refusals, new.** V15 engineered round a refusal with a second agent [4:40]. The estate reads a refusal as a signal to keep the human step.
+
+### 8.5 Change to the candidate accounts in section 6
+
+No new candidates. Six existing ones gain sources:
+
+- **model-and-cost-ledger** (6.10): V14 rule, cost per run, skill-to-model register [1:36, 23:58, 24:44]; V12 allowance share per job type, speed tier as a dial [1:33, 5:39].
+- **build-verifier** (6.12): V11 define good and build the test set from examples [29:39 to 32:18]; V14 ask for the checkable definition of done first [12:54].
+- **instruction-auditor** (6.9): V11 abandoned experiments as hidden dependencies, flag never delete [48:26]; V13 dated, readable memory files [2:21, 3:08].
+- **ai-cio** (6.3): V13 one page of pending approvals and scheduled jobs with last run [8:36]; V15 log every rule change during a trial beside its results [2:48, 5:34].
+- **first-draft-assistant** (6.14, now content-drafter): V11's judge-model method as a second trust measure beside the edit rate, on owner-marked pseudonymised samples only [36:44 to 39:25, 41:12].
+- **ai-cfo** (6.4): V14's formulas-not-values rule [15:16].
+- **No change** to the other ten candidates. The summaries' own role ideas (usage meter, change risk sorter, test data maker, day-shift conductor and the rest) all fold into the accounts above or into alerts already live.
+- **Held back, added to the list:** consumer personal agents (V13) near patient data; any premium speed tier (V12) without a recorded allowance baseline; loosening a cautious agent's gates outside the five-stage gate (V15).

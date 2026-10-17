@@ -1,6 +1,6 @@
 # AI accounts research
 
-This folder holds research on the ten newest videos from the Nate Herk | AI Automation channel, published between 2 and 16 October 2026, and the roster of AI accounts that research produced for Winstanley & Son, a frame maker in Dingle, Liverpool.
+This folder holds research on the fifteen newest videos from the Nate Herk | AI Automation channel, published between 28 September and 16 October 2026, and the roster of AI accounts that research produced for Winstanley & Son, a frame maker in Dingle, Liverpool.
 
 The aim is practical. Each video was read for ideas the practice could use, tested against what is already running, and turned into either a recommendation or a defined role. Nothing here replaces a live system. Every account collects, checks, flags and drafts; the owner approves, signs and presses.
 
@@ -9,7 +9,7 @@ The aim is practical. Each video was read for ideas the practice could use, test
 The work was done on 17 October 2026 in four stages.
 
 1. One agent per video read the transcript, comments and any linked material, and wrote a summary. A second agent checked each summary against the source.
-2. A synthesis pulled the ten summaries together: what the videos agree on, where they conflict, and which ideas suit a small practice.
+2. A synthesis pulled the first ten summaries together: what the videos agree on, where they conflict, and which ideas suit a small practice. Videos 11 to 15 were summarised and verified the same way later that day and folded in as an addendum (synthesis section 8) with a roster re-check.
 3. A roster design turned the synthesis candidates into twelve accounts, merged overlaps, and set reporting lines and three build waves.
 4. One writer per account produced its file, each checked against the shared operating rules.
 
@@ -27,8 +27,8 @@ Start with `accounts/README.md` for the roster at a glance, then read the shared
 | Path | What it holds |
 |---|---|
 | `research/nate-herk/` | Working material: business and estate context, the per-video template in `HANDOFF.md`, the video list, and fetch scripts |
-| `videos/` | The ten video summaries, with an index in `videos/README.md` |
-| `SYNTHESIS.md` | Cross-video synthesis, with candidate accounts in section 6 |
+| `videos/` | The fifteen video summaries, with an index in `videos/README.md` |
+| `SYNTHESIS.md` | Cross-video synthesis, with candidate accounts in section 6 and the videos 11 to 15 addendum in section 8 |
 | `accounts/` | The roster, the shared operating rules and one file per account |
 
 ## What is deliberately absent
@@ -42,7 +42,7 @@ This is a public site, so those exclusions are part of the design, not an oversi
 
 ## Adding new videos
 
-Five older videos, numbered 11 to 15, are queued. To add them:
+Videos 11 to 15 (28 September to 2 October 2026) were added on 17 October 2026 by this method. To add any further video:
 
 1. Run `fetch_transcripts.py` in `research/nate-herk/scripts/` to collect the transcripts and comments.
 2. Write one summary per video using the template in `research/nate-herk/HANDOFF.md`, and have a second agent verify it.
