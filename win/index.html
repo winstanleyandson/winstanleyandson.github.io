@@ -504,7 +504,7 @@ footer nav.morelinks+.fine{margin-top:16px}
   </div>
   <div>
     <div class="win-gate" id="win-gate">
-      <label for="win-pc"><b>First, your postcode.</b> The draw is for residents of Liverpool, Wirral, Sefton, Knowsley and St Helens.</label>
+      <label for="win-pc"><b>First, your full postcode.</b> The draw is for residents of Liverpool, Wirral, Sefton, Knowsley and St Helens; we check the postcode against the official council boundaries.</label>
       <div class="win-gate-row"><input id="win-pc" type="text" inputmode="text" autocomplete="postal-code" placeholder="e.g. L8 4UE" maxlength="10" aria-describedby="win-gate-msg"><button type="button" class="btn" id="win-pc-go">Check and enter</button></div>
       <p id="win-gate-msg" class="small" aria-live="polite"></p>
     </div>
@@ -541,7 +541,19 @@ footer nav.morelinks+.fine{margin-top:16px}
   <p>Winstanley &amp; Son, 252 Park Road, Dingle, Liverpool L8 4UE. Questions: <a href="mailto:help@winstanleyandson.co.uk">help@winstanleyandson.co.uk</a>. This promotion is not sponsored, endorsed, administered by or associated with Facebook or Instagram.</p>
 </div></section>
 <style>.win-gate{border:1.5px solid var(--gold);border-radius:8px;padding:20px;background:var(--parchment)}.win-gate label{display:block;margin-bottom:12px}.win-gate-row{display:flex;gap:10px;flex-wrap:wrap}.win-gate input{flex:1 1 160px;min-height:52px;padding:10px 14px;font:inherit;font-size:18px;border:1.5px solid var(--green);border-radius:3px;text-transform:uppercase}.win-gate .btn{flex:0 0 auto}.win-gate-msg-no{color:var(--oxblood)}</style>
-<script>(function(){var g=document.getElementById('win-gate'),f=document.getElementById('win-form-shell'),i=document.getElementById('win-pc'),b=document.getElementById('win-pc-go'),m=document.getElementById('win-gate-msg');if(!g||!f)return;function ok(v){v=v.toUpperCase().replace(/\s+/g,'');return /^(L|CH|WA|PR|WN)[0-9]/.test(v)}function go(){var v=i.value||'';if(ok(v)){f.hidden=false;g.hidden=true;try{sessionStorage.setItem('winpc',v)}catch(e){}f.scrollIntoView({behavior:'smooth',block:'start'})}else if(/^[A-Z]{1,2}[0-9]/i.test(v.replace(/\s+/g,''))){m.textContent='Sorry, this draw is only open to residents of Liverpool, Wirral, Sefton, Knowsley and St Helens, because the prize is fitted in person at our Liverpool practice.';m.className='small win-gate-msg-no'}else{m.textContent='Please type your postcode, for example L8 4UE.';m.className='small'}}b.addEventListener('click',go);i.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();go()}});try{var sv=sessionStorage.getItem('winpc');if(sv&&ok(sv)){f.hidden=false;g.hidden=true}}catch(e){}})();</script>
+<script>(function(){var g=document.getElementById('win-gate'),f=document.getElementById('win-form-shell'),i=document.getElementById('win-pc'),b=document.getElementById('win-pc-go'),m=document.getElementById('win-gate-msg');if(!g||!f)return;
+var OK={'E08000012':'Liverpool','E08000015':'Wirral','E08000014':'Sefton','E08000011':'Knowsley','E08000013':'St Helens'};
+var HELP=' If you think that is wrong, email <a href="mailto:help@winstanleyandson.co.uk">help@winstanleyandson.co.uk</a> with your postcode and we will check it by hand.';
+function say(t,bad){m.innerHTML=t;m.className=bad?'small win-gate-msg-no':'small'}
+function pass(v){f.hidden=false;g.hidden=true;try{sessionStorage.setItem('winpc2',v)}catch(e){}f.scrollIntoView({behavior:'smooth',block:'start'})}
+function go(){var v=(i.value||'').toUpperCase().replace(/[^A-Z0-9]/g,'');if(v.length<5||v.length>7){say('Please type your full postcode, for example L8 4UE.',false);return}
+b.disabled=true;say('Checking…',false);
+fetch('https://api.postcodes.io/postcodes/'+encodeURIComponent(v)).then(function(r){return r.json()}).then(function(d){b.disabled=false;
+if(d&&d.status===200&&d.result){var c=d.result.codes&&d.result.codes.admin_district;if(OK[c]){pass(v)}else{say('Sorry, '+(d.result.admin_district||'that area')+' is outside the draw. It is only open to residents of Liverpool, Wirral, Sefton, Knowsley and St Helens, because the prize is fitted in person at our Liverpool practice.'+HELP,true)}}
+else{say('We could not find that postcode. Check it and try again.'+HELP,true)}
+}).catch(function(){b.disabled=false;say('We could not check your postcode just now. Please try again in a moment.'+HELP,true)})}
+b.addEventListener('click',go);i.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();go()}});
+try{var sv=sessionStorage.getItem('winpc2');if(sv){f.hidden=false;g.hidden=true}}catch(e){}})();</script>
 <script src="https://link.msgsndr.com/js/form_embed.js"></script>
 
 
