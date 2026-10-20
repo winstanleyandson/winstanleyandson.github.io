@@ -499,11 +499,16 @@ footer nav.morelinks+.fine{margin-top:16px}
     <h2>Put your name in the draw.</h2>
     <p>We’re varifocal experts here in Liverpool. We help you choose the right lenses, the right frame and the right fit.</p>
     <p>Completely independent on Park Road since 1998. This is our way of giving something back.</p>
-    <p>Open to residents of Merseyside and the surrounding area (postcode areas L, CH, WA and PR) aged 18+ who can visit our Liverpool practice in person. One entry per person.</p>
+    <p>Open to residents of Liverpool, Wirral, Sefton, Knowsley and St Helens aged 18+ who can visit our Liverpool practice in person. One entry per person.</p>
     <img src="/images/frame-detail.jpg" alt="A Winstanley &amp; Son eyewear frame" width="1200" height="900" loading="lazy">
   </div>
   <div>
-    <div class="win-form-shell">
+    <div class="win-gate" id="win-gate">
+      <label for="win-pc"><b>First, your postcode.</b> The draw is for residents of Liverpool, Wirral, Sefton, Knowsley and St Helens.</label>
+      <div class="win-gate-row"><input id="win-pc" type="text" inputmode="text" autocomplete="postal-code" placeholder="e.g. L8 4UE" maxlength="10" aria-describedby="win-gate-msg"><button type="button" class="btn" id="win-pc-go">Check and enter</button></div>
+      <p id="win-gate-msg" class="small" aria-live="polite"></p>
+    </div>
+    <div class="win-form-shell" id="win-form-shell" hidden>
       <iframe src="https://api.leadconnectorhq.com/widget/form/5oUYA8vXiWm081EaO7mM"
         style="width:100%;height:865px;border:none;border-radius:8px"
         id="inline-5oUYA8vXiWm081EaO7mM" data-layout="{'id':'INLINE'}"
@@ -525,9 +530,9 @@ footer nav.morelinks+.fine{margin-top:16px}
   <p>The winner becomes eligible for the next pair exactly 12 months after receiving the previous pair. The prize is non-transferable. There is no cash alternative and unused value cannot be carried forward. The winner may pay the difference if they choose a pair costing more than £1,000.</p>
   <p>An eye test is charged separately unless the winner qualifies for a free NHS sight test. The winner must attend Winstanley &amp; Son in Liverpool for their eyewear.</p>
   <h3>Who can enter</h3>
-  <p>Entry is free, with no purchase necessary. The draw is for local people: it is open to residents of Merseyside and the surrounding area (postcode areas L, CH, WA and PR) aged 18 or over. Every entrant must be able to attend the Liverpool practice in person for each of the five fittings; the prize is only delivered at 252 Park Road. Entries from outside these postcode areas are not valid and will be removed before the draw. Staff and their immediate families are excluded. One entry per person across all entry routes.</p>
+  <p>Entry is free, with no purchase necessary. The draw is for local people: it is open to residents of the five Merseyside boroughs, Liverpool, Wirral, Sefton, Knowsley and St Helens, aged 18 or over. Every entrant must be able to attend the Liverpool practice in person for each of the five fittings; the prize is only delivered at 252 Park Road. Entries from outside these boroughs are not valid and will be removed before the draw. Staff and their immediate families are excluded. One entry per person across all entry routes. There is one winner and one prize; this wording was published on 20 October 2026.</p>
   <h3>Closing date and draw</h3>
-  <p>Entries close on 30 November 2026 at 23:59 GMT. The winner will be selected using a verifiable random process on Facebook Live on 1 December 2026 at 7pm GMT. We will contact the winner by email. The winner has 14 days to claim the prize. Before the prize is awarded, the winner must show photo ID and proof of address (such as a bank statement, utility bill or council tax letter dated within the last three months) at an address in the eligible postcode areas, and confirm that they can attend 252 Park Road in person for their fittings. If the prize is not claimed, the address is outside the eligible areas, or the winner cannot attend in person, we will draw again from the remaining valid entries.</p>
+  <p>Entries close on 30 November 2026 at 23:59 GMT. The winner will be selected using a verifiable random process on Facebook Live on 1 December 2026 at 7pm GMT. We will contact the winner by email. The winner has 14 days to claim the prize. Before the prize is awarded, the winner must show photo ID and proof of address (such as a bank statement, utility bill or council tax letter dated within the last three months) at an address in Liverpool, Wirral, Sefton, Knowsley or St Helens, and confirm that they can attend 252 Park Road in person for their fittings. We do not ask entrants to upload documents with their entry. If the prize is not claimed, the address is outside the eligible boroughs, or the winner cannot attend in person, we will draw again from the remaining valid entries.</p>
   <p>You do not need to watch the live draw to win. Liking, sharing or tagging is optional and does not provide extra entries or improve your chance of winning.</p>
   <h3>Your information</h3>
   <p>We use your entry details to administer the competition and contact the winner. Receiving eyewear news and offers is a separate choice: either “Yes, please” or “No thanks” allows you to enter. You can unsubscribe from marketing emails at any time.</p>
@@ -535,6 +540,8 @@ footer nav.morelinks+.fine{margin-top:16px}
   <h3>The promoter</h3>
   <p>Winstanley &amp; Son, 252 Park Road, Dingle, Liverpool L8 4UE. Questions: <a href="mailto:help@winstanleyandson.co.uk">help@winstanleyandson.co.uk</a>. This promotion is not sponsored, endorsed, administered by or associated with Facebook or Instagram.</p>
 </div></section>
+<style>.win-gate{border:1.5px solid var(--gold);border-radius:8px;padding:20px;background:var(--parchment)}.win-gate label{display:block;margin-bottom:12px}.win-gate-row{display:flex;gap:10px;flex-wrap:wrap}.win-gate input{flex:1 1 160px;min-height:52px;padding:10px 14px;font:inherit;font-size:18px;border:1.5px solid var(--green);border-radius:3px;text-transform:uppercase}.win-gate .btn{flex:0 0 auto}.win-gate-msg-no{color:var(--oxblood)}</style>
+<script>(function(){var g=document.getElementById('win-gate'),f=document.getElementById('win-form-shell'),i=document.getElementById('win-pc'),b=document.getElementById('win-pc-go'),m=document.getElementById('win-gate-msg');if(!g||!f)return;function ok(v){v=v.toUpperCase().replace(/\s+/g,'');return /^(L|CH|WA|PR|WN)[0-9]/.test(v)}function go(){var v=i.value||'';if(ok(v)){f.hidden=false;g.hidden=true;try{sessionStorage.setItem('winpc',v)}catch(e){}f.scrollIntoView({behavior:'smooth',block:'start'})}else if(/^[A-Z]{1,2}[0-9]/i.test(v.replace(/\s+/g,''))){m.textContent='Sorry, this draw is only open to residents of Liverpool, Wirral, Sefton, Knowsley and St Helens, because the prize is fitted in person at our Liverpool practice.';m.className='small win-gate-msg-no'}else{m.textContent='Please type your postcode, for example L8 4UE.';m.className='small'}}b.addEventListener('click',go);i.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();go()}});try{var sv=sessionStorage.getItem('winpc');if(sv&&ok(sv)){f.hidden=false;g.hidden=true}}catch(e){}})();</script>
 <script src="https://link.msgsndr.com/js/form_embed.js"></script>
 
 
