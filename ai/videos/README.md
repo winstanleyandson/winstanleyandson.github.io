@@ -1,6 +1,6 @@
 # Video summaries
 
-Fifteen summaries of Nate Herk | AI Automation videos, published 28 September to 16 October 2026. Each file covers what the video says, what it means for Winstanley & Son, the account ideas it suggests, and the sources and confidence. Confidence is as reported in each file's final section. See the [synthesis](../SYNTHESIS.md) for the cross-video view.
+Seventeen summaries of Nate Herk | AI Automation videos, published 28 September to 22 October 2026. Each file covers what the video says, what it means for Winstanley & Son, the account ideas it suggests, and the sources and confidence. Confidence is as reported in each file's final section. See the [synthesis](../SYNTHESIS.md) for the cross-video view.
 
 | No. | Published | Duration | Title | Takeaway | Confidence |
 |---|---|---|---|---|---|
@@ -19,9 +19,11 @@ Fifteen summaries of Nate Herk | AI Automation videos, published 28 September to
 | 13 | 30 Sep 2026 | 16:30 | [I Tested OpenAI's Dots vs. Meta's Muse. What You Need to Know.](13-openai-dots-vs-meta-muse.md) | Two consumer cloud agents; approvals in one place, a heartbeat and editable memory files are the useful patterns, and vendor-held memory rules them out near patient data. | High on what Herk showed; low on model names, pricing, limits and privacy |
 | 14 | 28 Sep 2026 | 25:49 | [I Tested Sonnet 5.5 vs Opus 5.5. What You Need to Know.](14-sonnet-5-5-vs-opus-5-5-tested.md) | Where a job has a clear spec and a check, or a skill defines good, start with the cheaper model; log time and cost per run and record which model each skill was proven on. | Medium: figures stated but unchecked; one chapter garbled; single runs |
 | 15 | 28 Sep 2026 | 18:00 | [I Gave GPT 6 Astra $10,000 to Trade Stocks...And This Happened](15-gpt-6-astra-stock-trading-experiment.md) | Read only as a workflow lesson: scheduled routines that hand notes forward act as one worker, and rule changes during a trial make its result meaningless. | High on what was shown; low on any conclusion about AI trading |
+| 16 | 19 Oct 2026 | 10:16 | [I Tried 100+ AI Tools. These 7 Are the Best](16-seven-best-ai-tools.md) | A personal tool list; the useful habits are one model key per automation so cost per job is visible, and scripts rather than agents for predictable work. One sponsored section and one partner product. | High on what was said; low to medium on whether the claims are true |
+| 17 | 22 Oct 2026 | 15:00 | [/roast-room: How I Use Claude to Think Like the Top 1%](17-roast-room-how-nate-uses-it.md) | The adviser panel's structure: a seat sheet with a source tally per adviser, the chair proposing seats, saved sessions and a devil's advocate on unanimity. Adds named living people as seats, which the roster does not copy. | High on what was said; medium on the vote split; repository not opened |
 
 ## Auto-captions and the paraphrase rule
 
 All transcripts are auto-generated captions. They garble proper nouns, product names and some figures, and they carry no speaker labels. Each summary notes where this affects a claim. Transcripts themselves are not published here. Summaries paraphrase in plain English and quote at most a few words, so the videos remain the source for anyone who wants the exact wording.
 
-Videos 11 to 15 were added on 17 October 2026 and are covered by section 8 of the synthesis.
+Videos 11 to 15 were added on 17 October 2026 and are covered by section 8 of the synthesis. Videos 16 and 17 were added on 24 October 2026 and are covered by section 9.
