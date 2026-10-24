@@ -1,6 +1,6 @@
 # AI account roster for Winstanley & Son
 
-Designed 17 October 2026 from the [synthesis](../SYNTHESIS.md) of Nate Herk's ten newest videos (re-checked the same day against videos 11 to 15, see the final section), read against the [business context](../research/nate-herk/business-context.md) and the [estate context](../research/nate-herk/estate-context.md). Video numbers follow the synthesis Sources table. Every account inherits the [operating rules](_shared/operating-rules.md) and becomes one file here with YAML frontmatter, ready for a `.claude/agents/` folder.
+Designed 17 October 2026 from the [synthesis](../SYNTHESIS.md) of Nate Herk's ten newest videos (re-checked the same day against videos 11 to 15, and again on 24 October 2026 against videos 16 and 17; see the final two sections), read against the [business context](../research/nate-herk/business-context.md) and the [estate context](../research/nate-herk/estate-context.md). Video numbers follow the synthesis Sources table. Every account inherits the [operating rules](_shared/operating-rules.md) and becomes one file here with YAML frontmatter, ready for a `.claude/agents/` folder.
 
 Twelve accounts: four leadership roles whose verdicts already exist in the owner's internal reports, one owner-facing advisory board, and seven operational accounts. Nothing replaces a live piece of the estate; each operational account builds on something running or fills a gap the owner's notes name. All of them collect, check, flag and draft; the owner approves, signs and presses.
 
@@ -10,16 +10,16 @@ Twelve accounts: four leadership roles whose verdicts already exist in the owner
 |---|---|---|---|---|---|---|
 | [ai-ceo](ai-ceo.md) | AI CEO | Owner | Read-only chief of staff: weekly facts pack, source and date on every figure, argues the other side, says "not measured" | Weekly; on request | opus | 4, 9, 1 |
 | [ai-cmo](ai-cmo.md) | AI CMO | Owner | Scorekeeper and sceptic: numbers ledger with proven-or-reported flags, scored decision log, recall response as headline | Weekly pack; monthly board page | opus | 3, 5, 7 |
-| [ai-cio](ai-cio.md) | AI CIO | Owner | Watches, counts, reminds and drafts, never presses: registers, daily output check, one page a week | Daily; weekly; monthly | sonnet | 7, 2, 9, 5, 10, 13, 15 |
+| [ai-cio](ai-cio.md) | AI CIO | Owner | Watches, counts, reminds and drafts, never presses: registers, daily output check, one page a week | Daily; weekly; monthly | sonnet | 7, 2, 9, 5, 10, 13, 15, 16 |
 | [ai-cfo](ai-cfo.md) | AI CFO | Owner | Read-only management view: code computes and reconciles, model explains with a citation, no tax advice | Weekly; monthly | sonnet | 2, 6, 9, 5, 14 |
-| [advisory-board](advisory-board.md) | Advisory board | Owner, fed by ai-ceo | Pressure-tests one named decision before money is spent: six-field brief, role-lens seats, forced dissent, dated verdict with conditions | Before a spend decision; quarterly interviews | opus | 4, 1, 8, 2 |
+| [advisory-board](advisory-board.md) | Advisory board | Owner, fed by ai-ceo | Pressure-tests one named decision before money is spent: six-field brief, role-lens seats, forced dissent, dated verdict with conditions | Before a spend decision; quarterly interviews | opus | 4, 1, 8, 2, 17 |
 | [close-out-chaser](close-out-chaser.md) | Close-out chaser | ai-ceo | End-of-day Slack prompt for status, attendance and sale value on open items; stalled-item ping for bespoke frame jobs | Daily at close | haiku | 2 |
 | [content-drafter](content-drafter.md) | Content drafter | ai-cmo | Drafts review replies, captions, guide updates with internal links, and captioned draft reels from an approved exemplar pack; records staff edit rate | Weekly; monthly batch | sonnet | 1, 3, 5, 7, 9, 11 |
 | [rules-librarian](rules-librarian.md) | Rules librarian | ai-cio | Cited wiki of public rules the practice must state accurately (NHS eligibility, UK GDPR, advertising); quote or inferred label on every rule | Weekly change list | sonnet | 8, 4, 1 |
 | [data-hygiene-auditor](data-hygiene-auditor.md) | Data hygiene auditor | ai-cio | Weekly check of the practice-system export, sync counts, postcode quality and field mapping; findings labelled seen, inferred or unknown | Weekly; before any mail send | haiku | 3, 2, 8 |
 | [build-verifier](build-verifier.md) | Build and site verifier | ai-cio | Run gate on offline fixtures, pre-review ship check, pre-push secret scan, post-push browser check at phone and desktop widths | Every build and push | haiku | 8, 5, 1, 3, 11, 14 |
 | [instruction-auditor](instruction-auditor.md) | Instruction auditor | ai-cio | Monthly read-only audit of instruction layers and shared skills across Claude and Codex; reads any third-party tool before install | Monthly; each model change | sonnet | 7, 10, 9, 6, 5, 11, 13 |
-| [model-and-cost-ledger](model-and-cost-ledger.md) | Model and cost ledger | ai-cfo | Records model, effort and cost per scheduled job; flags over-tiering; replays pseudonymised fixtures through a cheaper model | Weekly; monthly summary | haiku | 6, 9, 3, 2, 5, 14, 12 |
+| [model-and-cost-ledger](model-and-cost-ledger.md) | Model and cost ledger | ai-cfo | Records model, effort and cost per scheduled job; flags over-tiering; replays pseudonymised fixtures through a cheaper model | Weekly; monthly summary | haiku | 6, 9, 3, 2, 5, 14, 12, 16 |
 
 ## Reporting lines
 
@@ -83,3 +83,27 @@ Considered and rejected:
 - A day-shift conductor, action gatekeeper, change-during-trial logger or benchmark referee (video 15): the conductor is a pattern for the AI CIO's daily check over alerts already live; the gatekeeper is the owner-presses rule itself; the logger is one bullet in the AI CIO; the referee is the AI CEO's existing "not measured" rule.
 - Any consumer personal agent (video 13), any premium speed tier without a recorded allowance baseline (video 12), and any loosening of a cautious agent's gates outside the five-stage gate (video 15): held back, added to the synthesis held-back list.
 - Nothing in video 15 is read as money advice; the practice does not trade.
+
+## Re-check after videos 16 and 17 (24 October 2026)
+
+The two newest videos (19 and 22 October 2026, summaries `16` and `17`) were read against this roster. Decision: **no new accounts, no account moved between waves, no mission changed.** Section 9 of the [synthesis](../SYNTHESIS.md) has the reasoning.
+
+What changed (additions to existing files, not rewrites; the Videos column above is updated to match):
+
+- **advisory-board**: video 17. A chair step that proposes the seat list with one reason per seat and lets the owner swap a seat before the run (7:58, 9:33); a one-page dated seat sheet per lens with its question, rules, sources and review date, kept outside this public repository (3:10, 3:58); sessions saved as brief, round one, round two, verdict and an outcome note, filed through the AI CMO decision log (10:21); the devil's advocate on unanimity recorded as a stated rule (11:09); an optional owner-dependency lens, a lens and not a named person (0:48); and the no-impersonation rule now carries its reason, that it would put opinions to living people who never gave them, a legal risk a viewer raised.
+- **model-and-cost-ledger**: video 16. One key per automation with the model supplier so cost per job arrives already split (2:20); cheap model sorts, strong model writes, as a tiering pattern to check jobs against (2:50).
+- **ai-cio**: video 16. A fallback model as a risk-register item, because a silent fallback conflicts with fail-loud and needs fixture replay in the test channel before use (2:20, 2:50); a quarterly subscription sweep of tools paid for one feature as a systems-register line beside the AI CFO's cost view (1:00).
+
+Considered and rejected, with where each idea went:
+
+- **Subscription Sweeper** (video 16, 1:00): a register line kept by the AI CIO with the AI CFO's cost view, not an account. The owner decides any cancellation or replacement.
+- **Model Key Auditor** (video 16, 2:20): the ledger's weekly row already records model and cost per job; a missing key or label is a gap on that row, flagged to the AI CIO.
+- **Fallback Replay Tester** (video 16, 2:50): the ledger's existing replay of pseudonymised fixtures through a proposed model, with the AI CIO logging the fallback as a change. No fallback is adopted.
+- **Agent or Script Triage** (video 16, 8:38): already the estate's practice. Make scenarios and code do the fixed steps and the model only explains; the five-stage gate and the native-first rule decide the route for any new job. Nothing to add.
+- **Dictation Safety Check** (video 16, 6:28): held back. It is an owner decision on a tool Herk is a partner in, and any tool would first need a check on where audio and text go. If the owner wants it, the instruction auditor's vet-before-install step covers it.
+- **Seat sheet keeper, seat proposer, decision folder and owner-dependency lens** (video 17): all folded into the advisory board as the additions above. The seat sheets sit with the rules librarian's wiki outside this repository and report through the AI CIO's compliance register.
+- **New Roster skill and named-person seats** (video 17, 6:14, 13:59): held back, as in the synthesis. Seats here are role lenses.
+- A rented always-on server (video 16, 3:41, sponsored): held back. The Make and Mac schedules with the watchdog already run the estate.
+
+**Owner's note, dated 20 October 2026.** Wave 1 was switched on that day in read-only trial: ai-cfo, ai-cio, build-verifier and model-and-cost-ledger, with the AI CIO output check running each weekday and the ledger each Monday, both posting to the isolated test channel. The owner observed that the CFO, CIO and verifier accounts mostly re-label what the estate already runs, and that the genuine gaps are the model and cost ledger, the close-out chaser and the advisory roles. Videos 16 and 17 bear that out: their useful additions land on the ledger and the advisory board, and nothing in them changes the CFO, CIO or verifier missions. This note does not change the waves; the close-out chaser stays in wave 2 and the board in wave 3 until the test-channel trial has run and the owner decides otherwise.
+
