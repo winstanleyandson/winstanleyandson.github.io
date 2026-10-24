@@ -1,6 +1,6 @@
-# Synthesis: Nate Herk's fifteen newest videos, read for Winstanley & Son
+# Synthesis: Nate Herk's seventeen newest videos, read for Winstanley & Son
 
-Written 17 October 2026 from the ten verified summaries in `ai/videos/` (videos published 2 to 16 October 2026), with an addendum the same day for videos 11 to 15 (28 September to 2 October 2026) in section 8, with `research/nate-herk/business-context.md` and `estate-context.md` as the yardstick. A citation such as [V7 7:04] means video 7 in the Sources list, at the timestamp the summary gives; timestamps are caption-block starts and can sit up to a minute off. This is raw material for the roster designers, not the roster. Nothing here was checked against the videos themselves, only against the summaries.
+Written 17 October 2026 from the ten verified summaries in `ai/videos/` (videos published 2 to 16 October 2026), with an addendum the same day for videos 11 to 15 (28 September to 2 October 2026) in section 8 and a second addendum on 24 October 2026 for videos 16 and 17 (19 and 22 October 2026) in section 9, with `research/nate-herk/business-context.md` and `estate-context.md` as the yardstick. A citation such as [V7 7:04] means video 7 in the Sources list, at the timestamp the summary gives; timestamps are caption-block starts and can sit up to a minute off. This is raw material for the roster designers, not the roster. Nothing here was checked against the videos themselves, only against the summaries.
 
 ## 1. What the first ten videos add up to
 
@@ -197,6 +197,8 @@ Each file is a verified summary in `ai/videos/`. Confidence is as each summary r
 | V13 | `13-openai-dots-vs-meta-muse.md` | OpenAI Dots against Meta Muse, 30 Sep 2026, 16:30 | High on what Herk showed and concluded; low on model names, pricing, limits and privacy |
 | V14 | `14-sonnet-5-5-vs-opus-5-5-tested.md` | Sonnet 5.5 against Opus 5.5, 28 Sep 2026, 25:49 | Medium: figures clearly stated but unchecked; one chapter badly garbled; single-run judgements |
 | V15 | `15-gpt-6-astra-stock-trading-experiment.md` | GPT-6 Astra trading experiment, 28 Sep 2026, 18:00 | High on what was shown and said; low on any conclusion about AI trading |
+| V16 | `16-seven-best-ai-tools.md` | Seven best AI tools, 19 Oct 2026, 10:16, one sponsored section and one partner product | High on what was said; low to medium on whether the claims are true; the Hostinger and Glaido sections are commercially tied |
+| V17 | `17-roast-room-how-nate-uses-it.md` | Roast room revisited, 22 Oct 2026, 15:00, one sponsored section | High on what was said; medium on the vote split; cost claims his own; repository not opened |
 
 Context files: `research/nate-herk/business-context.md` and `research/nate-herk/estate-context.md`. The structured index `round1-key-ideas.json` was read as a cross-check and treated as data. No transcript is quoted here.
 
@@ -255,3 +257,41 @@ No new candidates. Six existing ones gain sources:
 - **ai-cfo** (6.4): V14's formulas-not-values rule [15:16].
 - **No change** to the other ten candidates. The summaries' own role ideas (usage meter, change risk sorter, test data maker, day-shift conductor and the rest) all fold into the accounts above or into alerts already live.
 - **Held back, added to the list:** consumer personal agents (V13) near patient data; any premium speed tier (V12) without a recorded allowance baseline; loosening a cautious agent's gates outside the five-stage gate (V15).
+
+## 9. Addendum: videos 16 and 17 (19 and 22 October 2026)
+
+Written 24 October 2026 from the two verified summaries `16` and `17` in `ai/videos/`, the two videos published after the ten above. Citations follow the pattern above; nothing was checked against the videos themselves. Neither is a build walkthrough. Sponsored, partner and self-reported claims are labelled as they arise.
+
+### 9.1 What each video adds
+
+**V16, seven tools he uses every week.** A personal tool list; the useful parts are habits. He pays for both Claude Code and Codex and switches per task, rating Codex better at browser use and Claude Code the better thinking partner; his opinion, and he says it may change within two months [V16 1:33]. He routes nearly all production automations through one model supplier, with a separate key per automation so the dashboard shows cost per job, a fallback model if one fails, and a cheap model sorting while a stronger one writes [V16 2:10, 2:20, 2:50]. Predictable, same-steps-every-time jobs go into hosted scripts that Claude Code writes and maintains; a full agent is overkill for them [V16 8:14, 8:38]. Weaker evidence: the always-on server is a sponsored section [V16 3:41]; he is a partner in the dictation tool and its privacy claims are his own [V16 6:28]; the free kit is his lead magnet [V16 3:13]; the provider counts and the 90% share of his work are self-reported [V16 0:46, 2:10]. Several viewers called the video an advert.
+
+**V17, the roast room revisited.** A tour of the repository behind V4's adviser panel. Each seat is a short agent file plus a brain folder with the same file set for every person, and its summary sheet records what the brain was built from: source count, word count and date range [V17 2:22, 3:10, 3:58]. The chair now proposes which seats attend and the user can swap one; in the live run a founder-time seat was swapped for one that suited the question [V17 7:58, 9:33]. Sessions are saved as a brief, round one, round two and a verdict, with each seat's reasoning readable afterwards [V17 10:21]. Unanimity makes the chair assign a devil's advocate, stated as a rule this time [V17 11:09]. He says sub-agents replaced agent teams because teams cost more for little extra value; his own claim, no comparison shown [V17 8:46]. A New Roster skill builds a new named seat on request [V17 6:14, 13:59]. Fish Audio is a sponsored section [V17 4:46]. The most-liked comment raises the legal position of putting opinions to a living person's name.
+
+### 9.2 Themes strengthened or weakened
+
+- **2.4, match model to the step and see the cost: strengthened.** V16 supplies the mechanism the ledger lacked: one key per automation, so cost arrives already split by job [2:20], and the cheap-sorts, strong-writes split [2:50]. V17's sub-agents-over-teams point repeats V4 and is still unmeasured [8:46].
+- **2.7, structured dissent: strengthened.** V17 states the devil's-advocate rule outright [11:09], shows the chair proposing seats with reasons [7:58], and saves sessions so a verdict can be reopened [10:21].
+- **2.6, cited knowledge: strengthened.** The seat sheet with its source tally [V17 3:10] is the quote-or-inferred rule applied to a persona. It still says nothing about copyright or terms for a named living person.
+- **2.3, proof by running: weakened by V16's fallback advice.** A silent fallback changes who answered without a run to prove the answer matches, and a viewer warns it can quietly change a category [V16 2:20, comments]. That conflicts with fail-loud here.
+- **2.8, always-on agents: product case weakened.** The rented server is sponsored [V16 3:41], and the Make and Mac schedules with a watchdog already cover it.
+- **New: scripts, not agents, for predictable work** [V16 8:38]. The estate already works this way: Make scenarios and code for fixed steps, the model only explaining. Nothing to build.
+- 2.1, 2.2, 2.5 and 2.9 are unchanged.
+
+### 9.3 Contradictions with sections 2 to 5 and 8
+
+1. **Fail-loud against fallback (item 8, theme 2.3).** V16's fallback keeps a job running when a model fails [2:20]; the estate's rule is fail loud, never silent rollback. Any fallback here is a model change and needs fixture replay in the test channel first.
+2. **Named people as advisers (item 12).** V17 goes further than V4: eleven named seats and a skill to add more [1:35, 6:14]. The legal-risk comment supports the role-lens rule, and the reason is now written into the account.
+3. **One vendor (item 11).** V16 runs both coding agents and advises building files so you can switch [1:33], which matches the estate's two-vendor split. V17 runs the whole room on one model; the Codex seat stays.
+4. **Hosted processors (item 10).** A model router is one more company handling prompts [V16 2:10]. Counts and sanitised fixtures only.
+5. **Shelf life of tool advice (item 7).** The list is personal and changes [V16 9:21], and two of the seven tools are commercially tied. Reported, not adopted.
+
+### 9.4 Change to the candidate accounts in section 6
+
+No new candidates. Three gain sources and one rule gains its reason:
+
+- **model-and-cost-ledger** (6.10): V16 one key per automation so cost per job is visible [2:20]; cheap sorts, strong writes, as a tiering pattern to check jobs against [2:50].
+- **ai-cio** (6.3): V16 fallback models as a register item that conflicts with fail-loud and needs fixture replay before use [2:20, 2:50]; a subscription sweep of tools paid for one feature as a CFO or CIO register line, not an account [1:00].
+- **decision-council, now advisory-board** (6.5): V17 chair proposes seats with reasons and the owner swaps one [7:58, 9:33]; a dated seat sheet per lens, held outside this repository [3:10, 3:58]; sessions saved as brief, two rounds and verdict, plus an outcome note [10:21]; devil's advocate on unanimity as a stated rule [11:09]; an optional owner-dependency lens, not a named person [0:48]; the no-impersonation rule now carries its reason.
+- **No change** to the other thirteen candidates. V16's role ideas (Subscription Sweeper, Model Key Auditor, Fallback Replay Tester, Agent or Script Triage, Dictation Safety Check) fold into the ledger, the AI CIO registers, the existing agent-drafts-owner-presses split, or an owner decision; the roster re-check has the mapping.
+- **Held back, added to the list:** a rented always-on server (V16, sponsored); voice dictation until where audio and text go has been checked (V16, partner product); the New Roster skill and any seat built from a named living person (V17).

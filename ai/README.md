@@ -1,6 +1,8 @@
 # AI accounts research
 
-This folder holds research on the fifteen newest videos from the Nate Herk | AI Automation channel, published between 28 September and 16 October 2026, and the roster of AI accounts that research produced for Winstanley & Son, a frame maker in Dingle, Liverpool.
+This folder holds research on the seventeen newest videos from the Nate Herk | AI Automation channel, published between 28 September and 22 October 2026, and the roster of AI accounts that research produced for Winstanley & Son, a frame maker in Dingle, Liverpool.
+
+Wave 1 of the roster (AI CFO, AI CIO, build and site verifier, model and cost ledger) has been running in read-only trial since 20 October 2026, posting to the isolated test channel.
 
 The aim is practical. Each video was read for ideas the practice could use, tested against what is already running, and turned into either a recommendation or a defined role. Nothing here replaces a live system. Every account collects, checks, flags and drafts; the owner approves, signs and presses.
 
@@ -27,8 +29,8 @@ Start with `accounts/README.md` for the roster at a glance, then read the shared
 | Path | What it holds |
 |---|---|
 | `research/nate-herk/` | Working material: business and estate context, the per-video template in `HANDOFF.md`, the video list, and fetch scripts |
-| `videos/` | The fifteen video summaries, with an index in `videos/README.md` |
-| `SYNTHESIS.md` | Cross-video synthesis, with candidate accounts in section 6 and the videos 11 to 15 addendum in section 8 |
+| `videos/` | The seventeen video summaries, with an index in `videos/README.md` |
+| `SYNTHESIS.md` | Cross-video synthesis, with candidate accounts in section 6, the videos 11 to 15 addendum in section 8 and the videos 16 and 17 addendum in section 9 |
 | `accounts/` | The roster, the shared operating rules and one file per account |
 
 ## What is deliberately absent
@@ -42,7 +44,7 @@ This is a public site, so those exclusions are part of the design, not an oversi
 
 ## Adding new videos
 
-Videos 11 to 15 (28 September to 2 October 2026) were added on 17 October 2026 by this method. To add any further video:
+Videos 11 to 15 (28 September to 2 October 2026) were added on 17 October 2026 by this method, and videos 16 and 17 (19 and 22 October 2026) on 24 October 2026. To add any further video:
 
 1. Run `fetch_transcripts.py` in `research/nate-herk/scripts/` to collect the transcripts and comments.
 2. Write one summary per video using the template in `research/nate-herk/HANDOFF.md`, and have a second agent verify it.
