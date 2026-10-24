@@ -52,6 +52,8 @@ Internal reports referenced below are **not** in this repository and must never 
   Codex). Fable orchestrates; Sonnet builds; Codex reviews. Recurring jobs become short skills (for example `essilor-order`,
   `session-handoff`, `codex-review`, `grill-me`, `business-filter`, `agent-stress-test`, `ai-system-audit`).
 - A Nate Herk Claude Code playbook was built on 4 September 2026 from 19 earlier videos; this research pack covers the ten newest.
+- The twelve-account roster designed from this pack exists at `ai/accounts/` (17 October 2026): four leadership roles, an advisory board and seven operational accounts, each a file with frontmatter ready for a `.claude/agents/` folder.
+- Wave 1 of that roster (AI CFO, AI CIO, build and site verifier, model and cost ledger) runs in read-only trial from 20 October 2026, posting to the isolated test channel; the CIO output check runs each weekday and the ledger each Monday.
 
 ## AI leadership roles already researched (10 October 2026, internal reports; align with them, do not duplicate)
 | Role | Verdict in the owner's report | Status |
