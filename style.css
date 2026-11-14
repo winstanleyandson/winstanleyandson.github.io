@@ -20,6 +20,9 @@ li{max-width:66ch}
 .crumbs span{color:var(--gold-text)}
 .crumbs [aria-current]{color:var(--green)}
 :focus-visible{outline:2px solid var(--oxblood);outline-offset:3px}
+.skip{position:absolute;left:-9999px;top:8px;z-index:200;background:var(--green);color:var(--parchment);padding:12px 18px;border-radius:3px;font-family:var(--display);font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.skip:focus{left:8px}
+main:focus{outline:none}
 .btn:active{transform:scale(.97)}
 .map{border-radius:4px;overflow:hidden;border:1px solid var(--rule);background:var(--parchment-2)}
 .map iframe{display:block;width:100%;height:340px;border:0}
@@ -276,7 +279,7 @@ footer nav.morelinks a{font-family:inherit;font-size:16px;letter-spacing:0;text-
 footer nav.morelinks+.fine{margin-top:16px}
 .helplinks{display:grid;gap:22px 28px}.helplinks h3{margin:0 0 6px;font-size:1rem}.helplinks .list{list-style:none;padding-left:0;gap:2px}.helplinks .list a{display:inline-block;padding:5px 0}
 @media(min-width:560px){.helplinks{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(min-width:900px){.helplinks{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:900px){.helplinks{grid-template-columns:repeat(3,minmax(0,1fr))}}
 
 /* 9 Oct 2026: the loading line sits behind the calendar frame until the calendar paints */
 .bookframe iframe,.book-modal iframe{background:transparent!important}
